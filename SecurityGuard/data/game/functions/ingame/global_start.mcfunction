@@ -29,4 +29,4 @@ team modify Guard nametagVisibility hideForOtherTeams
 
 execute if score mode game matches 0 run function game:ingame/modes/robbery/start
 execute if score mode game matches 1 run function game:ingame/modes/stealth/start
-execute if score mode game matches 2 run function game:ingame/modes/free_for_all/reset
+execute if score mode game matches 2 run function game:ingame/modes/free_for_all/start
