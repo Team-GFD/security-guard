@@ -23,7 +23,7 @@ execute if score @s capture_time matches 40 run playsound minecraft:block.anvil.
 execute if score @s capture_time matches 45 run playsound minecraft:block.tripwire.detach master @a ~ ~ ~ 1 2
 execute if score @s capture_time matches 55 run playsound minecraft:entity.armorstand.break master @a ~ ~ ~ 1 2
 
-execute if score @s capture_time matches 61.. run function game:ingame/capture_points/capture
+execute if score @s capture_time matches 61.. run function game:ingame/modes/robbery/capture_points/capture
 
 scoreboard players add @s capture_time 1
 

@@ -11,7 +11,7 @@ playsound minecraft:entity.item.pickup master @s ~ ~ ~ 1 1
 scoreboard players add stolen game 1
 scoreboard players add @s stolen 1
 execute store result bossbar minecraft:stolen value run scoreboard players get stolen game
-bossbar set minecraft:stolen name [{"text":"Artifacts Stolen ","color":"red"},{"score":{"name":"","objective":""}}]
+bossbar set minecraft:stolen name [{"text":"Artifacts Stolen (","color":"red"},{"score":{"name":"stolen","objective":"game"}},{"text":"/"},{"score":{"name":"required","objective":"game"}},{"text":")"}]
 
 xp set @s 0 points
 xp set @s 0 levels

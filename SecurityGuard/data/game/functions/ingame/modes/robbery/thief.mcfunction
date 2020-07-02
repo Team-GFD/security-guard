@@ -9,7 +9,7 @@ execute if score @s[tag=!camera_mode] reveal matches 1 run effect clear @s minec
 
 execute if score @s stoped matches 0 run scoreboard players add thieves_left game 1
 
-execute at @s[tag=!camera_mode] if score @s sneak matches 1.. if block ~ ~-1 ~ minecraft:gold_block run function game:ingame/capture_points/capturing
+execute at @s[tag=!camera_mode] if score @s sneak matches 1.. if block ~ ~-1 ~ minecraft:gold_block run function game:ingame/modes/robbery/capture_points/capturing
 
 execute if score @s capture_time matches 1.. if score @s sneak matches 0 run scoreboard players remove @s capture_time 1
 

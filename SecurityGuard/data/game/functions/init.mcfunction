@@ -42,7 +42,10 @@ scoreboard objectives add used_camera minecraft.used:minecraft.carrot_on_a_stick
 
 scoreboard objectives add stolen dummy
 
-bossbar add stolen [{"text":"Artifacts Stolen","color":"red"}]
+scoreboard players set max game 0
+execute as @e[type=minecraft:area_effect_cloud,tag=artifact] run scoreboard players add max game 1
+
+bossbar add stolen [{"text":"Artifacts Stolen (0/0)","color":"red"}]
 bossbar set minecraft:stolen style progress
 bossbar set minecraft:stolen color red
 
