@@ -12,3 +12,5 @@ execute store result bossbar minecraft:stolen value run scoreboard players get r
 bossbar set minecraft:stolen players @a[team=Thief]
 bossbar set minecraft:stolen visible true
 bossbar set minecraft:stolen name [{"text":"Artifacts Left (","color":"red"},{"score":{"name":"stolen","objective":"game"}},{"text":"/"},{"score":{"name":"required","objective":"game"}},{"text":")"}]
+
+team modify Thief friendlyFire true
