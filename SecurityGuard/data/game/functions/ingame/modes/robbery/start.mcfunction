@@ -15,3 +15,4 @@ bossbar set minecraft:stolen visible true
 bossbar set minecraft:stolen players @a[team=Thief]
 execute store result bossbar minecraft:stolen max run scoreboard players get required game
 bossbar set minecraft:stolen value 0
+bossbar set minecraft:stolen name [{"text":"Artifacts Stolen (0/","color":"red"},{"score":{"name":"required","objective":"game"}},{"text":")"}]
