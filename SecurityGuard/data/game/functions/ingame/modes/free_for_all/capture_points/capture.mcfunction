@@ -15,5 +15,3 @@ bossbar set minecraft:stolen name [{"text":"Artifacts Left (","color":"red"},{"s
 
 xp set @s 0 points
 xp set @s 0 levels
-
-execute if score stolen game >= required game run function game:ingame/global_end
