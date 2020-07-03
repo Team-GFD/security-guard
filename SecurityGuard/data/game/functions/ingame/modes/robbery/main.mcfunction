@@ -13,7 +13,7 @@ execute as @e[type=minecraft:armor_stand,tag=camera,tag=disabled] at @s run part
 execute if score cooldown game matches -1 if score thieves_left game matches 0 run function game:ingame/global_end
 execute if score cooldown game matches 0.. if score tick game matches 1.. run scoreboard players remove tick game 1
 
-execute if score cooldown game matches 1..5 run function game:ingame/guard_door
+execute if score cooldown game matches 0..4 run function game:ingame/guard_door
 execute if score tick game matches 0 run function game:ingame/countdown
 execute if score tick game matches 0 run scoreboard players set tick game 20
 
