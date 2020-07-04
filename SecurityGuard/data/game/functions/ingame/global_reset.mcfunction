@@ -18,6 +18,8 @@ execute if score end_cooldown game matches 1 run function ai:reset
 
 execute if score end_cooldown game matches 0 run scoreboard players set state game 0
 
+execute at @e[type=minecraft:area_effect_cloud,tag=lobby,limit=1,sort=nearest] run spawnpoint @a ~ ~ ~
+
 execute if score mode game matches 0 run function game:ingame/modes/robbery/reset
 execute if score mode game matches 1 run function game:ingame/modes/stealth/reset
 execute if score mode game matches 2 run function game:ingame/modes/free_for_all/reset
