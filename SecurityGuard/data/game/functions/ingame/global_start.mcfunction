@@ -26,6 +26,7 @@ tag @a add inGame
 
 team modify Thief nametagVisibility hideForOtherTeams
 team modify Guard nametagVisibility hideForOtherTeams
+team modify Spectator nametagVisibility never
 
 schedule function game:ingame/global_end 6000t replace
 

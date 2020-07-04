@@ -28,6 +28,7 @@ scoreboard objectives setdisplay list stolen
 
 team modify Thief nametagVisibility always
 team modify Guard nametagVisibility always
+team modify Spectator nametagVisibility always
 
 execute if score mode game matches 0 run function game:ingame/modes/robbery/end
 execute if score mode game matches 1 run function game:ingame/modes/stealth/end
