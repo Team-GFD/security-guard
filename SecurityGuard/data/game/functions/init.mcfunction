@@ -59,4 +59,6 @@ gamerule doMobLoot false
 
 defaultgamemode adventure
 
+execute at @e[type=minecraft:area_effect_cloud,tag=lobby,limit=1,sort=nearest] run spawnpoint @a ~ ~ ~
+
 function ai:init
