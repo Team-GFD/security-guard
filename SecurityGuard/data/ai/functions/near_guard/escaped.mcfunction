@@ -1,5 +1,6 @@
 # Author: Denniss
-# Version: 1.15.2
+# Version: 1.16.1
 
-summon minecraft:enderman ~ ~ ~ {Tags:["AI","AI_pathfind"],Team:"Thief",CustomName:"\"AI\"",Silent:1b,PersistenceRequired:1b,Attributes:[{Name:"generic.movementSpeed",Base:0.15f},{Name:"generic.followRange",Base:1000.0d}]}
-kill @s
+execute as @e[tag=AI_pathfind,tag=near_guard] unless entity @e[tag=guard,distance=..10] run tag @s remove near_guard
+
+execute if entity @s[tag=near_guard] run schedule function ai:near_guard/escaped 2s

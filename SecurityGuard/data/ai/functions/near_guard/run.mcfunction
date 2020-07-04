@@ -1,7 +1,7 @@
 # Author: Denniss
-# Version: 1.15.2
+# Version: 1.16.1
 
-summon minecraft:creeper ~ ~ ~ {Tags:["AI","AI_pathfind"],Team:"AI",Silent:1b,Attributes:[{Name:"generic.movementSpeed",Base:0.3f}]}
-kill @s
+tag @s add near_guard
+execute positioned ~ ~50 ~ if entity @e[tag=AI,type=minecraft:villager,limit=1,sort=nearest,tag=!potion_used] unless entity @e[nbt={ActiveEffects:[{Id:14b}]},distance=..4] run function ai:near_guard/potion_use
 
-schedule function ai:near_guard/escape_check 2s
+schedule function ai:near_guard/escaped 2s
