@@ -10,4 +10,4 @@ replaceitem entity @a[team=Thief] hotbar.8 minecraft:red_stained_glass_pane{disp
 replaceitem entity @a[team=Guard] hotbar.8 minecraft:cyan_stained_glass_pane{display:{Name:'{"text":"Guard","color":"dark_aqua","italic":false}'},tag:["killme"]} 1
 replaceitem entity @a[team=Spectator] hotbar.8 minecraft:gray_stained_glass_pane{display:{Name:'{"text":"Spectator","color":"dark_gray","italic":false}'},tag:["killme"]} 1
 
-execute as @a[nbt={OnGround:1b}] at @s run function game:lobby/teams/check
+execute as @e[type=minecraft:area_effect_cloud,tag=join_marker] at @s run function game:lobby/teams/check
