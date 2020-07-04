@@ -27,6 +27,9 @@ team modify Guard friendlyFire false
 
 team add Spectator
 team modify Spectator color gray
+team modify Spectator seeFriendlyInvisibles false
+team modify Spectator friendlyFire false
+team modify Spectator collisionRule never
 
 scoreboard objectives add game dummy
 scoreboard objectives add escape dummy
