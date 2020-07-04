@@ -28,7 +28,7 @@ team modify Thief nametagVisibility hideForOtherTeams
 team modify Guard nametagVisibility hideForOtherTeams
 team modify Spectator nametagVisibility never
 
-schedule function game:ingame/global_end 6000t replace
+schedule function game:ingame/global_end 8000t replace
 
 execute if score mode game matches 0 run function game:ingame/modes/robbery/start
 execute if score mode game matches 1 run function game:ingame/modes/stealth/start
