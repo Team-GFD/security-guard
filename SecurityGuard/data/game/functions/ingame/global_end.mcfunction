@@ -1,6 +1,8 @@
 # Author: InternetAlien
 # Version: 1.15.2
 
+schedule clear game:ingame/global_end
+
 clear @a[team=!Spectator]
 effect clear @a[team=!Spectator]
 team join Thief @a[team=Dead]
