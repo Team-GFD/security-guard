@@ -2,6 +2,7 @@
 # Version: 1.15.2
 
 scoreboard players set thieves_left game 0
+execute as @e[team=Thief] run scoreboard players add thieves_left game 1
 
 execute if score cooldown game matches -1 run execute as @a[team=Thief] run function game:ingame/modes/robbery/thief
 execute if score cooldown game matches -1 run execute as @a[team=Guard] run function game:ingame/modes/robbery/guard
