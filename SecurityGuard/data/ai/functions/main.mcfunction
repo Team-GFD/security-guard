@@ -6,7 +6,7 @@ execute at @a[team=Guard] positioned ~ ~-50 ~ as @e[type=cat,tag=guard] if score
 execute as @e[tag=AI_pathfind] at @s run function ai:teleport/villager
 execute as @e[tag=AI_pathfind,tag=!near_guard] at @s run function ai:teleport/creeper
 #execute as @e[tag=AI_pathfind,tag=near_guard] at @s run function ai:teleport/piglin
-execute as @e[tag=AI_pathfind,tag=near_guard] at @e[type=creeper] if score @s AI = @e[type=creeper,distance=..1,sort=nearest,limit=1] AI rotated as @s run tp @s ~ ~ ~
+execute as @e[tag=AI_pathfind,tag=near_guard] at @e[type=creeper] if score @s AI = @e[type=creeper,distance=..1,sort=nearest,limit=1] AI run tp @s ~ ~ ~
 #execute as @e[tag=AI_pathfind,tag=near_guard] at @s run tp @s @e[type=creeper,limit=1,sort=nearest]
 
 execute if score cooldown game matches -1 as @e[type=minecraft:villager,tag=AI,tag=!near_guard] at @s if block ~ ~-1 ~ minecraft:gold_block if entity @e[type=minecraft:area_effect_cloud,distance=..2,tag=!captured] run function game:ingame/capturing
