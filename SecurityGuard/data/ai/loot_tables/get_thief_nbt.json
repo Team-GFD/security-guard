@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Aaron\"}"
+              "tag": "{ThiefName:'{\"text\":\"Aaron\"}'}"
             }
           ]
         },
@@ -19,7 +19,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Abbie\"}"
+              "tag": "{ThiefName:'{\"text\":\"Abbie\"}'}"
             }
           ]
         },
@@ -29,7 +29,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Abdul\"}"
+              "tag": "{ThiefName:'{\"text\":\"Abdul\"}'}"
             }
           ]
         },
@@ -39,7 +39,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Abigail\"}"
+              "tag": "{ThiefName:'{\"text\":\"Abigail\"}'}"
             }
           ]
         },
@@ -49,7 +49,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Adam\"}"
+              "tag": "{ThiefName:'{\"text\":\"Adam\"}'}"
             }
           ]
         },
@@ -59,7 +59,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Adrian\"}"
+              "tag": "{ThiefName:'{\"text\":\"Adrian\"}'}"
             }
           ]
         },
@@ -69,7 +69,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Alan\"}"
+              "tag": "{ThiefName:'{\"text\":\"Alan\"}'}"
             }
           ]
         },
@@ -79,7 +79,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Alex\"}"
+              "tag": "{ThiefName:'{\"text\":\"Alex\"}'}"
             }
           ]
         },
@@ -89,7 +89,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Alexander\"}"
+              "tag": "{ThiefName:'{\"text\":\"Alexander\"}'}"
             }
           ]
         },
@@ -99,7 +99,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Alexandra\"}"
+              "tag": "{ThiefName:'{\"text\":\"Alexandra\"}'}"
             }
           ]
         },
@@ -109,7 +109,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Alice\"}"
+              "tag": "{ThiefName:'{\"text\":\"Alice\"}'}"
             }
           ]
         },
@@ -119,7 +119,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Alison\"}"
+              "tag": "{ThiefName:'{\"text\":\"Alison\"}'}"
             }
           ]
         },
@@ -129,7 +129,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Allan\"}"
+              "tag": "{ThiefName:'{\"text\":\"Allan\"}'}"
             }
           ]
         },
@@ -139,7 +139,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Amanda\"}"
+              "tag": "{ThiefName:'{\"text\":\"Amanda\"}'}"
             }
           ]
         },
@@ -149,7 +149,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Amber\"}"
+              "tag": "{ThiefName:'{\"text\":\"Amber\"}'}"
             }
           ]
         },
@@ -159,7 +159,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Amelia\"}"
+              "tag": "{ThiefName:'{\"text\":\"Amelia\"}'}"
             }
           ]
         },
@@ -169,7 +169,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Amy\"}"
+              "tag": "{ThiefName:'{\"text\":\"Amy\"}'}"
             }
           ]
         },
@@ -179,7 +179,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Andrea\"}"
+              "tag": "{ThiefName:'{\"text\":\"Andrea\"}'}"
             }
           ]
         },
@@ -189,7 +189,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Andrew\"}"
+              "tag": "{ThiefName:'{\"text\":\"Andrew\"}'}"
             }
           ]
         },
@@ -199,7 +199,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Angela\"}"
+              "tag": "{ThiefName:'{\"text\":\"Angela\"}'}"
             }
           ]
         },
@@ -209,7 +209,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Anita\"}"
+              "tag": "{ThiefName:'{\"text\":\"Anita\"}'}"
             }
           ]
         },
@@ -219,7 +219,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Anna\"}"
+              "tag": "{ThiefName:'{\"text\":\"Anna\"}'}"
             }
           ]
         },
@@ -229,7 +229,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Anne\"}"
+              "tag": "{ThiefName:'{\"text\":\"Anne\"}'}"
             }
           ]
         },
@@ -239,7 +239,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Annette\"}"
+              "tag": "{ThiefName:'{\"text\":\"Annette\"}'}"
             }
           ]
         },
@@ -249,7 +249,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Anthony\"}"
+              "tag": "{ThiefName:'{\"text\":\"Anthony\"}'}"
             }
           ]
         },
@@ -259,7 +259,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Antony\"}"
+              "tag": "{ThiefName:'{\"text\":\"Antony\"}'}"
             }
           ]
         },
@@ -269,7 +269,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Ashleigh\"}"
+              "tag": "{ThiefName:'{\"text\":\"Ashleigh\"}'}"
             }
           ]
         },
@@ -279,7 +279,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Ashley\"}"
+              "tag": "{ThiefName:'{\"text\":\"Ashley\"}'}"
             }
           ]
         },
@@ -289,7 +289,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Barbara\"}"
+              "tag": "{ThiefName:'{\"text\":\"Barbara\"}'}"
             }
           ]
         },
@@ -299,7 +299,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Barry\"}"
+              "tag": "{ThiefName:'{\"text\":\"Barry\"}'}"
             }
           ]
         },
@@ -309,7 +309,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Ben\"}"
+              "tag": "{ThiefName:'{\"text\":\"Ben\"}'}"
             }
           ]
         },
@@ -319,7 +319,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Benjamin\"}"
+              "tag": "{ThiefName:'{\"text\":\"Benjamin\"}'}"
             }
           ]
         },
@@ -329,7 +329,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Beth\"}"
+              "tag": "{ThiefName:'{\"text\":\"Beth\"}'}"
             }
           ]
         },
@@ -339,7 +339,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Bethany\"}"
+              "tag": "{ThiefName:'{\"text\":\"Bethany\"}'}"
             }
           ]
         },
@@ -349,7 +349,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Beverley\"}"
+              "tag": "{ThiefName:'{\"text\":\"Beverley\"}'}"
             }
           ]
         },
@@ -359,7 +359,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Billy\"}"
+              "tag": "{ThiefName:'{\"text\":\"Billy\"}'}"
             }
           ]
         },
@@ -369,7 +369,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Bradley\"}"
+              "tag": "{ThiefName:'{\"text\":\"Bradley\"}'}"
             }
           ]
         },
@@ -379,7 +379,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Brandon\"}"
+              "tag": "{ThiefName:'{\"text\":\"Brandon\"}'}"
             }
           ]
         },
@@ -389,7 +389,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Brett\"}"
+              "tag": "{ThiefName:'{\"text\":\"Brett\"}'}"
             }
           ]
         },
@@ -399,7 +399,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Brian\"}"
+              "tag": "{ThiefName:'{\"text\":\"Brian\"}'}"
             }
           ]
         },
@@ -409,7 +409,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Bruce\"}"
+              "tag": "{ThiefName:'{\"text\":\"Bruce\"}'}"
             }
           ]
         },
@@ -419,7 +419,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Caitlin\"}"
+              "tag": "{ThiefName:'{\"text\":\"Caitlin\"}'}"
             }
           ]
         },
@@ -429,7 +429,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Callum\"}"
+              "tag": "{ThiefName:'{\"text\":\"Callum\"}'}"
             }
           ]
         },
@@ -439,7 +439,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Cameron\"}"
+              "tag": "{ThiefName:'{\"text\":\"Cameron\"}'}"
             }
           ]
         },
@@ -449,7 +449,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Carl\"}"
+              "tag": "{ThiefName:'{\"text\":\"Carl\"}'}"
             }
           ]
         },
@@ -459,7 +459,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Carla\"}"
+              "tag": "{ThiefName:'{\"text\":\"Carla\"}'}"
             }
           ]
         },
@@ -469,7 +469,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Carly\"}"
+              "tag": "{ThiefName:'{\"text\":\"Carly\"}'}"
             }
           ]
         },
@@ -479,7 +479,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Carol\"}"
+              "tag": "{ThiefName:'{\"text\":\"Carol\"}'}"
             }
           ]
         },
@@ -489,7 +489,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Carolyn\"}"
+              "tag": "{ThiefName:'{\"text\":\"Carolyn\"}'}"
             }
           ]
         },
@@ -499,7 +499,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Catherine\"}"
+              "tag": "{ThiefName:'{\"text\":\"Catherine\"}'}"
             }
           ]
         },
@@ -509,7 +509,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Charlene\"}"
+              "tag": "{ThiefName:'{\"text\":\"Charlene\"}'}"
             }
           ]
         },
@@ -519,7 +519,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Charles\"}"
+              "tag": "{ThiefName:'{\"text\":\"Charles\"}'}"
             }
           ]
         },
@@ -529,7 +529,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Charlie\"}"
+              "tag": "{ThiefName:'{\"text\":\"Charlie\"}'}"
             }
           ]
         },
@@ -539,7 +539,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Charlotte\"}"
+              "tag": "{ThiefName:'{\"text\":\"Charlotte\"}'}"
             }
           ]
         },
@@ -549,7 +549,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Chelsea\"}"
+              "tag": "{ThiefName:'{\"text\":\"Chelsea\"}'}"
             }
           ]
         },
@@ -559,7 +559,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Cheryl\"}"
+              "tag": "{ThiefName:'{\"text\":\"Cheryl\"}'}"
             }
           ]
         },
@@ -569,7 +569,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Chloe\"}"
+              "tag": "{ThiefName:'{\"text\":\"Chloe\"}'}"
             }
           ]
         },
@@ -579,7 +579,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Christian\"}"
+              "tag": "{ThiefName:'{\"text\":\"Christian\"}'}"
             }
           ]
         },
@@ -589,7 +589,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Christine\"}"
+              "tag": "{ThiefName:'{\"text\":\"Christine\"}'}"
             }
           ]
         },
@@ -599,7 +599,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Christopher\"}"
+              "tag": "{ThiefName:'{\"text\":\"Christopher\"}'}"
             }
           ]
         },
@@ -609,7 +609,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Claire\"}"
+              "tag": "{ThiefName:'{\"text\":\"Claire\"}'}"
             }
           ]
         },
@@ -619,7 +619,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Clive\"}"
+              "tag": "{ThiefName:'{\"text\":\"Clive\"}'}"
             }
           ]
         },
@@ -629,7 +629,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Colin\"}"
+              "tag": "{ThiefName:'{\"text\":\"Colin\"}'}"
             }
           ]
         },
@@ -639,7 +639,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Connor\"}"
+              "tag": "{ThiefName:'{\"text\":\"Connor\"}'}"
             }
           ]
         },
@@ -649,7 +649,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Conor\"}"
+              "tag": "{ThiefName:'{\"text\":\"Conor\"}'}"
             }
           ]
         },
@@ -659,7 +659,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Craig\"}"
+              "tag": "{ThiefName:'{\"text\":\"Craig\"}'}"
             }
           ]
         },
@@ -669,7 +669,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Daisy\"}"
+              "tag": "{ThiefName:'{\"text\":\"Daisy\"}'}"
             }
           ]
         },
@@ -679,7 +679,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Dale\"}"
+              "tag": "{ThiefName:'{\"text\":\"Dale\"}'}"
             }
           ]
         },
@@ -689,7 +689,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Damian\"}"
+              "tag": "{ThiefName:'{\"text\":\"Damian\"}'}"
             }
           ]
         },
@@ -699,7 +699,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Damien\"}"
+              "tag": "{ThiefName:'{\"text\":\"Damien\"}'}"
             }
           ]
         },
@@ -709,7 +709,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Daniel\"}"
+              "tag": "{ThiefName:'{\"text\":\"Daniel\"}'}"
             }
           ]
         },
@@ -719,7 +719,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Danielle\"}"
+              "tag": "{ThiefName:'{\"text\":\"Danielle\"}'}"
             }
           ]
         },
@@ -729,7 +729,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Danny\"}"
+              "tag": "{ThiefName:'{\"text\":\"Danny\"}'}"
             }
           ]
         },
@@ -739,7 +739,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Darren\"}"
+              "tag": "{ThiefName:'{\"text\":\"Darren\"}'}"
             }
           ]
         },
@@ -749,7 +749,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"David\"}"
+              "tag": "{ThiefName:'{\"text\":\"David\"}'}"
             }
           ]
         },
@@ -759,7 +759,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Dean\"}"
+              "tag": "{ThiefName:'{\"text\":\"Dean\"}'}"
             }
           ]
         },
@@ -769,7 +769,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Debbie\"}"
+              "tag": "{ThiefName:'{\"text\":\"Debbie\"}'}"
             }
           ]
         },
@@ -779,7 +779,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Deborah\"}"
+              "tag": "{ThiefName:'{\"text\":\"Deborah\"}'}"
             }
           ]
         },
@@ -789,7 +789,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Debra\"}"
+              "tag": "{ThiefName:'{\"text\":\"Debra\"}'}"
             }
           ]
         },
@@ -799,7 +799,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Demi\"}"
+              "tag": "{ThiefName:'{\"text\":\"Demi\"}'}"
             }
           ]
         },
@@ -809,7 +809,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Denise\"}"
+              "tag": "{ThiefName:'{\"text\":\"Denise\"}'}"
             }
           ]
         },
@@ -819,7 +819,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Dennis\"}"
+              "tag": "{ThiefName:'{\"text\":\"Dennis\"}'}"
             }
           ]
         },
@@ -829,7 +829,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Derek\"}"
+              "tag": "{ThiefName:'{\"text\":\"Derek\"}'}"
             }
           ]
         },
@@ -839,7 +839,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Diane\"}"
+              "tag": "{ThiefName:'{\"text\":\"Diane\"}'}"
             }
           ]
         },
@@ -849,7 +849,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Dominic\"}"
+              "tag": "{ThiefName:'{\"text\":\"Dominic\"}'}"
             }
           ]
         },
@@ -859,7 +859,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Donald\"}"
+              "tag": "{ThiefName:'{\"text\":\"Donald\"}'}"
             }
           ]
         },
@@ -869,7 +869,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Donna\"}"
+              "tag": "{ThiefName:'{\"text\":\"Donna\"}'}"
             }
           ]
         },
@@ -879,7 +879,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Douglas\"}"
+              "tag": "{ThiefName:'{\"text\":\"Douglas\"}'}"
             }
           ]
         },
@@ -889,7 +889,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Duncan\"}"
+              "tag": "{ThiefName:'{\"text\":\"Duncan\"}'}"
             }
           ]
         },
@@ -899,7 +899,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Dylan\"}"
+              "tag": "{ThiefName:'{\"text\":\"Dylan\"}'}"
             }
           ]
         },
@@ -909,7 +909,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Edward\"}"
+              "tag": "{ThiefName:'{\"text\":\"Edward\"}'}"
             }
           ]
         },
@@ -919,7 +919,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Elaine\"}"
+              "tag": "{ThiefName:'{\"text\":\"Elaine\"}'}"
             }
           ]
         },
@@ -929,7 +929,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Eleanor\"}"
+              "tag": "{ThiefName:'{\"text\":\"Eleanor\"}'}"
             }
           ]
         },
@@ -939,7 +939,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Elizabeth\"}"
+              "tag": "{ThiefName:'{\"text\":\"Elizabeth\"}'}"
             }
           ]
         },
@@ -949,7 +949,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Ella\"}"
+              "tag": "{ThiefName:'{\"text\":\"Ella\"}'}"
             }
           ]
         },
@@ -959,7 +959,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Ellen\"}"
+              "tag": "{ThiefName:'{\"text\":\"Ellen\"}'}"
             }
           ]
         },
@@ -969,7 +969,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Ellie\"}"
+              "tag": "{ThiefName:'{\"text\":\"Ellie\"}'}"
             }
           ]
         },
@@ -979,7 +979,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Elliott\"}"
+              "tag": "{ThiefName:'{\"text\":\"Elliott\"}'}"
             }
           ]
         },
@@ -989,7 +989,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Emily\"}"
+              "tag": "{ThiefName:'{\"text\":\"Emily\"}'}"
             }
           ]
         },
@@ -999,7 +999,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Emma\"}"
+              "tag": "{ThiefName:'{\"text\":\"Emma\"}'}"
             }
           ]
         },
@@ -1009,7 +1009,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Eric\"}"
+              "tag": "{ThiefName:'{\"text\":\"Eric\"}'}"
             }
           ]
         },
@@ -1019,7 +1019,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Fiona\"}"
+              "tag": "{ThiefName:'{\"text\":\"Fiona\"}'}"
             }
           ]
         },
@@ -1029,7 +1029,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Francesca\"}"
+              "tag": "{ThiefName:'{\"text\":\"Francesca\"}'}"
             }
           ]
         },
@@ -1039,7 +1039,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Francis\"}"
+              "tag": "{ThiefName:'{\"text\":\"Francis\"}'}"
             }
           ]
         },
@@ -1049,7 +1049,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Gabrielle\"}"
+              "tag": "{ThiefName:'{\"text\":\"Gabrielle\"}'}"
             }
           ]
         },
@@ -1059,7 +1059,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Gareth\"}"
+              "tag": "{ThiefName:'{\"text\":\"Gareth\"}'}"
             }
           ]
         },
@@ -1069,7 +1069,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Garry\"}"
+              "tag": "{ThiefName:'{\"text\":\"Garry\"}'}"
             }
           ]
         },
@@ -1079,7 +1079,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Gary\"}"
+              "tag": "{ThiefName:'{\"text\":\"Gary\"}'}"
             }
           ]
         },
@@ -1089,7 +1089,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Gavin\"}"
+              "tag": "{ThiefName:'{\"text\":\"Gavin\"}'}"
             }
           ]
         },
@@ -1099,7 +1099,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Gemma\"}"
+              "tag": "{ThiefName:'{\"text\":\"Gemma\"}'}"
             }
           ]
         },
@@ -1109,7 +1109,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Geoffrey\"}"
+              "tag": "{ThiefName:'{\"text\":\"Geoffrey\"}'}"
             }
           ]
         },
@@ -1119,7 +1119,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"George\"}"
+              "tag": "{ThiefName:'{\"text\":\"George\"}'}"
             }
           ]
         },
@@ -1129,7 +1129,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Georgia\"}"
+              "tag": "{ThiefName:'{\"text\":\"Georgia\"}'}"
             }
           ]
         },
@@ -1139,7 +1139,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Georgina\"}"
+              "tag": "{ThiefName:'{\"text\":\"Georgina\"}'}"
             }
           ]
         },
@@ -1149,7 +1149,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Gerald\"}"
+              "tag": "{ThiefName:'{\"text\":\"Gerald\"}'}"
             }
           ]
         },
@@ -1159,7 +1159,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Gerard\"}"
+              "tag": "{ThiefName:'{\"text\":\"Gerard\"}'}"
             }
           ]
         },
@@ -1169,7 +1169,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Glen\"}"
+              "tag": "{ThiefName:'{\"text\":\"Glen\"}'}"
             }
           ]
         },
@@ -1179,7 +1179,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Glenn\"}"
+              "tag": "{ThiefName:'{\"text\":\"Glenn\"}'}"
             }
           ]
         },
@@ -1189,7 +1189,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Gordon\"}"
+              "tag": "{ThiefName:'{\"text\":\"Gordon\"}'}"
             }
           ]
         },
@@ -1199,7 +1199,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Grace\"}"
+              "tag": "{ThiefName:'{\"text\":\"Grace\"}'}"
             }
           ]
         },
@@ -1209,7 +1209,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Graeme\"}"
+              "tag": "{ThiefName:'{\"text\":\"Graeme\"}'}"
             }
           ]
         },
@@ -1219,7 +1219,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Graham\"}"
+              "tag": "{ThiefName:'{\"text\":\"Graham\"}'}"
             }
           ]
         },
@@ -1229,7 +1229,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Gregory\"}"
+              "tag": "{ThiefName:'{\"text\":\"Gregory\"}'}"
             }
           ]
         },
@@ -1239,7 +1239,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Guy\"}"
+              "tag": "{ThiefName:'{\"text\":\"Guy\"}'}"
             }
           ]
         },
@@ -1249,7 +1249,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Hannah\"}"
+              "tag": "{ThiefName:'{\"text\":\"Hannah\"}'}"
             }
           ]
         },
@@ -1259,7 +1259,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Harry\"}"
+              "tag": "{ThiefName:'{\"text\":\"Harry\"}'}"
             }
           ]
         },
@@ -1269,7 +1269,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Hayley\"}"
+              "tag": "{ThiefName:'{\"text\":\"Hayley\"}'}"
             }
           ]
         },
@@ -1279,7 +1279,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Heather\"}"
+              "tag": "{ThiefName:'{\"text\":\"Heather\"}'}"
             }
           ]
         },
@@ -1289,7 +1289,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Heidi\"}"
+              "tag": "{ThiefName:'{\"text\":\"Heidi\"}'}"
             }
           ]
         },
@@ -1299,7 +1299,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Helen\"}"
+              "tag": "{ThiefName:'{\"text\":\"Helen\"}'}"
             }
           ]
         },
@@ -1309,7 +1309,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Henry\"}"
+              "tag": "{ThiefName:'{\"text\":\"Henry\"}'}"
             }
           ]
         },
@@ -1319,7 +1319,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Holly\"}"
+              "tag": "{ThiefName:'{\"text\":\"Holly\"}'}"
             }
           ]
         },
@@ -1329,7 +1329,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Howard\"}"
+              "tag": "{ThiefName:'{\"text\":\"Howard\"}'}"
             }
           ]
         },
@@ -1339,7 +1339,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Iain\"}"
+              "tag": "{ThiefName:'{\"text\":\"Iain\"}'}"
             }
           ]
         },
@@ -1349,7 +1349,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Ian\"}"
+              "tag": "{ThiefName:'{\"text\":\"Ian\"}'}"
             }
           ]
         },
@@ -1359,7 +1359,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Jack\"}"
+              "tag": "{ThiefName:'{\"text\":\"Jack\"}'}"
             }
           ]
         },
@@ -1369,7 +1369,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Jacob\"}"
+              "tag": "{ThiefName:'{\"text\":\"Jacob\"}'}"
             }
           ]
         },
@@ -1379,7 +1379,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Jacqueline\"}"
+              "tag": "{ThiefName:'{\"text\":\"Jacqueline\"}'}"
             }
           ]
         },
@@ -1389,7 +1389,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Jade\"}"
+              "tag": "{ThiefName:'{\"text\":\"Jade\"}'}"
             }
           ]
         },
@@ -1399,7 +1399,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Jake\"}"
+              "tag": "{ThiefName:'{\"text\":\"Jake\"}'}"
             }
           ]
         },
@@ -1409,7 +1409,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"James\"}"
+              "tag": "{ThiefName:'{\"text\":\"James\"}'}"
             }
           ]
         },
@@ -1419,7 +1419,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Jamie\"}"
+              "tag": "{ThiefName:'{\"text\":\"Jamie\"}'}"
             }
           ]
         },
@@ -1429,7 +1429,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Jane\"}"
+              "tag": "{ThiefName:'{\"text\":\"Jane\"}'}"
             }
           ]
         },
@@ -1439,7 +1439,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Janet\"}"
+              "tag": "{ThiefName:'{\"text\":\"Janet\"}'}"
             }
           ]
         },
@@ -1449,7 +1449,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Janice\"}"
+              "tag": "{ThiefName:'{\"text\":\"Janice\"}'}"
             }
           ]
         },
@@ -1459,7 +1459,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Jasmine\"}"
+              "tag": "{ThiefName:'{\"text\":\"Jasmine\"}'}"
             }
           ]
         },
@@ -1469,7 +1469,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Jason\"}"
+              "tag": "{ThiefName:'{\"text\":\"Jason\"}'}"
             }
           ]
         },
@@ -1479,7 +1479,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Jay\"}"
+              "tag": "{ThiefName:'{\"text\":\"Jay\"}'}"
             }
           ]
         },
@@ -1489,7 +1489,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Jeanette\"}"
+              "tag": "{ThiefName:'{\"text\":\"Jeanette\"}'}"
             }
           ]
         },
@@ -1499,7 +1499,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Jeffrey\"}"
+              "tag": "{ThiefName:'{\"text\":\"Jeffrey\"}'}"
             }
           ]
         },
@@ -1509,7 +1509,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Jenna\"}"
+              "tag": "{ThiefName:'{\"text\":\"Jenna\"}'}"
             }
           ]
         },
@@ -1519,7 +1519,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Jennifer\"}"
+              "tag": "{ThiefName:'{\"text\":\"Jennifer\"}'}"
             }
           ]
         },
@@ -1529,7 +1529,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Jenny\"}"
+              "tag": "{ThiefName:'{\"text\":\"Jenny\"}'}"
             }
           ]
         },
@@ -1539,7 +1539,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Jeremy\"}"
+              "tag": "{ThiefName:'{\"text\":\"Jeremy\"}'}"
             }
           ]
         },
@@ -1549,7 +1549,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Jessica\"}"
+              "tag": "{ThiefName:'{\"text\":\"Jessica\"}'}"
             }
           ]
         },
@@ -1559,7 +1559,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Jill\"}"
+              "tag": "{ThiefName:'{\"text\":\"Jill\"}'}"
             }
           ]
         },
@@ -1569,7 +1569,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Joanna\"}"
+              "tag": "{ThiefName:'{\"text\":\"Joanna\"}'}"
             }
           ]
         },
@@ -1579,7 +1579,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Joanne\"}"
+              "tag": "{ThiefName:'{\"text\":\"Joanne\"}'}"
             }
           ]
         },
@@ -1589,7 +1589,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Jodie\"}"
+              "tag": "{ThiefName:'{\"text\":\"Jodie\"}'}"
             }
           ]
         },
@@ -1599,7 +1599,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Joe\"}"
+              "tag": "{ThiefName:'{\"text\":\"Joe\"}'}"
             }
           ]
         },
@@ -1609,7 +1609,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Joel\"}"
+              "tag": "{ThiefName:'{\"text\":\"Joel\"}'}"
             }
           ]
         },
@@ -1619,7 +1619,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"John\"}"
+              "tag": "{ThiefName:'{\"text\":\"John\"}'}"
             }
           ]
         },
@@ -1629,7 +1629,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Jonathan\"}"
+              "tag": "{ThiefName:'{\"text\":\"Jonathan\"}'}"
             }
           ]
         },
@@ -1639,7 +1639,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Jordan\"}"
+              "tag": "{ThiefName:'{\"text\":\"Jordan\"}'}"
             }
           ]
         },
@@ -1649,7 +1649,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Joseph\"}"
+              "tag": "{ThiefName:'{\"text\":\"Joseph\"}'}"
             }
           ]
         },
@@ -1659,7 +1659,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Josh\"}"
+              "tag": "{ThiefName:'{\"text\":\"Josh\"}'}"
             }
           ]
         },
@@ -1669,7 +1669,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Joshua\"}"
+              "tag": "{ThiefName:'{\"text\":\"Joshua\"}'}"
             }
           ]
         },
@@ -1679,7 +1679,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Judith\"}"
+              "tag": "{ThiefName:'{\"text\":\"Judith\"}'}"
             }
           ]
         },
@@ -1689,7 +1689,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Julia\"}"
+              "tag": "{ThiefName:'{\"text\":\"Julia\"}'}"
             }
           ]
         },
@@ -1699,7 +1699,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Julian\"}"
+              "tag": "{ThiefName:'{\"text\":\"Julian\"}'}"
             }
           ]
         },
@@ -1709,7 +1709,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Julie\"}"
+              "tag": "{ThiefName:'{\"text\":\"Julie\"}'}"
             }
           ]
         },
@@ -1719,7 +1719,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Justin\"}"
+              "tag": "{ThiefName:'{\"text\":\"Justin\"}'}"
             }
           ]
         },
@@ -1729,7 +1729,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Karen\"}"
+              "tag": "{ThiefName:'{\"text\":\"Karen\"}'}"
             }
           ]
         },
@@ -1739,7 +1739,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Karl\"}"
+              "tag": "{ThiefName:'{\"text\":\"Karl\"}'}"
             }
           ]
         },
@@ -1749,7 +1749,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Kate\"}"
+              "tag": "{ThiefName:'{\"text\":\"Kate\"}'}"
             }
           ]
         },
@@ -1759,7 +1759,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Katherine\"}"
+              "tag": "{ThiefName:'{\"text\":\"Katherine\"}'}"
             }
           ]
         },
@@ -1769,7 +1769,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Kathleen\"}"
+              "tag": "{ThiefName:'{\"text\":\"Kathleen\"}'}"
             }
           ]
         },
@@ -1779,7 +1779,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Kathryn\"}"
+              "tag": "{ThiefName:'{\"text\":\"Kathryn\"}'}"
             }
           ]
         },
@@ -1789,7 +1789,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Katie\"}"
+              "tag": "{ThiefName:'{\"text\":\"Katie\"}'}"
             }
           ]
         },
@@ -1799,7 +1799,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Kay\"}"
+              "tag": "{ThiefName:'{\"text\":\"Kay\"}'}"
             }
           ]
         },
@@ -1809,7 +1809,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Kayleigh\"}"
+              "tag": "{ThiefName:'{\"text\":\"Kayleigh\"}'}"
             }
           ]
         },
@@ -1819,7 +1819,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Keith\"}"
+              "tag": "{ThiefName:'{\"text\":\"Keith\"}'}"
             }
           ]
         },
@@ -1829,7 +1829,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Kelly\"}"
+              "tag": "{ThiefName:'{\"text\":\"Kelly\"}'}"
             }
           ]
         },
@@ -1839,7 +1839,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Kenneth\"}"
+              "tag": "{ThiefName:'{\"text\":\"Kenneth\"}'}"
             }
           ]
         },
@@ -1849,7 +1849,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Kerry\"}"
+              "tag": "{ThiefName:'{\"text\":\"Kerry\"}'}"
             }
           ]
         },
@@ -1859,7 +1859,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Kevin\"}"
+              "tag": "{ThiefName:'{\"text\":\"Kevin\"}'}"
             }
           ]
         },
@@ -1869,7 +1869,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Kieran\"}"
+              "tag": "{ThiefName:'{\"text\":\"Kieran\"}'}"
             }
           ]
         },
@@ -1879,7 +1879,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Kim\"}"
+              "tag": "{ThiefName:'{\"text\":\"Kim\"}'}"
             }
           ]
         },
@@ -1889,7 +1889,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Kimberley\"}"
+              "tag": "{ThiefName:'{\"text\":\"Kimberley\"}'}"
             }
           ]
         },
@@ -1899,7 +1899,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Kirsty\"}"
+              "tag": "{ThiefName:'{\"text\":\"Kirsty\"}'}"
             }
           ]
         },
@@ -1909,7 +1909,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Kyle\"}"
+              "tag": "{ThiefName:'{\"text\":\"Kyle\"}'}"
             }
           ]
         },
@@ -1919,7 +1919,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Laura\"}"
+              "tag": "{ThiefName:'{\"text\":\"Laura\"}'}"
             }
           ]
         },
@@ -1929,7 +1929,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Leah\"}"
+              "tag": "{ThiefName:'{\"text\":\"Leah\"}'}"
             }
           ]
         },
@@ -1939,7 +1939,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Leanne\"}"
+              "tag": "{ThiefName:'{\"text\":\"Leanne\"}'}"
             }
           ]
         },
@@ -1949,7 +1949,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Lee\"}"
+              "tag": "{ThiefName:'{\"text\":\"Lee\"}'}"
             }
           ]
         },
@@ -1959,7 +1959,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Leigh\"}"
+              "tag": "{ThiefName:'{\"text\":\"Leigh\"}'}"
             }
           ]
         },
@@ -1969,7 +1969,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Leon\"}"
+              "tag": "{ThiefName:'{\"text\":\"Leon\"}'}"
             }
           ]
         },
@@ -1979,7 +1979,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Lesley\"}"
+              "tag": "{ThiefName:'{\"text\":\"Lesley\"}'}"
             }
           ]
         },
@@ -1989,7 +1989,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Leslie\"}"
+              "tag": "{ThiefName:'{\"text\":\"Leslie\"}'}"
             }
           ]
         },
@@ -1999,7 +1999,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Lewis\"}"
+              "tag": "{ThiefName:'{\"text\":\"Lewis\"}'}"
             }
           ]
         },
@@ -2009,7 +2009,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Liam\"}"
+              "tag": "{ThiefName:'{\"text\":\"Liam\"}'}"
             }
           ]
         },
@@ -2019,7 +2019,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Lily\"}"
+              "tag": "{ThiefName:'{\"text\":\"Lily\"}'}"
             }
           ]
         },
@@ -2029,7 +2029,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Linda\"}"
+              "tag": "{ThiefName:'{\"text\":\"Linda\"}'}"
             }
           ]
         },
@@ -2039,7 +2039,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Lindsay\"}"
+              "tag": "{ThiefName:'{\"text\":\"Lindsay\"}'}"
             }
           ]
         },
@@ -2049,7 +2049,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Lindsey\"}"
+              "tag": "{ThiefName:'{\"text\":\"Lindsey\"}'}"
             }
           ]
         },
@@ -2059,7 +2059,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Lisa\"}"
+              "tag": "{ThiefName:'{\"text\":\"Lisa\"}'}"
             }
           ]
         },
@@ -2069,7 +2069,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Lorraine\"}"
+              "tag": "{ThiefName:'{\"text\":\"Lorraine\"}'}"
             }
           ]
         },
@@ -2079,7 +2079,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Louis\"}"
+              "tag": "{ThiefName:'{\"text\":\"Louis\"}'}"
             }
           ]
         },
@@ -2089,7 +2089,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Lucy\"}"
+              "tag": "{ThiefName:'{\"text\":\"Lucy\"}'}"
             }
           ]
         },
@@ -2099,7 +2099,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Luke\"}"
+              "tag": "{ThiefName:'{\"text\":\"Luke\"}'}"
             }
           ]
         },
@@ -2109,7 +2109,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Lynda\"}"
+              "tag": "{ThiefName:'{\"text\":\"Lynda\"}'}"
             }
           ]
         },
@@ -2119,7 +2119,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Lyndsey\"}"
+              "tag": "{ThiefName:'{\"text\":\"Lyndsey\"}'}"
             }
           ]
         },
@@ -2129,7 +2129,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Lynn\"}"
+              "tag": "{ThiefName:'{\"text\":\"Lynn\"}'}"
             }
           ]
         },
@@ -2139,7 +2139,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Malcolm\"}"
+              "tag": "{ThiefName:'{\"text\":\"Malcolm\"}'}"
             }
           ]
         },
@@ -2149,7 +2149,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Mandy\"}"
+              "tag": "{ThiefName:'{\"text\":\"Mandy\"}'}"
             }
           ]
         },
@@ -2159,7 +2159,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Marc\"}"
+              "tag": "{ThiefName:'{\"text\":\"Marc\"}'}"
             }
           ]
         },
@@ -2169,7 +2169,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Marcus\"}"
+              "tag": "{ThiefName:'{\"text\":\"Marcus\"}'}"
             }
           ]
         },
@@ -2179,7 +2179,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Margaret\"}"
+              "tag": "{ThiefName:'{\"text\":\"Margaret\"}'}"
             }
           ]
         },
@@ -2189,7 +2189,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Maria\"}"
+              "tag": "{ThiefName:'{\"text\":\"Maria\"}'}"
             }
           ]
         },
@@ -2199,7 +2199,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Mark\"}"
+              "tag": "{ThiefName:'{\"text\":\"Mark\"}'}"
             }
           ]
         },
@@ -2209,7 +2209,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Martin\"}"
+              "tag": "{ThiefName:'{\"text\":\"Martin\"}'}"
             }
           ]
         },
@@ -2219,7 +2219,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Martyn\"}"
+              "tag": "{ThiefName:'{\"text\":\"Martyn\"}'}"
             }
           ]
         },
@@ -2229,7 +2229,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Mary\"}"
+              "tag": "{ThiefName:'{\"text\":\"Mary\"}'}"
             }
           ]
         },
@@ -2239,7 +2239,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Mathew\"}"
+              "tag": "{ThiefName:'{\"text\":\"Mathew\"}'}"
             }
           ]
         },
@@ -2249,7 +2249,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Matthew\"}"
+              "tag": "{ThiefName:'{\"text\":\"Matthew\"}'}"
             }
           ]
         },
@@ -2259,7 +2259,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Max\"}"
+              "tag": "{ThiefName:'{\"text\":\"Max\"}'}"
             }
           ]
         },
@@ -2269,7 +2269,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Maxine\"}"
+              "tag": "{ThiefName:'{\"text\":\"Maxine\"}'}"
             }
           ]
         },
@@ -2279,7 +2279,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Megan\"}"
+              "tag": "{ThiefName:'{\"text\":\"Megan\"}'}"
             }
           ]
         },
@@ -2289,7 +2289,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Melanie\"}"
+              "tag": "{ThiefName:'{\"text\":\"Melanie\"}'}"
             }
           ]
         },
@@ -2299,7 +2299,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Melissa\"}"
+              "tag": "{ThiefName:'{\"text\":\"Melissa\"}'}"
             }
           ]
         },
@@ -2309,7 +2309,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Michael\"}"
+              "tag": "{ThiefName:'{\"text\":\"Michael\"}'}"
             }
           ]
         },
@@ -2319,7 +2319,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Michele\"}"
+              "tag": "{ThiefName:'{\"text\":\"Michele\"}'}"
             }
           ]
         },
@@ -2329,7 +2329,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Michelle\"}"
+              "tag": "{ThiefName:'{\"text\":\"Michelle\"}'}"
             }
           ]
         },
@@ -2339,7 +2339,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Mitchell\"}"
+              "tag": "{ThiefName:'{\"text\":\"Mitchell\"}'}"
             }
           ]
         },
@@ -2349,7 +2349,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Mohammad\"}"
+              "tag": "{ThiefName:'{\"text\":\"Mohammad\"}'}"
             }
           ]
         },
@@ -2359,7 +2359,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Mohammed\"}"
+              "tag": "{ThiefName:'{\"text\":\"Mohammed\"}'}"
             }
           ]
         },
@@ -2369,7 +2369,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Molly\"}"
+              "tag": "{ThiefName:'{\"text\":\"Molly\"}'}"
             }
           ]
         },
@@ -2379,7 +2379,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Naomi\"}"
+              "tag": "{ThiefName:'{\"text\":\"Naomi\"}'}"
             }
           ]
         },
@@ -2389,7 +2389,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Natalie\"}"
+              "tag": "{ThiefName:'{\"text\":\"Natalie\"}'}"
             }
           ]
         },
@@ -2399,7 +2399,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Natasha\"}"
+              "tag": "{ThiefName:'{\"text\":\"Natasha\"}'}"
             }
           ]
         },
@@ -2409,7 +2409,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Nathan\"}"
+              "tag": "{ThiefName:'{\"text\":\"Nathan\"}'}"
             }
           ]
         },
@@ -2419,7 +2419,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Neil\"}"
+              "tag": "{ThiefName:'{\"text\":\"Neil\"}'}"
             }
           ]
         },
@@ -2429,7 +2429,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Nichola\"}"
+              "tag": "{ThiefName:'{\"text\":\"Nichola\"}'}"
             }
           ]
         },
@@ -2439,7 +2439,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Nicholas\"}"
+              "tag": "{ThiefName:'{\"text\":\"Nicholas\"}'}"
             }
           ]
         },
@@ -2449,7 +2449,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Nicola\"}"
+              "tag": "{ThiefName:'{\"text\":\"Nicola\"}'}"
             }
           ]
         },
@@ -2459,7 +2459,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Nicole\"}"
+              "tag": "{ThiefName:'{\"text\":\"Nicole\"}'}"
             }
           ]
         },
@@ -2469,7 +2469,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Nigel\"}"
+              "tag": "{ThiefName:'{\"text\":\"Nigel\"}'}"
             }
           ]
         },
@@ -2479,7 +2479,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Oliver\"}"
+              "tag": "{ThiefName:'{\"text\":\"Oliver\"}'}"
             }
           ]
         },
@@ -2489,7 +2489,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Olivia\"}"
+              "tag": "{ThiefName:'{\"text\":\"Olivia\"}'}"
             }
           ]
         },
@@ -2499,7 +2499,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Owen\"}"
+              "tag": "{ThiefName:'{\"text\":\"Owen\"}'}"
             }
           ]
         },
@@ -2509,7 +2509,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Pamela\"}"
+              "tag": "{ThiefName:'{\"text\":\"Pamela\"}'}"
             }
           ]
         },
@@ -2519,7 +2519,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Patricia\"}"
+              "tag": "{ThiefName:'{\"text\":\"Patricia\"}'}"
             }
           ]
         },
@@ -2529,7 +2529,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Patrick\"}"
+              "tag": "{ThiefName:'{\"text\":\"Patrick\"}'}"
             }
           ]
         },
@@ -2539,7 +2539,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Paul\"}"
+              "tag": "{ThiefName:'{\"text\":\"Paul\"}'}"
             }
           ]
         },
@@ -2549,7 +2549,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Paula\"}"
+              "tag": "{ThiefName:'{\"text\":\"Paula\"}'}"
             }
           ]
         },
@@ -2559,7 +2559,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Pauline\"}"
+              "tag": "{ThiefName:'{\"text\":\"Pauline\"}'}"
             }
           ]
         },
@@ -2569,7 +2569,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Peter\"}"
+              "tag": "{ThiefName:'{\"text\":\"Peter\"}'}"
             }
           ]
         },
@@ -2579,7 +2579,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Philip\"}"
+              "tag": "{ThiefName:'{\"text\":\"Philip\"}'}"
             }
           ]
         },
@@ -2589,7 +2589,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Phillip\"}"
+              "tag": "{ThiefName:'{\"text\":\"Phillip\"}'}"
             }
           ]
         },
@@ -2599,7 +2599,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Rachael\"}"
+              "tag": "{ThiefName:'{\"text\":\"Rachael\"}'}"
             }
           ]
         },
@@ -2609,7 +2609,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Rachel\"}"
+              "tag": "{ThiefName:'{\"text\":\"Rachel\"}'}"
             }
           ]
         },
@@ -2619,7 +2619,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Raymond\"}"
+              "tag": "{ThiefName:'{\"text\":\"Raymond\"}'}"
             }
           ]
         },
@@ -2629,7 +2629,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Rebecca\"}"
+              "tag": "{ThiefName:'{\"text\":\"Rebecca\"}'}"
             }
           ]
         },
@@ -2639,7 +2639,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Rebekah\"}"
+              "tag": "{ThiefName:'{\"text\":\"Rebekah\"}'}"
             }
           ]
         },
@@ -2649,7 +2649,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Reece\"}"
+              "tag": "{ThiefName:'{\"text\":\"Reece\"}'}"
             }
           ]
         },
@@ -2659,7 +2659,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Rhys\"}"
+              "tag": "{ThiefName:'{\"text\":\"Rhys\"}'}"
             }
           ]
         },
@@ -2669,7 +2669,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Richard\"}"
+              "tag": "{ThiefName:'{\"text\":\"Richard\"}'}"
             }
           ]
         },
@@ -2679,7 +2679,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Ricky\"}"
+              "tag": "{ThiefName:'{\"text\":\"Ricky\"}'}"
             }
           ]
         },
@@ -2689,7 +2689,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Robert\"}"
+              "tag": "{ThiefName:'{\"text\":\"Robert\"}'}"
             }
           ]
         },
@@ -2699,7 +2699,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Robin\"}"
+              "tag": "{ThiefName:'{\"text\":\"Robin\"}'}"
             }
           ]
         },
@@ -2709,7 +2709,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Robyn\"}"
+              "tag": "{ThiefName:'{\"text\":\"Robyn\"}'}"
             }
           ]
         },
@@ -2719,7 +2719,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Roger\"}"
+              "tag": "{ThiefName:'{\"text\":\"Roger\"}'}"
             }
           ]
         },
@@ -2729,7 +2729,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Ronald\"}"
+              "tag": "{ThiefName:'{\"text\":\"Ronald\"}'}"
             }
           ]
         },
@@ -2739,7 +2739,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Rosemary\"}"
+              "tag": "{ThiefName:'{\"text\":\"Rosemary\"}'}"
             }
           ]
         },
@@ -2749,7 +2749,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Rosie\"}"
+              "tag": "{ThiefName:'{\"text\":\"Rosie\"}'}"
             }
           ]
         },
@@ -2759,7 +2759,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Ross\"}"
+              "tag": "{ThiefName:'{\"text\":\"Ross\"}'}"
             }
           ]
         },
@@ -2769,7 +2769,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Roy\"}"
+              "tag": "{ThiefName:'{\"text\":\"Roy\"}'}"
             }
           ]
         },
@@ -2779,7 +2779,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Russell\"}"
+              "tag": "{ThiefName:'{\"text\":\"Russell\"}'}"
             }
           ]
         },
@@ -2789,7 +2789,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Ruth\"}"
+              "tag": "{ThiefName:'{\"text\":\"Ruth\"}'}"
             }
           ]
         },
@@ -2799,7 +2799,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Ryan\"}"
+              "tag": "{ThiefName:'{\"text\":\"Ryan\"}'}"
             }
           ]
         },
@@ -2809,7 +2809,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Sally\"}"
+              "tag": "{ThiefName:'{\"text\":\"Sally\"}'}"
             }
           ]
         },
@@ -2819,7 +2819,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Sam\"}"
+              "tag": "{ThiefName:'{\"text\":\"Sam\"}'}"
             }
           ]
         },
@@ -2829,7 +2829,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Samantha\"}"
+              "tag": "{ThiefName:'{\"text\":\"Samantha\"}'}"
             }
           ]
         },
@@ -2839,7 +2839,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Samuel\"}"
+              "tag": "{ThiefName:'{\"text\":\"Samuel\"}'}"
             }
           ]
         },
@@ -2849,7 +2849,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Sandra\"}"
+              "tag": "{ThiefName:'{\"text\":\"Sandra\"}'}"
             }
           ]
         },
@@ -2859,7 +2859,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Sara\"}"
+              "tag": "{ThiefName:'{\"text\":\"Sara\"}'}"
             }
           ]
         },
@@ -2869,7 +2869,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Sarah\"}"
+              "tag": "{ThiefName:'{\"text\":\"Sarah\"}'}"
             }
           ]
         },
@@ -2879,7 +2879,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Scott\"}"
+              "tag": "{ThiefName:'{\"text\":\"Scott\"}'}"
             }
           ]
         },
@@ -2889,7 +2889,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Sean\"}"
+              "tag": "{ThiefName:'{\"text\":\"Sean\"}'}"
             }
           ]
         },
@@ -2899,7 +2899,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Shane\"}"
+              "tag": "{ThiefName:'{\"text\":\"Shane\"}'}"
             }
           ]
         },
@@ -2909,7 +2909,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Shannon\"}"
+              "tag": "{ThiefName:'{\"text\":\"Shannon\"}'}"
             }
           ]
         },
@@ -2919,7 +2919,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Sharon\"}"
+              "tag": "{ThiefName:'{\"text\":\"Sharon\"}'}"
             }
           ]
         },
@@ -2929,7 +2929,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Shaun\"}"
+              "tag": "{ThiefName:'{\"text\":\"Shaun\"}'}"
             }
           ]
         },
@@ -2939,7 +2939,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Sheila\"}"
+              "tag": "{ThiefName:'{\"text\":\"Sheila\"}'}"
             }
           ]
         },
@@ -2949,7 +2949,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Shirley\"}"
+              "tag": "{ThiefName:'{\"text\":\"Shirley\"}'}"
             }
           ]
         },
@@ -2959,7 +2959,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Simon\"}"
+              "tag": "{ThiefName:'{\"text\":\"Simon\"}'}"
             }
           ]
         },
@@ -2969,7 +2969,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Sonia\"}"
+              "tag": "{ThiefName:'{\"text\":\"Sonia\"}'}"
             }
           ]
         },
@@ -2979,7 +2979,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Sophie\"}"
+              "tag": "{ThiefName:'{\"text\":\"Sophie\"}'}"
             }
           ]
         },
@@ -2989,7 +2989,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Stacey\"}"
+              "tag": "{ThiefName:'{\"text\":\"Stacey\"}'}"
             }
           ]
         },
@@ -2999,7 +2999,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Stephanie\"}"
+              "tag": "{ThiefName:'{\"text\":\"Stephanie\"}'}"
             }
           ]
         },
@@ -3009,7 +3009,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Stephen\"}"
+              "tag": "{ThiefName:'{\"text\":\"Stephen\"}'}"
             }
           ]
         },
@@ -3019,7 +3019,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Steven\"}"
+              "tag": "{ThiefName:'{\"text\":\"Steven\"}'}"
             }
           ]
         },
@@ -3029,7 +3029,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Stewart\"}"
+              "tag": "{ThiefName:'{\"text\":\"Stewart\"}'}"
             }
           ]
         },
@@ -3039,7 +3039,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Stuart\"}"
+              "tag": "{ThiefName:'{\"text\":\"Stuart\"}'}"
             }
           ]
         },
@@ -3049,7 +3049,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Susan\"}"
+              "tag": "{ThiefName:'{\"text\":\"Susan\"}'}"
             }
           ]
         },
@@ -3059,7 +3059,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Suzanne\"}"
+              "tag": "{ThiefName:'{\"text\":\"Suzanne\"}'}"
             }
           ]
         },
@@ -3069,7 +3069,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Tanya\"}"
+              "tag": "{ThiefName:'{\"text\":\"Tanya\"}'}"
             }
           ]
         },
@@ -3079,7 +3079,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Terence\"}"
+              "tag": "{ThiefName:'{\"text\":\"Terence\"}'}"
             }
           ]
         },
@@ -3089,7 +3089,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Teresa\"}"
+              "tag": "{ThiefName:'{\"text\":\"Teresa\"}'}"
             }
           ]
         },
@@ -3099,7 +3099,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Terry\"}"
+              "tag": "{ThiefName:'{\"text\":\"Terry\"}'}"
             }
           ]
         },
@@ -3109,7 +3109,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Theresa\"}"
+              "tag": "{ThiefName:'{\"text\":\"Theresa\"}'}"
             }
           ]
         },
@@ -3119,7 +3119,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Thomas\"}"
+              "tag": "{ThiefName:'{\"text\":\"Thomas\"}'}"
             }
           ]
         },
@@ -3129,7 +3129,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Timothy\"}"
+              "tag": "{ThiefName:'{\"text\":\"Timothy\"}'}"
             }
           ]
         },
@@ -3139,7 +3139,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Tina\"}"
+              "tag": "{ThiefName:'{\"text\":\"Tina\"}'}"
             }
           ]
         },
@@ -3149,7 +3149,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Toby\"}"
+              "tag": "{ThiefName:'{\"text\":\"Toby\"}'}"
             }
           ]
         },
@@ -3159,7 +3159,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Tom\"}"
+              "tag": "{ThiefName:'{\"text\":\"Tom\"}'}"
             }
           ]
         },
@@ -3169,7 +3169,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Tony\"}"
+              "tag": "{ThiefName:'{\"text\":\"Tony\"}'}"
             }
           ]
         },
@@ -3179,7 +3179,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Trevor\"}"
+              "tag": "{ThiefName:'{\"text\":\"Trevor\"}'}"
             }
           ]
         },
@@ -3189,7 +3189,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Valerie\"}"
+              "tag": "{ThiefName:'{\"text\":\"Valerie\"}'}"
             }
           ]
         },
@@ -3199,7 +3199,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Vanessa\"}"
+              "tag": "{ThiefName:'{\"text\":\"Vanessa\"}'}"
             }
           ]
         },
@@ -3209,7 +3209,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Victoria\"}"
+              "tag": "{ThiefName:'{\"text\":\"Victoria\"}'}"
             }
           ]
         },
@@ -3219,7 +3219,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Vincent\"}"
+              "tag": "{ThiefName:'{\"text\":\"Vincent\"}'}"
             }
           ]
         },
@@ -3229,7 +3229,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Wayne\"}"
+              "tag": "{ThiefName:'{\"text\":\"Wayne\"}'}"
             }
           ]
         },
@@ -3239,7 +3239,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Wendy\"}"
+              "tag": "{ThiefName:'{\"text\":\"Wendy\"}'}"
             }
           ]
         },
@@ -3249,7 +3249,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"William\"}"
+              "tag": "{ThiefName:'{\"text\":\"William\"}'}"
             }
           ]
         },
@@ -3259,7 +3259,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Yasmin\"}"
+              "tag": "{ThiefName:'{\"text\":\"Yasmin\"}'}"
             }
           ]
         },
@@ -3269,7 +3269,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Yvonne\"}"
+              "tag": "{ThiefName:'{\"text\":\"Yvonne\"}'}"
             }
           ]
         },
@@ -3279,7 +3279,82 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{ThiefName:\"Zoe\"}"
+              "tag": "{ThiefName:'{\"text\":\"Zoe\"}'}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dirt",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Biome:\"minecraft:plains\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dirt",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Biome:\"minecraft:savanna\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dirt",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Biome:\"minecraft:desert\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dirt",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Biome:\"minecraft:taiga\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dirt",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Biome:\"minecraft:snow\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dirt",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Biome:\"minecraft:jungle\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dirt",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Biome:\"minecraft:swamp\"}"
             }
           ]
         }
