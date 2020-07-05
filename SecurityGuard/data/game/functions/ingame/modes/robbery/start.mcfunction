@@ -3,11 +3,11 @@
 
 tag @e[type=area_effect_cloud,tag=thief_spawn,limit=1,sort=random] add spawned
 
-function ai:start
-
 execute as @a[team=Thief] run function game:ingame/modes/robbery/setup_thief
 execute as @a[team=Guard] run function game:ingame/modes/robbery/setup_guard
 tag @a[team=Spectator] add camera_mode
+
+function ai:start
 
 tag @e[type=area_effect_cloud,tag=thief_spawn,tag=spawned] remove spawned
 

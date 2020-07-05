@@ -1,7 +1,7 @@
 # Author: Denniss
 # Version: 1.16.1
 
-execute as @a[team=Guard] at @s run tp @e[type=cat,tag=guard,sort=nearest,limit=1] ~ ~-50 ~ ~ ~
+execute as @a[team=Guard] at @s positioned ~ ~-50 ~ run tp @e[type=cat,tag=guard,sort=nearest,limit=1] ~ ~-50 ~ ~ ~
 
 execute as @e[tag=AI_pathfind] at @s run function ai:teleport/villager
 execute as @e[tag=AI_pathfind,tag=!near_guard] at @s run function ai:teleport/creeper
