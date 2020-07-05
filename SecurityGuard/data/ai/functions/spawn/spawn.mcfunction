@@ -7,8 +7,11 @@ execute at @e[tag=AI_pathfind,tag=AI_spawning] run summon minecraft:creeper ~ ~ 
 execute as @e[tag=AI_pathfind,tag=AI_spawning] at @s run summon minecraft:villager ~ ~50 ~ {Tags:["AI","AI_spawning"],Team:"Thief",CustomName:"\"AI\"",CustomNameVisible:1,Silent:1b,Offers:{},VillagerData:{profession:"minecraft:armorer",type:"minecraft:plains",level:2}}
 execute as @e[tag=AI_spawning] run scoreboard players operation @s AI = number AI
 
+#loot spawn ~ ~-50 ~ loot ai:get_thief_name
+
 execute as @e[type=villager,tag=AI_spawning] run data modify entity @s VillagerData.type set from entity @e[type=villager,tag=biomes,sort=random,limit=1] VillagerData.type
 execute as @e[type=villager,tag=AI_spawning] run data modify entity @s CustomName set from entity @e[type=villager,tag=biomes,sort=random,limit=1] CustomName
+#execute as @e[type=villager,tag=AI_spawning] run data modify entity @s CustomName set from entity @e[type=item,limit=1,nbt={Item:{id:"minecraft:stone"}}] Item.tag.ThiefName
 execute as @e[tag=AI_pathfind,tag=AI_spawning] run data modify entity @s CustomName set from entity @e[type=villager,tag=AI_spawning,limit=1] CustomName
 
 schedule function ai:spawn/target 1t
