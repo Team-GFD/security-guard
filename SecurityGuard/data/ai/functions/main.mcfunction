@@ -12,7 +12,9 @@ execute as @e[tag=AI_pathfind,tag=near_guard] at @e[type=creeper] if score @s AI
 execute if score cooldown game matches -1 as @e[type=minecraft:villager,tag=AI,tag=!near_guard] at @s if block ~ ~-1 ~ minecraft:gold_block if entity @e[type=minecraft:area_effect_cloud,distance=..2,tag=!captured] run function game:ingame/capturing
 execute as @e[type=minecraft:villager,tag=AI] at @s if score @s capture_time matches 1.. unless block ~ ~-1 ~ minecraft:gold_block run scoreboard players set @s capture_time 0
 
-execute as @e[tag=AI_pathfind] at @s positioned ~ ~50 ~ unless entity @e[type=minecraft:villager,distance=..1] run function ai:kill
+tag @e[tag=AI_pathfind] remove has_villager
+execute as @e[tag=AI_pathfind] at @e[type=villager] if score @e[type=villager,distance=..1,sort=nearest,limit=1] AI = @s AI run tag @s add has_villager
+execute as @e[tag=AI_pathfind,tag=!has_villager] at @s run function ai:kill
 execute as @e[tag=AI_pathfind,tag=!near_guard] at @s if entity @e[type=cat,tag=guard,distance=..6] run function ai:near_guard/run
 
 execute as @e[tag=AI_pathfind] at @s positioned ~ ~3 ~ unless data entity @s AngryAt run data modify entity @s AngryAt set from entity @e[tag=AI_target,sort=nearest,limit=1] UUID
