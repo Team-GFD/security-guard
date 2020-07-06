@@ -1,5 +1,6 @@
 {
     "values":[
-        "game:init"
+        "game:init",
+        "menu:reload"
     ]
 }
