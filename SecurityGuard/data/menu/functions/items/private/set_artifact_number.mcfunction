@@ -35,10 +35,10 @@ execute if score #ones menu_id matches 7 run data modify entity @e[type=minecraf
 execute if score #ones menu_id matches 8 run data modify entity @e[type=minecraft:armor_stand,tag=shp_artifact_right_number,limit=1] ArmorItems[3].tag.CustomModelData set value 40
 execute if score #ones menu_id matches 9 run data modify entity @e[type=minecraft:armor_stand,tag=shp_artifact_right_number,limit=1] ArmorItems[3].tag.CustomModelData set value 42
 
-execute if score #artifacts menu_id = #max_artifacts menu_id run data modify entity @e[type=minecraft:armor_stand,tag=shp_artifact_up_arrow,limit=1] ArmorItems[3].tag.CustomModelData set value 0
-execute if score #artifacts menu_id = #max_artifacts menu_id run tag @e[type=minecraft:armor_stand,tag=shp_artifact_up_arrow,limit=1] add shp_disabled
-execute if score #artifacts menu_id = #min_artifacts menu_id run data modify entity @e[type=minecraft:armor_stand,tag=shp_artifact_down_arrow,limit=1] ArmorItems[3].tag.CustomModelData set value 0
-execute if score #artifacts menu_id = #min_artifacts menu_id run tag @e[type=minecraft:armor_stand,tag=shp_artifact_down_arrow,limit=1] add shp_disabled
+execute if score #artifacts menu_id = #max_artifacts menu_id run data modify entity @e[type=minecraft:armor_stand,tag=shp_size_artifact_up_arrow,limit=1] ArmorItems[3].tag.CustomModelData set value 0
+execute if score #artifacts menu_id = #max_artifacts menu_id run tag @e[type=minecraft:armor_stand,tag=shp_size_artifact_up_arrow,limit=1] add shp_disabled
+execute if score #artifacts menu_id = #min_artifacts menu_id run data modify entity @e[type=minecraft:armor_stand,tag=shp_size_artifact_down_arrow,limit=1] ArmorItems[3].tag.CustomModelData set value 0
+execute if score #artifacts menu_id = #min_artifacts menu_id run tag @e[type=minecraft:armor_stand,tag=shp_size_artifact_down_arrow,limit=1] add shp_disabled
 
 #execute if score #artifacts menu_id = #max_artifacts menu_id run data modify entity @e[type=minecraft:armor_stand,tag=shp_artifact_left_number,limit=1] ArmorItems[3].tag.CustomModelData set value 43
 #execute if score #artifacts menu_id = #max_artifacts menu_id run data modify entity @e[type=minecraft:armor_stand,tag=shp_artifact_right_number,limit=1] ArmorItems[3].tag.CustomModelData set value 0
