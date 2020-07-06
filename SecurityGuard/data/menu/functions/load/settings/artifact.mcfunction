@@ -4,7 +4,7 @@
 function menu:clear/settings/artifacts
 schedule function menu:fire 10t replace
 
-scoreboard players set #artifacts menu_id 45
+execute unless score #artifacts menu_id matches 0.. run scoreboard players set #artifacts menu_id 45
 scoreboard players set #max_artifacts menu_id 93
 scoreboard players set #min_artifacts menu_id 10
 
