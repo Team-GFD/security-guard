@@ -11,4 +11,4 @@ execute if score mode game matches 2 run function game:ingame/modes/free_for_all
 # execute as @e[type=minecraft:area_effect_cloud,tag=vent] at @s as @a[distance=..6,tag=!vent] run tag @s add vent
 # execute as @e[type=minecraft:area_effect_cloud,tag=vent] at @s as @a[distance=6..10,tag=vent] run tag @s remove vent
 
-function ai:main
+execute if score total AI matches 1.. run function ai:main
