@@ -17,3 +17,5 @@ execute positioned -61.5 127.0 -33.0 run function menu:items/create/artifact/up_
 execute positioned -61.5 127.0 -33.0 run function menu:items/create/artifact/down_arrow
 execute positioned -61.5 127.0 -33.0 run function menu:items/create/artifact/left_number
 execute positioned -61.5 127.0 -33.0 run function menu:items/create/artifact/right_number
+
+function menu:items/private/set_artifact_number
