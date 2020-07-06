@@ -16,7 +16,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:7,Operation:0,UUIDLeast:-8234625,UUIDMost:-8772221,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:1.2,Operation:0,UUIDLeast:4973329,UUIDMost:6331707,Slot:\"mainhand\"}]}"
+                            "tag": "{HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:7,Operation:0,UUIDLeast:-8234625,UUIDMost:-8772221,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:1.2,Operation:0,UUIDLeast:4973329,UUIDMost:6331707,Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -31,9 +31,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "Wack on wack off.",
-                                    "color": "gray",
-                                    "italic": true
+                                    "text": "Wack on wack off",
+                                    "color": "gray"
                                 }
                             ]
                         }
