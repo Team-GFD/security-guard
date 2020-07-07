@@ -4,7 +4,7 @@
 function ai:capture_points/capture
 
 execute align xyz positioned ~0.5 ~-0.5 ~0.5 as @e[tag=artifact,limit=1,sort=nearest,distance=..1] at @s run function game:ingame/artifacts/unload_artifact
-execute align xyz positioned ~0.5 ~ ~0.5 run tag @e[tag=artifact,distance=..4] add captured
+execute align xyz positioned ~0.5 ~ ~0.5 run tag @e[tag=artifact,limit=1,sort=nearest,distance=..4] add captured
 
 playsound minecraft:entity.item.pickup master @s ~ ~ ~ 1 1
 
