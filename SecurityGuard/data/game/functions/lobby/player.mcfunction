@@ -16,16 +16,16 @@ replaceitem entity @s weapon.offhand minecraft:carrot_on_a_stick{MenuInteractor:
 scoreboard players set #tempcount game 0
 
 execute store result score #tempcount game run clear @s minecraft:red_stained_glass_pane{MenuIcon:1b} 0
-execute if score #tempcount game matches 2.. run clear @s #game:menu_item{MenuItem:1b}
+execute if score #tempcount game matches 2.. run clear @s minecraft:red_stained_glass_pane{MenuIcon:1b}
 
 execute store result score #tempcount game run clear @s minecraft:cyan_stained_glass_pane{MenuIcon:1b} 0
-execute if score #tempcount game matches 2.. run clear @s #game:menu_item{MenuItem:1b}
+execute if score #tempcount game matches 2.. run clear @s minecraft:cyan_stained_glass_pane{MenuIcon:1b}
 
 execute store result score #tempcount game run clear @s minecraft:gray_stained_glass_pane{MenuIcon:1b} 0
-execute if score #tempcount game matches 2.. run clear @s #game:menu_item{MenuItem:1b}
+execute if score #tempcount game matches 2.. run clear @s minecraft:gray_stained_glass_pane{MenuIcon:1b}
 
 execute store result score #tempcount game run clear @s minecraft:carrot_on_a_stick{MenuInteractor:1b} 0
-execute if score #tempcount game matches 2.. run clear @s #game:menu_item{MenuItem:1b}
+execute if score #tempcount game matches 2.. run clear @s minecraft:carrot_on_a_stick{MenuInteractor:1b}
 
 replaceitem entity @s[team=Thief] hotbar.8 minecraft:red_stained_glass_pane{MenuIcon:1b,MenuItem:1b,CustomModelData:1,display:{Name:'{"text":"Thief","color":"red","italic":false}'},tag:["killme"]} 1
 replaceitem entity @s[team=Guard] hotbar.8 minecraft:cyan_stained_glass_pane{MenuIcon:1b,MenuItem:1b,CustomModelData:1,display:{Name:'{"text":"Guard","color":"dark_aqua","italic":false}'},tag:["killme"]} 1
