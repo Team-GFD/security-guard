@@ -14,6 +14,6 @@ tag @e[type=minecraft:armor_stand,tag=shp_size_aicount_up_arrow,limit=1] remove 
 
 function menu:items/private/set_aicount_number
 
-execute as @a[tag=viewer,scores={menu_rclick=1..}] at @s run playsound minecraft:ui.button.click master @s ~ ~ ~ 1 1.1
+execute as @a[tag=viewer,scores={menu_rclick=1..}] at @s run playsound minecraft:ui.button.click master @s ~ ~ ~ 0.7 1.1
 
 tag @s add shp_handled
