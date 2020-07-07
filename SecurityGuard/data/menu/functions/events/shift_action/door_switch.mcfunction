@@ -11,6 +11,6 @@ execute if score #doors menu_id matches 1 run data modify entity @s[tag=shp_hove
 execute if score #doors menu_id matches 0 run data modify entity @s[tag=!shp_hover] ArmorItems[3].tag.CustomModelData set value 14
 execute if score #doors menu_id matches 1 run data modify entity @s[tag=!shp_hover] ArmorItems[3].tag.CustomModelData set value 16
 
-execute as @a[tag=viewer] at @s run playsound minecraft:ui.button.click master @s ~ ~ ~ 1 1
+execute as @a[tag=viewer,scores={menu_rclick=1..}] at @s run playsound minecraft:ui.button.click master @s ~ ~ ~ 0.7 1
 
 tag @s add shp_handled

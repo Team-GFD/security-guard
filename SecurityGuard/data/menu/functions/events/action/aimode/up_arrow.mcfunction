@@ -12,6 +12,6 @@ tag @e[type=minecraft:armor_stand,tag=shp_size_aimode_down_arrow,limit=1] remove
 
 function menu:items/private/set_aimode_display
 
-execute as @a[tag=viewer] at @s run playsound minecraft:ui.button.click master @s ~ ~ ~ 1 1
+execute as @a[tag=viewer,scores={menu_rclick=1..}] at @s run playsound minecraft:ui.button.click master @s ~ ~ ~ 0.7 1
 
 tag @s add shp_handled
