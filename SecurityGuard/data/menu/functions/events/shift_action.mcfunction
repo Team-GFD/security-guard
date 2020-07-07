@@ -12,7 +12,7 @@ execute if score @s[tag=!shp_handled] menu_id matches 7 run function menu:events
 execute if score @s[tag=!shp_handled] menu_id matches 9 run function menu:events/shift_action/aicount/up_arrow
 execute if score @s[tag=!shp_handled] menu_id matches 10 run function menu:events/shift_action/aicount/down_arrow
 
-execute if score @s[tag=!shp_handled] menu_id matches 12 run function menu:events/shift_action/aimode/up_arrow
-execute if score @s[tag=!shp_handled] menu_id matches 13 run function menu:events/shift_action/aimode/down_arrow
+execute if score @s[tag=!shp_handled] menu_id matches 12 run function menu:events/action/aimode/up_arrow
+execute if score @s[tag=!shp_handled] menu_id matches 13 run function menu:events/action/aimode/down_arrow
 
 tag @s remove shp_handled
