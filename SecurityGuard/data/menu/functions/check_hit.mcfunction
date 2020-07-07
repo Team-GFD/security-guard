@@ -11,6 +11,12 @@ execute as @s[tag=shp_size_door_title] run function menu:sizes/door_title
 execute as @s[tag=shp_size_artifact_title] run function menu:sizes/artifact/title
 execute as @s[tag=shp_size_artifact_up_arrow] run function menu:sizes/artifact/up_arrow
 execute as @s[tag=shp_size_artifact_down_arrow] run function menu:sizes/artifact/down_arrow
+execute as @s[tag=shp_size_aicount_title] run function menu:sizes/aicount_title
+execute as @s[tag=shp_size_aicount_up_arrow] run function menu:sizes/artifact/up_arrow
+execute as @s[tag=shp_size_aicount_down_arrow] run function menu:sizes/artifact/down_arrow
+execute as @s[tag=shp_size_aimode_title] run function menu:sizes/aimode_title
+execute as @s[tag=shp_size_aimode_up_arrow] run function menu:sizes/artifact/up_arrow
+execute as @s[tag=shp_size_aimode_down_arrow] run function menu:sizes/artifact/down_arrow
 
 #####
 

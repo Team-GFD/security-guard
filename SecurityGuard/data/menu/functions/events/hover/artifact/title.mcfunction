@@ -1,4 +1,4 @@
 # Author: SirSheepe
 # Version: 1.16+
 
-say hello artifact
+tag @a[tag=viewer] add shp_artifact_title

@@ -1,4 +1,4 @@
 # Author: SirSheepe
 # Version: 1.16+
 
-say hello doors
+tag @a[tag=viewer] add shp_door_title

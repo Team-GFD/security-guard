@@ -10,3 +10,10 @@ execute if score @s menu_id matches 4 run function menu:events/hover/door_switch
 execute if score @s menu_id matches 5 run function menu:events/hover/artifact/title
 execute if score @s menu_id matches 6 run function menu:events/hover/artifact/up_arrow
 execute if score @s menu_id matches 7 run function menu:events/hover/artifact/down_arrow
+execute if score @s menu_id matches 8 run function menu:events/hover/aicount/title
+execute if score @s menu_id matches 9 run function menu:events/hover/aicount/up_arrow
+
+execute if score @s menu_id matches 10 run function menu:events/hover/aicount/down_arrow
+execute if score @s menu_id matches 11 run function menu:events/hover/aimode/title
+execute if score @s menu_id matches 12 run function menu:events/hover/aimode/up_arrow
+execute if score @s menu_id matches 13 run function menu:events/hover/aimode/down_arrow
