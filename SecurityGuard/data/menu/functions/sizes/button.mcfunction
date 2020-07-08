@@ -17,6 +17,6 @@ scoreboard players add boxBY rayData 411
 
 scoreboard players operation boxAX rayData = #x rayData
 # This displays 0.501953125 blocks infront of it
-scoreboard players add boxAX rayData 502
+scoreboard players remove boxAX rayData 502
 scoreboard players operation boxBX rayData = boxAX rayData
 
