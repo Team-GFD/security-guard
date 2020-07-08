@@ -16,7 +16,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:2b,Amplifier:3b,Duration:200,ShowParticles:1b},{Id:15b,Amplifier:0b,Duration:220}],CustomPotionColor:4146775}"
+                            "tag": "{CustomPotionEffects:[{Id:2b,Amplifier:3b,Duration:200,ShowParticles:1b},{Id:15b,Amplifier:0b,Duration:220}],CustomPotionColor:11344924}"
                         },
                         {
                             "function": "set_name",

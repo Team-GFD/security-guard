@@ -15,6 +15,8 @@ kill @e[type=minecraft:armor_stand,tag=player_holder]
 
 scoreboard players reset * game_id
 tag @a remove inGame
+tag @a remove lower
+tag @a remove upper
 
 bossbar set minecraft:stolen visible false
 bossbar set minecraft:stolen value 0
