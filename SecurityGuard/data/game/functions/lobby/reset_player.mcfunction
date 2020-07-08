@@ -9,6 +9,8 @@ effect clear @s
 xp set @s 0 points
 xp set @s 0 levels
 
+team join Thief @s[team=Dead]
+
 tag @s remove camera_mode
 tag @s remove in_cam
 

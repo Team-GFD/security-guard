@@ -9,5 +9,5 @@ replaceitem entity @s armor.chest minecraft:leather_chestplate{display:{Name:'{"
 replaceitem entity @s armor.legs minecraft:leather_leggings{display:{Name:'{"text":"Guard Armor","italic":false}',color:2081988},HideFlags:1,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
 replaceitem entity @s armor.feet minecraft:leather_boots{display:{Name:'{"text":"Guard Armor","italic":false}',color:2081988},HideFlags:1,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
 
-tp @s @e[type=area_effect_cloud,tag=guard_spawn,limit=1]
+execute as @s at @e[type=area_effect_cloud,tag=guard_spawn,limit=1] rotated as @s run tp ~ ~ ~
 
