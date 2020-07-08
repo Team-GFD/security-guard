@@ -17,6 +17,6 @@ execute if score cooldown game matches 1..5 run title @a[team=1Guard] subtitle [
 execute if score cooldown game matches 0 run title @a title [{"text":"Start","color":"dark_aqua","bold":true}]
 execute if score cooldown game matches 0 run title @a subtitle [{"text":""}]
 
-execute if score cooldown game matches 0 as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=guard_door] at @s run fill ~1 ~1 ~ ~-1 ~-3 ~ air replace minecraft:end_stone_brick_wall
+execute if score cooldown game matches 0 as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=guard_door] at @s run fill ~1 ~ ~ ~-1 ~-3 ~ air replace minecraft:end_stone_brick_wall
 
 scoreboard players remove cooldown game 1
