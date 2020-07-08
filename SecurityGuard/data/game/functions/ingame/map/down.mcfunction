@@ -1,8 +1,6 @@
 # Author: InternetAlien
 # Version: 1.15.2
 
-say map down
-
 tag @s add lower
 tag @s remove upper
 
