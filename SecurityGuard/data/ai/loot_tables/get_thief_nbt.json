@@ -369,6 +369,16 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
+              "tag": "{ThiefName:'{\"text\":\"Boris\"}'}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
               "tag": "{ThiefName:'{\"text\":\"Bradley\"}'}"
             }
           ]
@@ -1309,6 +1319,16 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
+              "tag": "{ThiefName:'{\"text\":\"Henning\"}'}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
               "tag": "{ThiefName:'{\"text\":\"Henry\"}'}"
             }
           ]
@@ -1360,6 +1380,16 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{ThiefName:'{\"text\":\"Jack\"}'}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ThiefName:'{\"text\":\"Jackson\"}'}"
             }
           ]
         },
@@ -3209,6 +3239,16 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
+              "tag": "{ThiefName:'{\"text\":\"Victor\"}'}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
               "tag": "{ThiefName:'{\"text\":\"Victoria\"}'}"
             }
           ]
@@ -3240,6 +3280,16 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{ThiefName:'{\"text\":\"Wendy\"}'}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ThiefName:'{\"text\":\"Wilbur\"}'}"
             }
           ]
         },
