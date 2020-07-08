@@ -17,3 +17,6 @@ execute if score @s menu_id matches 10 run function menu:events/hover/aicount/do
 execute if score @s menu_id matches 11 run function menu:events/hover/aimode/title
 execute if score @s menu_id matches 12 run function menu:events/hover/aimode/up_arrow
 execute if score @s menu_id matches 13 run function menu:events/hover/aimode/down_arrow
+
+execute if score @s menu_id matches 14 run function menu:events/hover/tutorial/go_button_thief
+execute if score @s menu_id matches 15 run function menu:events/hover/tutorial/go_button_guard

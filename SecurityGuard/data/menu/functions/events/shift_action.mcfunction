@@ -15,4 +15,7 @@ execute if score @s[tag=!shp_handled] menu_id matches 10 run function menu:event
 execute if score @s[tag=!shp_handled] menu_id matches 12 run function menu:events/action/aimode/up_arrow
 execute if score @s[tag=!shp_handled] menu_id matches 13 run function menu:events/action/aimode/down_arrow
 
+execute if score @s[tag=!shp_handled] menu_id matches 14 run function menu:events/action/tutorial/go_button_thief
+execute if score @s[tag=!shp_handled] menu_id matches 15 run function menu:events/action/tutorial/go_button_guard
+
 tag @s remove shp_handled

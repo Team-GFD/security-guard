@@ -8,3 +8,5 @@ function menu:load/settings/artifact
 function menu:load/settings/door
 function menu:load/settings/aicount
 function menu:load/settings/aimode
+
+function menu:load/tutorial
