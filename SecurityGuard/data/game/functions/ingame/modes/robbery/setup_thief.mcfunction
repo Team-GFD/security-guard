@@ -1,6 +1,8 @@
 # Author: InternetAlien
 # Version: 1.15.2
 
+say give thief
+
 loot give @s loot game:wire_cutters
 
 loot give @s loot game:escape_potion

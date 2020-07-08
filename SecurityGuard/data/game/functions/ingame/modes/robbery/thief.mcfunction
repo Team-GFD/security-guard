@@ -24,7 +24,7 @@ execute at @s if score @s capture_time matches 1.. unless block ~ ~-1 ~ minecraf
 execute if score @s capture_time matches ..-1 run xp set @s 0 points
 execute if score @s capture_time matches ..-1 run scoreboard players set @s capture_time 0
 
-execute as @s[tag=!camera_mode] if score @s stoped matches 1 run tag @s add camera_mode
+execute as @s[tag=!camera_mode] if score @s stopped matches 1 run tag @s add camera_mode
 
 execute if score @s capture_time matches 0 run xp set @s 0 points
 execute if score @s capture_time matches 0 run xp set @s 0 levels

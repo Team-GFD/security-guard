@@ -40,7 +40,7 @@ scoreboard objectives add game_id dummy
 scoreboard objectives add capture_time dummy
 
 scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
-scoreboard objectives add stoped deathCount
+scoreboard objectives add stopped deathCount
 scoreboard objectives add used_camera minecraft.used:minecraft.carrot_on_a_stick
 
 scoreboard objectives add stolen dummy

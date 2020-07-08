@@ -7,7 +7,7 @@ execute if score @s[tag=!camera_mode] escape matches 1 run function game:ingame/
 execute store success score @s reveal run effect clear @s minecraft:unluck
 execute if score @s[tag=!camera_mode] reveal matches 1 run effect clear @s minecraft:invisibility
 
-execute if score @s stoped matches 0 run scoreboard players add thieves_left game 1
+execute if score @s stopped matches 0 run scoreboard players add thieves_left game 1
 
 execute at @s[tag=!camera_mode] if score @s sneak matches 1.. if block ~ ~-1 ~ minecraft:gold_block run function game:ingame/capturing
 
@@ -26,7 +26,7 @@ execute at @s if score @s capture_time matches 1.. unless block ~ ~-1 ~ minecraf
 execute if score @s capture_time matches ..-1 run xp set @s 0 points
 execute if score @s capture_time matches ..-1 run scoreboard players set @s capture_time 0
 
-execute as @s[tag=!camera_mode] if score @s stoped matches 1 run tag @s add camera_mode
+execute as @s[tag=!camera_mode] if score @s stopped matches 1 run tag @s add camera_mode
 
 execute if score @s capture_time matches 0 run xp set @s 0 points
 execute if score @s capture_time matches 0 run xp set @s 0 levels

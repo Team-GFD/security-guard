@@ -7,9 +7,9 @@ scoreboard players set cooldown game 10
 scoreboard players set tick game 0
 
 scoreboard players reset * stolen
-scoreboard players reset * stoped
+scoreboard players reset * stopped
 
-scoreboard players set @a stoped 0
+scoreboard players set @a stopped 0
 scoreboard players set @a stolen 0
 
 scoreboard players set @a game_id 1
