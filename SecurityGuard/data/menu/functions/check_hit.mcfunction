@@ -24,5 +24,10 @@ execute as @a run function menu:cast_ray
 
 execute at @s run function menu:events/main
 
+tag @a[tag=!viewer] remove shp_door_title
+tag @a[tag=!viewer] remove shp_artifact_title
+tag @a[tag=!viewer] remove shp_aicount_title
+tag @a[tag=!viewer] remove shp_aimode_title
+
 tag @a remove viewer
 tag @s remove current_item
