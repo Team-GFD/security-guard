@@ -1,7 +1,7 @@
 # Author: SirSheepe
 # Version: 1.16+
 
-tag @s add shp_hover
+tag @s[tag=!shp_setting] add shp_hover
 
 execute if score @s menu_id matches 1 run function menu:events/hover/start
 execute if score @s menu_id matches 2 run function menu:events/hover/countdown
