@@ -7,11 +7,11 @@ loot give @s loot game:escape_potion
 loot give @s loot game:invisiblity_potion
 loot give @s loot game:stun_potion
 
-replaceitem entity @s[y=..112] hotbar.8 minecraft:orange_dye{display:{Name:'{"text":"Lower Floor","italic":false}'},tag:["killme"],floor:1,CustomModelData:1}
-replaceitem entity @s[y=113..] hotbar.8 minecraft:orange_dye{display:{Name:'{"text":"Upper Floor","italic":false}'},tag:["killme"],floor:2,CustomModelData:2}
+replaceitem entity @s[y=112,dy=-1000] hotbar.8 minecraft:orange_dye{display:{Name:'{"text":"Lower Floor","italic":false}'},tag:["killme"],floor:1,CustomModelData:1}
+replaceitem entity @s[y=113,dy=1000] hotbar.8 minecraft:orange_dye{display:{Name:'{"text":"Upper Floor","italic":false}'},tag:["killme"],floor:2,CustomModelData:2}
 
-tag @s[y=..112] add lower
-tag @s[y=113..] add upper
+tag @s[y=112,dy=-1000] add lower
+tag @s[y=113,dy=1000] add upper
 
 scoreboard players set @a capture_time 0
 
