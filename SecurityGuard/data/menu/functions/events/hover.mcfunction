@@ -3,11 +3,6 @@
 
 tag @s add shp_hover
 
-tag @a[tag=!viewer] remove shp_door_title
-tag @a[tag=!viewer] remove shp_artifact_title
-tag @a[tag=!viewer] remove shp_aicount_title
-tag @a[tag=!viewer] remove shp_aimode_title
-
 execute if score @s menu_id matches 1 run function menu:events/hover/start
 execute if score @s menu_id matches 2 run function menu:events/hover/countdown
 execute if score @s menu_id matches 3 run function menu:events/hover/door_title
