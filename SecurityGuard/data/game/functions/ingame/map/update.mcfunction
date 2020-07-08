@@ -1,6 +1,8 @@
 # Author: InternetAlien
 # Version: 1.15.2
 
+say map update
+
 scoreboard players set #mapupdate game 0
 scoreboard players set #mapupdate2 game 0
 scoreboard players set #mapupdate3 game 0

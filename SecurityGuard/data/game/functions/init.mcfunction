@@ -2,6 +2,7 @@
 # Version: 1.15.2
 
 team add 2Thief
+team modify 2Thief displayName {"text":"Thief","color":"dark_red"}
 team modify 2Thief prefix {"text":"Thief ","color":"dark_red"}
 team modify 2Thief color red
 #team modify 2Thief nametagVisibility hideForOtherTeams
@@ -10,6 +11,7 @@ team modify 2Thief collisionRule always
 team modify 2Thief friendlyFire false
 
 team add 3Dead
+team modify 3Dead displayName {"text":"Captured","color":"dark_red"}
 team modify 3Dead prefix {"text":"Captured ","color":"dark_red"}
 team modify 3Dead color red
 #team modify 3Dead nametagVisibility hideForOtherTeams
@@ -18,6 +20,7 @@ team modify 3Dead collisionRule never
 team modify 3Dead friendlyFire false
 
 team add 1Guard
+team modify 1Guard displayName {"text":"Guard","color":"dark_aqua"}
 team modify 1Guard prefix {"text":"Guard ","color":"dark_aqua"}
 team modify 1Guard color aqua
 #team modify 1Guard nametagVisibility hideForOtherTeams
@@ -26,6 +29,7 @@ team modify 1Guard collisionRule never
 team modify 1Guard friendlyFire false
 
 team add 9Spectator
+team modify 9Spectator displayName {"text":"Spectator","color":"dark_gray"}
 team modify 9Spectator color gray
 team modify 9Spectator seeFriendlyInvisibles false
 team modify 9Spectator friendlyFire false
