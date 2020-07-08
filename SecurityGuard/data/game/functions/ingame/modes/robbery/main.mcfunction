@@ -7,8 +7,8 @@ execute as @e[team=2Thief] run scoreboard players add thieves_left game 1
 execute if score cooldown game matches -1 as @a[team=2Thief] at @s run function game:ingame/modes/robbery/thief
 execute if score cooldown game matches -1 as @a[team=1Guard] at @s run function game:ingame/modes/robbery/guard
 
-execute as @a[tag=lower,y=113,dy=1000,team=!9Spectator] run function game:ingame/map/up
-execute as @a[tag=upper,y=112,dy=-1000,team=!9Spectator] run function game:ingame/map/down
+execute at @a[tag=lower,y=113,dy=1000,team=!9Spectator] as @s run function game:ingame/map/up
+execute at @a[tag=upper,y=112,dy=-1000,team=!9Spectator] as @s run function game:ingame/map/down
 
 execute as @a[tag=update_map,team=!9Spectator] run function game:ingame/map/update
 
