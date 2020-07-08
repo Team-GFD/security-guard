@@ -1,4 +1,4 @@
 # Author: SirSheepe
 # Version: 1.16+
 
-say @a[tag=viewer]
+title @a[tag=viewer] actionbar [{"text":"[!] ","color":"yellow"},{"text":"How difficult the AI is to guard against","color":"#79f03e"}]
