@@ -20,3 +20,4 @@ execute if score @s menu_id matches 13 run function menu:events/unhover/aimode/d
 
 execute if score @s menu_id matches 14 run function menu:events/unhover/tutorial/go_button_thief
 execute if score @s menu_id matches 15 run function menu:events/unhover/tutorial/go_button_guard
+execute if score @s menu_id matches 16 run function menu:events/unhover/tutorial/return

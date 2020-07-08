@@ -18,6 +18,7 @@ execute as @s[tag=shp_size_aimode_title] run function menu:sizes/aimode_title
 execute as @s[tag=shp_size_aimode_up_arrow] run function menu:sizes/artifact/up_arrow
 execute as @s[tag=shp_size_aimode_down_arrow] run function menu:sizes/artifact/down_arrow
 execute as @s[tag=shp_size_button] run function menu:sizes/button
+execute as @s[tag=shp_size_button2] run function menu:sizes/button2
 
 #####
 

@@ -20,3 +20,4 @@ execute if score @s menu_id matches 13 run function menu:events/hover/aimode/dow
 
 execute if score @s menu_id matches 14 run function menu:events/hover/tutorial/go_button_thief
 execute if score @s menu_id matches 15 run function menu:events/hover/tutorial/go_button_guard
+execute if score @s menu_id matches 16 run function menu:events/hover/tutorial/return
