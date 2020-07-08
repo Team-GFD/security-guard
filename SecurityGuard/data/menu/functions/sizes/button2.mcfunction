@@ -6,12 +6,12 @@ execute store result score #y rayData run data get entity @s Pos[1] 1000
 execute store result score #z rayData run data get entity @s Pos[2] 1000
 
 scoreboard players operation boxAX rayData = #x rayData
-scoreboard players add boxAX rayData 1200
+scoreboard players add boxAX rayData 719
 scoreboard players operation boxBX rayData = #x rayData
-scoreboard players remove boxBX rayData 1200
+scoreboard players remove boxBX rayData 719
 
 scoreboard players operation boxAY rayData = #y rayData
-scoreboard players add boxAY rayData 250
+scoreboard players add boxAY rayData 313
 scoreboard players operation boxBY rayData = #y rayData
 scoreboard players add boxBY rayData 750
 
