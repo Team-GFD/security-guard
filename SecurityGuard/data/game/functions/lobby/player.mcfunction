@@ -1,8 +1,6 @@
 # Author: SirSheepe
 # Version: 1.16+
 
-team join Thief @a[team=Dead]
-
 effect give @s minecraft:saturation 2 1 true
 effect give @s minecraft:resistance 2 10 true
 effect give @s minecraft:weakness 2 10 true
