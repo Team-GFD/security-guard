@@ -11,9 +11,9 @@ scoreboard players operation boxBZ rayData = #z rayData
 scoreboard players remove boxBZ rayData 500
 
 scoreboard players operation boxAY rayData = #y rayData
-scoreboard players add boxAY rayData 0
+scoreboard players add boxAY rayData 400
 scoreboard players operation boxBY rayData = #y rayData
-scoreboard players add boxBY rayData 1000
+scoreboard players add boxBY rayData 800
 
 scoreboard players operation boxAX rayData = #x rayData
 # This displays 0.501953125 blocks infront of it
