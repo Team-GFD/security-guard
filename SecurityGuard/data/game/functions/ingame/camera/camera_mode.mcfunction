@@ -8,7 +8,7 @@ effect give @s minecraft:resistance 1 10 true
 effect give @s minecraft:weakness 1 100 true
 effect give @s minecraft:levitation 1 255 true
 
-effect clear @s minecraft:blindness
+execute as @s at @s if entity @e[type=minecraft:armor_stand,tag=camera,tag=!disabled,sort=nearest,limit=1,distance=..3] run effect clear @s minecraft:blindness
 execute as @s[team=!9Spectator] at @s if entity @e[type=minecraft:armor_stand,tag=camera,tag=disabled,sort=nearest,limit=1,distance=..3] run effect give @s minecraft:blindness 2 0 true
 execute as @s[team=!9Spectator] at @s if entity @e[type=minecraft:armor_stand,tag=camera,tag=disabled,sort=nearest,limit=1,distance=..3] run title @s[] times 0 3 0
 execute if score state game matches 1 as @s[team=!9Spectator] at @s if entity @e[type=minecraft:armor_stand,tag=camera,tag=disabled,sort=nearest,limit=1,distance=..3] run title @s title [{"text":"Error: #404","color":"dark_red","bold":false}]
