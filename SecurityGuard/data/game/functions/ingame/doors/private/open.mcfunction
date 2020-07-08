@@ -11,4 +11,4 @@ execute at @s as @e[type=minecraft:armor_stand,sort=nearest,limit=2] run data mo
 execute as @e[type=minecraft:armor_stand,sort=nearest,limit=1,tag=shp_left_door] at @s run tp @s ^-0.5 ^ ^
 execute as @e[type=minecraft:armor_stand,sort=nearest,limit=1,tag=shp_right_door] at @s run tp @s ^0.5 ^ ^
 
-tag @s remove current_door
+kill @s
