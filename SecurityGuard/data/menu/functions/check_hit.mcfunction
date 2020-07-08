@@ -22,7 +22,8 @@ execute as @s[tag=shp_size_button2] run function menu:sizes/button2
 
 #####
 
-execute as @a run function menu:cast_ray
+execute if score op_menu game matches 0 as @a run function menu:cast_ray
+execute if score op_menu game matches 1 as @a[tag=op] run function menu:cast_ray
 
 execute at @s run function menu:events/main
 
