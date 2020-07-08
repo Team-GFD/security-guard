@@ -8,6 +8,6 @@ xp set @s 0 points
 xp set @s 0 levels
 
 tag @s add camera_mode
-team join Spectator @s
+team join 9Spectator @s
 
 scoreboard players set @s game_id 1

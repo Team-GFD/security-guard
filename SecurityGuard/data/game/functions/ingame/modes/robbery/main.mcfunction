@@ -2,15 +2,15 @@
 # Version: 1.15.2
 
 scoreboard players set thieves_left game 0
-execute as @e[team=Thief] run scoreboard players add thieves_left game 1
+execute as @e[team=2Thief] run scoreboard players add thieves_left game 1
 
-execute if score cooldown game matches -1 run execute as @a[team=Thief] run function game:ingame/modes/robbery/thief
-execute if score cooldown game matches -1 run execute as @a[team=Guard] run function game:ingame/modes/robbery/guard
+execute if score cooldown game matches -1 as @a[team=2Thief] at @s run function game:ingame/modes/robbery/thief
+execute if score cooldown game matches -1 as @a[team=1Guard] at @s run function game:ingame/modes/robbery/guard
 
-execute as @a[tag=lower,y=113,dy=1000,team=!Spectator] run function game:ingame/map/up
-execute as @a[tag=upper,y=112,dy=-1000,team=!Spectator] run function game:ingame/map/down
+execute as @a[tag=lower,y=113,dy=1000,team=!9Spectator] run function game:ingame/map/up
+execute as @a[tag=upper,y=112,dy=-1000,team=!9Spectator] run function game:ingame/map/down
 
-execute as @a[tag=update_map,team=!Spectator] run function game:ingame/map/update
+execute as @a[tag=update_map,team=!9Spectator] run function game:ingame/map/update
 
 execute as @a[gamemode=adventure,tag=camera_mode] run function game:ingame/camera/camera_mode
 execute as @e[type=minecraft:armor_stand,tag=camera,tag=!disabled] at @s unless block ~ ~ ~ minecraft:acacia_fence run function game:ingame/camera/disable

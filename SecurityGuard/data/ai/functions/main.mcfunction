@@ -3,7 +3,7 @@
 # called from game:ingame/global_main
 
 # teleport cat below guard
-execute at @a[team=Guard] positioned ~ ~-50 ~ as @e[type=cat,tag=guard] if score @s player_id = @p[team=Guard] player_id run tp @s ~ ~ ~ ~ ~
+execute at @a[team=1Guard] positioned ~ ~-50 ~ as @e[type=cat,tag=guard] if score @s player_id = @p[team=1Guard] player_id run tp @s ~ ~ ~ ~ ~
 
 # teleport AI
 execute as @e[tag=AI,type=villager] at @e[tag=AI_pathfind] if score @s AI = @e[tag=AI_pathfind,distance=..1,sort=nearest,limit=1] AI run tp @s ~ ~50 ~ ~ 0
@@ -20,7 +20,7 @@ execute as @e[tag=AI_pathfind] at @e[type=villager] if score @e[type=villager,di
 execute if score cooldown game matches -1 as @e[tag=AI_pathfind,tag=!has_villager] at @s run function ai:kill
 
 # near guard check
-execute as @e[tag=AI_pathfind,tag=!near_guard] at @s positioned ~ ~50 ~ if entity @p[team=Guard,tag=!in_cam,distance=..6] run function ai:near_guard/run
+execute as @e[tag=AI_pathfind,tag=!near_guard] at @s positioned ~ ~50 ~ if entity @p[team=1Guard,tag=!in_cam,distance=..6] run function ai:near_guard/run
 
 # set target
 execute as @e[tag=AI_pathfind] at @s unless data entity @s AngryAt positioned ~ ~3 ~ at @e[tag=AI_target,sort=nearest,limit=1,tag=!AI_target_active] run function ai:set_target

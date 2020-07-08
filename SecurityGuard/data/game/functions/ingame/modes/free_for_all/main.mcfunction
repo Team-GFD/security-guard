@@ -3,8 +3,8 @@
 
 scoreboard players set thieves_left game 0
 
-execute if score cooldown game matches -1 run execute as @a[team=Thief] run function game:ingame/modes/free_for_all/thief
-execute if score cooldown game matches -1 run execute as @a[team=Guard] run function game:ingame/modes/free_for_all/guard
+execute if score cooldown game matches -1 as @a[team=2Thief] run function game:ingame/modes/free_for_all/thief
+execute if score cooldown game matches -1 as @a[team=1Guard] run function game:ingame/modes/free_for_all/guard
 
 execute as @a[gamemode=adventure,tag=camera_mode] run function game:ingame/camera/camera_mode
 execute as @e[type=minecraft:armor_stand,tag=camera,tag=!disabled] at @s unless block ~ ~ ~ minecraft:acacia_fence run function game:ingame/camera/disable

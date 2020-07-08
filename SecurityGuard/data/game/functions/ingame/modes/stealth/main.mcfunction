@@ -3,8 +3,8 @@
 
 scoreboard players set thieves_left game 0
 
-execute if score cooldown game matches -1 run execute as @a[team=Thief] run function game:ingame/thief
-execute if score cooldown game matches -1 run execute as @a[team=Guard] run function game:ingame/guard
+execute if score cooldown game matches -1 as @a[team=2Thief] run function game:ingame/thief
+execute if score cooldown game matches -1 as @a[team=1Guard] run function game:ingame/guard
 execute as @a[tag=camera_mode] run function game:ingame/camera/camera_mode
 
 execute if score cooldown game matches -1 if score thieves_left game matches 0 run function game:ingame/end

@@ -3,9 +3,9 @@
 
 schedule clear game:ingame/global_end
 
-clear @a[team=!Spectator]
-effect clear @a[team=!Spectator]
-team join Thief @a[team=Dead]
+clear @a[team=!9Spectator]
+effect clear @a[team=!9Spectator]
+team join 2Thief @a[team=3Dead]
 
 xp set @a 0 points
 xp set @a 0 levels
@@ -30,9 +30,9 @@ scoreboard players set end_cooldown game 70
 
 scoreboard objectives setdisplay list stolen
 
-team modify Thief nametagVisibility always
-team modify Guard nametagVisibility always
-team modify Spectator nametagVisibility always
+team modify 2Thief nametagVisibility always
+team modify 1Guard nametagVisibility always
+team modify 9Spectator nametagVisibility always
 
 execute if score mode game matches 0 run function game:ingame/modes/robbery/end
 execute if score mode game matches 1 run function game:ingame/modes/stealth/end

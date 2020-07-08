@@ -1,35 +1,35 @@
 # Author: InternetAlien
 # Version: 1.15.2
 
-team add Thief
-team modify Thief prefix {"text":"Thief ","color":"dark_red"}
-team modify Thief color red
-#team modify Thief nametagVisibility hideForOtherTeams
-team modify Thief seeFriendlyInvisibles true
-team modify Thief collisionRule always
-team modify Thief friendlyFire false
+team add 2Thief
+team modify 2Thief prefix {"text":"Thief ","color":"dark_red"}
+team modify 2Thief color red
+#team modify 2Thief nametagVisibility hideForOtherTeams
+team modify 2Thief seeFriendlyInvisibles true
+team modify 2Thief collisionRule always
+team modify 2Thief friendlyFire false
 
-team add Dead
-team modify Dead prefix {"text":"Captured ","color":"dark_red"}
-team modify Dead color red
-#team modify Dead nametagVisibility hideForOtherTeams
-team modify Dead seeFriendlyInvisibles false
-team modify Dead collisionRule never
-team modify Dead friendlyFire false
+team add 3Dead
+team modify 3Dead prefix {"text":"Captured ","color":"dark_red"}
+team modify 3Dead color red
+#team modify 3Dead nametagVisibility hideForOtherTeams
+team modify 3Dead seeFriendlyInvisibles false
+team modify 3Dead collisionRule never
+team modify 3Dead friendlyFire false
 
-team add Guard
-team modify Guard prefix {"text":"Guard ","color":"dark_aqua"}
-team modify Guard color aqua
-#team modify Guard nametagVisibility hideForOtherTeams
-team modify Guard seeFriendlyInvisibles false
-team modify Guard collisionRule never
-team modify Guard friendlyFire false
+team add 1Guard
+team modify 1Guard prefix {"text":"Guard ","color":"dark_aqua"}
+team modify 1Guard color aqua
+#team modify 1Guard nametagVisibility hideForOtherTeams
+team modify 1Guard seeFriendlyInvisibles false
+team modify 1Guard collisionRule never
+team modify 1Guard friendlyFire false
 
-team add Spectator
-team modify Spectator color gray
-team modify Spectator seeFriendlyInvisibles false
-team modify Spectator friendlyFire false
-team modify Spectator collisionRule never
+team add 9Spectator
+team modify 9Spectator color gray
+team modify 9Spectator seeFriendlyInvisibles false
+team modify 9Spectator friendlyFire false
+team modify 9Spectator collisionRule never
 
 scoreboard objectives add game dummy
 scoreboard objectives add escape dummy

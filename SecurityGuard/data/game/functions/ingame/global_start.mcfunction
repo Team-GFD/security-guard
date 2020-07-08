@@ -24,9 +24,9 @@ xp set @a 0 points
 scoreboard objectives setdisplay list
 tag @a add inGame
 
-team modify Thief nametagVisibility hideForOtherTeams
-team modify Guard nametagVisibility hideForOtherTeams
-team modify Spectator nametagVisibility never
+team modify 2Thief nametagVisibility hideForOtherTeams
+team modify 1Guard nametagVisibility hideForOtherTeams
+team modify 9Spectator nametagVisibility never
 
 schedule function game:ingame/global_end 8000t replace
 
