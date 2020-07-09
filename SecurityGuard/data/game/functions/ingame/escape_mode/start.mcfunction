@@ -30,7 +30,7 @@ execute as @a unless entity @s[team=!2Thief,team=!3Dead] run tellraw @s [{"text"
 execute as @a unless entity @s[team=!1Guard,team=!9Spectator] at @s run playsound minecraft:entity.villager.yes voice @s ~ ~ ~ 1 2
 execute as @a unless entity @s[team=!1Guard,team=!9Spectator] run tellraw @s [{"text":"-> ","color":"white"},{"text":"[","color":"aqua"},{"text":"Security","color":"dark_aqua"},{"text":"] ","color":"aqua"},{"text":"Emergency exit doors triggered. The Museum will enter emergency lockdown in ","color":"white"},{"text":"60 seconds","color":"yellow"},{"text":".","color":"white"}]
 
-schedule function game:ingame/escape_mode/private/message0 3s replace
+schedule function game:ingame/escape_mode/private/message0 2s replace
 
 tag @a[tag=the_chosen_one] remove the_chosen_one
 
