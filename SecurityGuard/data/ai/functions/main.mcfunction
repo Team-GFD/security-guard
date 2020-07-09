@@ -11,7 +11,7 @@ execute as @e[tag=AI,type=creeper] at @e[tag=AI_pathfind,tag=!near_guard] if sco
 execute as @e[tag=AI_pathfind,tag=near_guard] at @e[type=creeper,tag=AI] if score @s AI = @e[type=creeper,tag=AI,distance=..1,sort=nearest,limit=1] AI run tp @s ~ ~ ~ ~ ~
 
 # capturing
-execute if score cooldown game matches -1 as @e[type=minecraft:villager,tag=AI] at @s run function ai:capture
+execute if score state game matches 1 if score cooldown game matches -1 as @e[type=minecraft:villager,tag=AI] at @s run function ai:capture
 execute as @e[type=minecraft:villager,tag=AI] at @s if score @s capture_time matches 1.. unless block ~ ~-1 ~ minecraft:gold_block run scoreboard players set @s capture_time 0
 
 # kill check

@@ -30,6 +30,4 @@ team modify 9Spectator nametagVisibility never
 
 schedule function game:ingame/global_end 8000t replace
 
-execute if score mode game matches 0 run function game:ingame/modes/robbery/start
-execute if score mode game matches 1 run function game:ingame/modes/stealth/start
-execute if score mode game matches 2 run function game:ingame/modes/free_for_all/start
+function game:ingame/modes/robbery/start
