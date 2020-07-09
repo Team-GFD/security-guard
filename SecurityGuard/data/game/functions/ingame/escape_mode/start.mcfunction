@@ -25,12 +25,12 @@ data modify entity @e[type=minecraft:armor_stand,tag=shp_driver,limit=1] CustomN
 tellraw @a ""
 
 execute as @a unless entity @s[team=!2Thief,team=!3Dead] at @s run playsound minecraft:entity.villager.ambient voice @s ~ ~ ~ 1 0.8
-execute as @a unless entity @s[team=!2Thief,team=!3Dead] run tellraw @s [{"text":"-> ","color":"white"},{"text":"[","color":"red"},{"text":"Radio","color":"dark_red"},{"text":"] ","color":"red"},{"text":"<","color":"white"},{"text":"Thief ","color":"dark_red"},{"selector":"@e[type=armor_stand,tag=shp_driver]","color":"red"},{"text":"> I've managed to hack the Museum's systems and open some of the emergency doors.","color":"white"}]
+execute as @a unless entity @s[team=!2Thief,team=!3Dead] run tellraw @s [{"text":"-> ","color":"white"},{"text":"[","color":"red"},{"text":"Radio","color":"dark_red"},{"text":"] ","color":"red"},{"text":"<","color":"white"},{"text":"Thief ","color":"dark_red"},{"selector":"@e[type=armor_stand,tag=shp_driver]","color":"red"},{"text":"> I've hacked the Museum's systems and ","color":"white"},{"text":"opened some of the emergency doors ","color":"yellow"},{"text":".","color":"white"}]
 
 execute as @a unless entity @s[team=!1Guard,team=!9Spectator] at @s run playsound minecraft:entity.villager.yes voice @s ~ ~ ~ 1 2
 execute as @a unless entity @s[team=!1Guard,team=!9Spectator] run tellraw @s [{"text":"-> ","color":"white"},{"text":"[","color":"aqua"},{"text":"Security","color":"dark_aqua"},{"text":"] ","color":"aqua"},{"text":"Emergency exit doors triggered. The Museum will enter emergency lockdown in ","color":"white"},{"text":"60 seconds","color":"yellow"},{"text":".","color":"white"}]
 
-schedule function game:ingame/escape_mode/private/message0 5s replace
+schedule function game:ingame/escape_mode/private/message0 3s replace
 
 tag @a[tag=the_chosen_one] remove the_chosen_one
 
