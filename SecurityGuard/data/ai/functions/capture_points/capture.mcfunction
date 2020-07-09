@@ -6,5 +6,4 @@
 execute positioned ~ ~-47 ~ run kill @e[tag=AI_target,distance=..2]
 execute as @e[tag=artifact,sort=nearest,limit=1] if entity @s[tag=shortcut] at @s positioned ~ ~-50 ~ run fill ~-4 ~-2 ~-4 ~4 ~2 ~4 minecraft:redstone_wire replace minecraft:rail
 scoreboard players set @s capture_time 0
-
-execute as @e[tag=AI_pathfind,limit=1] at @s run data modify entity @s AngryAt set from entity @e[tag=AI_target,sort=nearest,limit=1] UUID
+execute as @e[tag=AI_pathfind] if score @s AI = @e[tag=AI,type=villager,distance=..1,sort=nearest,limit=1] AI run scoreboard players add @s stolen 1
