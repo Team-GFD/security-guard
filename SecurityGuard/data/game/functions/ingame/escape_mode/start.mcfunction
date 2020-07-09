@@ -19,13 +19,13 @@ execute at @a[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exi
 #execute at @a[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=!shp_opening,sort=random,limit=1] run function game:ingame/doors/open_door
 
 summon minecraft:armor_stand 84 94 -46 {NoGravity:1b,Marker:1b,Invisible:1b,Tags:["shp_driver"]}
-loot replace block 103 107 -22 container.0 loot ai:get_thief_nbt
-data modify entity @e[type=minecraft:armor_stand,tag=shp_driver,limit=1] CustomName set from block 103 107 -22 Items[0].tag.ThiefName
+loot replace block 101 109 -24 container.0 loot ai:get_thief_nbt
+data modify entity @e[type=minecraft:armor_stand,tag=shp_driver,limit=1] CustomName set from block 101 109 -24 Items[0].tag.ThiefName
 
 tellraw @a ""
 
 execute as @a unless entity @s[team=!2Thief,team=!3Dead] at @s run playsound minecraft:entity.villager.ambient voice @s ~ ~ ~ 1 0.8
-execute as @a unless entity @s[team=!2Thief,team=!3Dead] run tellraw @s [{"text":"-> ","color":"white"},{"text":"[","color":"red"},{"text":"Radio","color":"dark_red"},{"text":"] ","color":"red"},{"text":"<","color":"white"},{"text":"Thief ","color":"dark_red"},{"text":"Driver ","color":"red"},{"selector":"@e[type=armor_stand,tag=shp_driver]","color":"red"},{"text":"> I've managed to hack the Museum's systems and open some of the emergency doors.","color":"white"}]
+execute as @a unless entity @s[team=!2Thief,team=!3Dead] run tellraw @s [{"text":"-> ","color":"white"},{"text":"[","color":"red"},{"text":"Radio","color":"dark_red"},{"text":"] ","color":"red"},{"text":"<","color":"white"},{"text":"Thief ","color":"dark_red"},{"selector":"@e[type=armor_stand,tag=shp_driver]","color":"red"},{"text":"> I've managed to hack the Museum's systems and open some of the emergency doors.","color":"white"}]
 
 execute as @a unless entity @s[team=!1Guard,team=!9Spectator] at @s run playsound minecraft:entity.villager.yes voice @s ~ ~ ~ 1 2
 execute as @a unless entity @s[team=!1Guard,team=!9Spectator] run tellraw @s [{"text":"-> ","color":"white"},{"text":"[","color":"aqua"},{"text":"Security","color":"dark_aqua"},{"text":"] ","color":"aqua"},{"text":"Emergency exit doors triggered. The Museum will enter emergency lockdown in ","color":"white"},{"text":"60 seconds","color":"yellow"},{"text":".","color":"white"}]
