@@ -10,6 +10,15 @@ team modify 2Thief seeFriendlyInvisibles true
 team modify 2Thief collisionRule always
 team modify 2Thief friendlyFire false
 
+team add thief_show
+team modify thief_show displayName {"text":"Thief","color":"dark_red"}
+team modify thief_show prefix {"text":"Thief ","color":"dark_red"}
+team modify thief_show color red
+team modify thief_show nametagVisibility always
+team modify thief_show seeFriendlyInvisibles true
+team modify thief_show collisionRule always
+team modify thief_show friendlyFire false
+
 team add 3Dead
 team modify 3Dead displayName {"text":"Captured","color":"#f01818"}
 team modify 3Dead prefix {"text":"Captured ","color":"#f01818"}
