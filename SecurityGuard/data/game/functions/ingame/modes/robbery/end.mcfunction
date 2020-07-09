@@ -1,7 +1,7 @@
 # Author: InternetAlien
 # Version: 1.15.2
 
-title @a times 1 40 20
+title @a times 1 120 10
 
 execute if score stolen game >= required game run title @a title {"text":"The Thieves Escaped!","color":"red"}
 
