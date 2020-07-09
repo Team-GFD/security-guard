@@ -36,8 +36,6 @@ team modify 2Thief nametagVisibility always
 team modify 1Guard nametagVisibility always
 team modify 9Spectator nametagVisibility always
 
-execute if score mode game matches 0 run function game:ingame/modes/robbery/end
-execute if score mode game matches 1 run function game:ingame/modes/stealth/end
-execute if score mode game matches 2 run function game:ingame/modes/free_for_all/end
+function game:ingame/modes/robbery/end
 
 scoreboard players set state game 2
