@@ -6,12 +6,8 @@ scoreboard players set #doors menu_id 1
 scoreboard players set #aicount menu_id 1
 scoreboard players set #aimode menu_id 1
 
-function menu:items/private/set_aimode_display
-function menu:items/private/set_aicount_display
-function menu:items/private/set_artifact_number
-
-execute if score #doors menu_id matches 0 run data modify entity @e[type=armor_stand,tag=shp_size_switch,tag=shp_menu_doors,limit=1] ArmorItems[3].tag.CustomModelData set value 14
-execute if score #doors menu_id matches 1 run data modify entity @e[type=armor_stand,tag=shp_size_switch,tag=shp_menu_doors,limit=1] ArmorItems[3].tag.CustomModelData set value 16
+function menu:clear_all
+function menu:load/lobby
 
 scoreboard objectives add menu_id dummy
 scoreboard objectives add menu_viewers dummy
