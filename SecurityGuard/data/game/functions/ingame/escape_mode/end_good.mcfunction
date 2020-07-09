@@ -9,6 +9,8 @@ execute if score esc_time_left game matches 0 run title @a subtitle {"text":"The
 execute if score esc_time_left game matches 1.. run title @a title {"text":"The Thieves Escaped!","color":"red"}
 execute if score esc_time_left game matches 1.. run title @a subtitle ""
 
+kill @e[tag=shp_driver]
+
 schedule clear game:ingame/escape_mode/timer
 
 function game:ingame/global_end
