@@ -29,6 +29,8 @@ team modify 2Thief nametagVisibility hideForOtherTeams
 team modify 1Guard nametagVisibility hideForOtherTeams
 team modify 9Spectator nametagVisibility never
 
+execute as @e[type=minecraft:armor_stand] run data merge entity @s {DisabledSlots:4144959}
+
 schedule function game:ingame/global_end 8000t replace
 
 function game:ingame/modes/robbery/start
