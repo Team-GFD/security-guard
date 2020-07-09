@@ -11,13 +11,22 @@ team modify 2Thief collisionRule always
 team modify 2Thief friendlyFire false
 
 team add 3Dead
-team modify 3Dead displayName {"text":"Captured","color":"dark_red"}
-team modify 3Dead prefix {"text":"Captured ","color":"dark_red"}
+team modify 3Dead displayName {"text":"Captured","color":"#f01818"}
+team modify 3Dead prefix {"text":"Captured ","color":"#f01818"}
 team modify 3Dead color red
 #team modify 3Dead nametagVisibility hideForOtherTeams
 team modify 3Dead seeFriendlyInvisibles false
 team modify 3Dead collisionRule never
 team modify 3Dead friendlyFire false
+
+team add 4Escaped
+team modify 4Escaped displayName {"text":"Escaped","color":"#fabe43"}
+team modify 4Escaped prefix {"text":"Escaped ","color":"#fabe43"}
+team modify 4Escaped color yellow
+team modify 4Escaped nametagVisibility hideForOtherTeams
+team modify 4Escaped seeFriendlyInvisibles false
+team modify 4Escaped collisionRule never
+team modify 4Escaped friendlyFire false
 
 team add 1Guard
 team modify 1Guard displayName {"text":"Guard","color":"dark_aqua"}
@@ -43,6 +52,7 @@ scoreboard objectives add camera_id dummy
 scoreboard objectives add game_id dummy
 scoreboard objectives add capture_time dummy
 
+scoreboard objectives add leave_game minecraft.custom:minecraft.leave_game
 scoreboard objectives add door_tick dummy
 
 scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
