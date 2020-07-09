@@ -6,6 +6,7 @@ schedule clear game:ingame/global_end
 clear @a[team=!9Spectator]
 effect clear @a[team=!9Spectator]
 team join 2Thief @a[team=3Dead]
+team join 2Thief @a[team=4Escaped]
 
 xp set @a 0 points
 xp set @a 0 levels
