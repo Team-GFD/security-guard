@@ -50,6 +50,7 @@ scoreboard objectives add stopped deathCount
 scoreboard objectives add used_camera minecraft.used:minecraft.carrot_on_a_stick
 
 scoreboard objectives add stolen dummy
+scoreboard objectives add kills minecraft.custom:minecraft.player_kills
 
 scoreboard players set max game 0
 execute as @e[type=minecraft:area_effect_cloud,tag=artifact] run scoreboard players add max game 1

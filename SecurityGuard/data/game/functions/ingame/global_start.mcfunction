@@ -11,6 +11,7 @@ scoreboard players reset * stopped
 
 scoreboard players set @a stopped 0
 scoreboard players set @a stolen 0
+scoreboard players set @a kills 0
 
 scoreboard players set @a game_id 1
 

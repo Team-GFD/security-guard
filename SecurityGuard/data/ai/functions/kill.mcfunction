@@ -11,4 +11,6 @@ tag @s remove AI_pathfind
 tag @s add AI_score
 tp @s @e[tag=AI_nbt,limit=1]
 
+scoreboard players add @p[team=1Guard,scores={AI_killed=1..}] kills 1
+
 scoreboard players reset @a AI_killed
