@@ -15,6 +15,8 @@ kill @e[type=minecraft:armor_stand,tag=player_holder]
 
 scoreboard players reset * game_id
 
+scoreboard players set initial_thieves game 0
+
 tag @a remove inGame
 tag @a remove lower
 tag @a remove upper
@@ -22,6 +24,8 @@ tag @a remove update_map
 
 bossbar set minecraft:stolen visible false
 bossbar set minecraft:stolen value 0
+
+bossbar set minecraft:thieves visible false
 
 execute as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=guard_door] at @s run tp @s ~ 104 ~
 execute as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=guard_door] at @s run fill ~1 ~ ~ ~-1 ~2 ~ minecraft:end_stone_brick_wall

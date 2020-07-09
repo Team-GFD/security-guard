@@ -23,5 +23,5 @@ execute if score cooldown game matches -1 as @e[tag=AI_pathfind,tag=!has_village
 execute as @e[tag=AI_pathfind,tag=!near_guard] at @s positioned ~ ~50 ~ if entity @p[team=1Guard,tag=!in_cam,distance=..6] run function ai:near_guard/run
 
 # set target
-execute as @e[tag=AI_pathfind] at @s unless data entity @s AngryAt positioned ~ ~3 ~ at @e[tag=AI_target,sort=nearest,limit=1,tag=!AI_target_active] run function ai:set_target
+execute if entity @e[tag=AI_target,tag=!AI_target_active] as @e[tag=AI_pathfind] at @s unless data entity @s AngryAt positioned ~ ~3 ~ at @e[tag=AI_target,sort=nearest,limit=1,tag=!AI_target_active] run function ai:set_target
 execute as @e[tag=artifact,tag=!captured] at @s positioned ^ ^-46 ^ unless entity @e[tag=AI_target,distance=..1] unless entity @e[tag=AI,distance=..5] run summon minecraft:vex ~ ~ ~ {NoAI:1,Silent:1b,Tags:["AI_target"],PersistenceRequired:1b}

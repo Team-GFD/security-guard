@@ -68,6 +68,10 @@ bossbar add stolen [{"text":"Artifacts Stolen (0/0)","color":"red"}]
 bossbar set minecraft:stolen style progress
 bossbar set minecraft:stolen color red
 
+bossbar add thieves [{"text":"Thieves Remaining (0/0)","color":"dark_aqua"}]
+bossbar set minecraft:thieves style progress
+bossbar set minecraft:thieves color blue
+
 gamerule naturalRegeneration false
 gamerule keepInventory true
 gamerule doTileDrops false

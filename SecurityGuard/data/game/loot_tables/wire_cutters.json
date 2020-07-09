@@ -32,10 +32,12 @@
                             "lore": [
                                 {
                                     "text": "These heavy duty cutters could ",
-                                    "color": "gray"
+                                    "color": "gray",
+                                    "italic": false
                                 }, {
                                     "text": "probably take out camera signal wires",
-                                    "color": "gray"
+                                    "color": "gray",
+                                    "italic": false
                                 }
                             ]
                         }
