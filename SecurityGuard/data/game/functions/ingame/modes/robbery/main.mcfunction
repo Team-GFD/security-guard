@@ -1,8 +1,11 @@
 # Author: InternetAlien
-# Version: 1.15.2
+# Version: 1.16.1
 
 scoreboard players set thieves_left game 0
 execute as @e[team=2Thief] run scoreboard players add thieves_left game 1
+
+execute store result bossbar minecraft:thieves value run scoreboard players get thieves_left game
+bossbar set minecraft:thieves name [{"text":"Thieves Remaining (","color":"red"},{"score":{"name":"thieves_left","objective":"game"}},{"text":"/"},{"score":{"name":"initial_thieves","objective":"game"}},{"text":")"}]
 
 execute if score cooldown game matches -1 as @a[team=2Thief] at @s run function game:ingame/modes/robbery/thief
 execute if score cooldown game matches -1 as @a[team=1Guard] at @s run function game:ingame/modes/robbery/guard

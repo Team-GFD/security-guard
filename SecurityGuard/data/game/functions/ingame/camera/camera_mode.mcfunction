@@ -26,14 +26,6 @@ tp @s[nbt={SelectedItemSlot:6}] @e[tag=camera,limit=1,scores={camera_id=6}]
 tp @s[nbt={SelectedItemSlot:7}] @e[tag=camera,limit=1,scores={camera_id=7}]
 tp @s[nbt={SelectedItemSlot:8}] @e[tag=camera,limit=1,scores={camera_id=8}]
 
-replaceitem entity @s hotbar.0 minecraft:red_stained_glass_pane{display:{Name:'{"text":" "}'},tag:["killme"]} 1
-replaceitem entity @s hotbar.1 minecraft:orange_stained_glass_pane{display:{Name:'{"text":" "}'},tag:["killme"]} 1
-replaceitem entity @s hotbar.2 minecraft:yellow_stained_glass_pane{display:{Name:'{"text":" "}'},tag:["killme"]} 1
-replaceitem entity @s hotbar.3 minecraft:green_stained_glass_pane{display:{Name:'{"text":" "}'},tag:["killme"]} 1
-replaceitem entity @s hotbar.4 minecraft:cyan_stained_glass_pane{display:{Name:'{"text":" "}'},tag:["killme"]} 1
-replaceitem entity @s hotbar.5 minecraft:blue_stained_glass_pane{display:{Name:'{"text":" "}'},tag:["killme"]} 1
-replaceitem entity @s hotbar.6 minecraft:purple_stained_glass_pane{display:{Name:'{"text":" "}'},tag:["killme"]} 1
-replaceitem entity @s hotbar.7 minecraft:light_gray_stained_glass_pane{display:{Name:'{"text":" "}'},tag:["killme"]} 1
-replaceitem entity @s hotbar.8 minecraft:gray_stained_glass_pane{display:{Name:'{"text":" "}'},tag:["killme"]} 1
+function game:ingame/camera/inventory_control
 
 execute if score @s[team=1Guard] sneak matches 1 run function game:ingame/camera/leave_camera

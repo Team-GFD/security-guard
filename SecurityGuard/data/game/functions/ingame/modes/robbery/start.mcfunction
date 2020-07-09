@@ -1,5 +1,5 @@
 # Author: InternetAlien
-# Version: 1.15.2
+# Version: 1.16.1
 
 title @a subtitle ""
 
@@ -11,6 +11,11 @@ tag @a[team=9Spectator] add camera_mode
 
 scoreboard players set thieves_escaped game 0
 
+scoreboard players set thieves_left game 0
+execute as @e[team=2Thief] run scoreboard players add thieves_left game 1
+
+scoreboard players operation initial_thieves game = thieves_left game
+
 execute if score total AI matches 1.. run function ai:start
 
 tag @e[type=area_effect_cloud,tag=thief_spawn,tag=spawned] remove spawned
@@ -20,6 +25,12 @@ bossbar set minecraft:stolen players @a[team=2Thief]
 execute store result bossbar minecraft:stolen max run scoreboard players get required game
 bossbar set minecraft:stolen value 0
 bossbar set minecraft:stolen name [{"text":"Artifacts Stolen (0/","color":"red"},{"score":{"name":"required","objective":"game"}},{"text":")"}]
+
+bossbar set minecraft:theives visible true
+bossbar set minecraft:thieves players @a[team=1Guard]
+execute store result bossbar minecraft:thieves max run scoreboard players get initial_thieves game
+execute store result bossbar minecraft:thieves value run scoreboard players get thieves_left game
+bossbar set minecraft:thieves name [{"text":"Thieves Remaining (","color":"red"},{"score":{"name":"thieves_left","objective":"game"}},{"text":"/"},{"score":{"name":"initial_thieves","objective":"game"}},{"text":")"}]
 
 execute if score #doors menu_id matches 1 run function game:ingame/doors/remove_doors
 execute if score #doors menu_id matches 1 run function game:ingame/doors/place_doors
