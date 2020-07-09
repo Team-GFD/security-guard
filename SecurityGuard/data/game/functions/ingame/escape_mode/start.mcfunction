@@ -14,9 +14,9 @@ bossbar set minecraft:stolen name {"text":"Time Left: 60s","color":"red"}
 
 tag @e[team=2Thief,sort=random,limit=1] add the_chosen_one
 
-execute at @a[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=!shp_opening,sort=nearest,limit=1] run function game:ingame/doors/open_door
-execute at @a[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=!shp_opening,sort=furthest,limit=1] run function game:ingame/doors/open_door
-execute at @a[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=!shp_opening,sort=random,limit=1] run function game:ingame/doors/open_door
+execute at @e[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=!shp_opening,sort=nearest,limit=1] run function game:ingame/doors/open_door
+execute at @e[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=!shp_opening,sort=furthest,limit=1] run function game:ingame/doors/open_door
+execute at @e[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=!shp_opening,sort=random,limit=1] run function game:ingame/doors/open_door
 #execute at @a[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=!shp_opening,sort=random,limit=1] run function game:ingame/doors/open_door
 
 summon minecraft:armor_stand 84 94 -46 {NoGravity:1b,Marker:1b,Invisible:1b,Tags:["shp_driver"]}
