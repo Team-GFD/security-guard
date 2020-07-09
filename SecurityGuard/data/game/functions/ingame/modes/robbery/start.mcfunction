@@ -1,6 +1,8 @@
 # Author: InternetAlien
 # Version: 1.15.2
 
+title @a subtitle ""
+
 tag @e[type=area_effect_cloud,tag=thief_spawn,limit=1,sort=random] add spawned
 
 execute as @a[team=2Thief] at @s run function game:ingame/modes/robbery/setup_thief
