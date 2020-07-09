@@ -1,6 +1,8 @@
 # Author: InternetAlien
 # Version: 1.15.2
 
+execute if score state game matches 3 run function game:ingame/escape_mode/main
+
 scoreboard players set thieves_left game 0
 execute as @e[team=2Thief] run scoreboard players add thieves_left game 1
 
