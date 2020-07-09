@@ -1,7 +1,7 @@
 # Author: InternetAlien
 # Version: 1.16.1
 
-# DONT FUCKING TOUCH THIS FILE SHEEPE
+# DONT FUCKING TOUCH THIS FILE SHEEPE no u
 
 scoreboard players set #max_stolen stolen 0
 scoreboard players operation #max_stolen stolen > @e[scores={stolen=0..}] stolen
