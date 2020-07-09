@@ -17,6 +17,7 @@ tag @e[type=area_effect_cloud,tag=thief_spawn,tag=spawned] remove spawned
 
 bossbar set minecraft:stolen visible true
 bossbar set minecraft:stolen players @a[team=2Thief]
+bossbar set minecraft:stolen players @a[team=9Spectator]
 execute store result bossbar minecraft:stolen max run scoreboard players get required game
 bossbar set minecraft:stolen value 0
 bossbar set minecraft:stolen name [{"text":"Artifacts Stolen (0/","color":"red"},{"score":{"name":"required","objective":"game"}},{"text":")"}]
@@ -29,6 +30,7 @@ scoreboard players operation initial_thieves game += total AI
 
 bossbar set minecraft:theives visible true
 bossbar set minecraft:thieves players @a[team=1Guard]
+bossbar set minecraft:thieves players @a[team=9Spectator]
 execute store result bossbar minecraft:thieves max run scoreboard players get initial_thieves game
 execute store result bossbar minecraft:thieves value run scoreboard players get thieves_left game
 bossbar set minecraft:thieves name [{"text":"Thieves Remaining (","color":"aqua"},{"score":{"name":"thieves_left","objective":"game"}},{"text":"/"},{"score":{"name":"initial_thieves","objective":"game"}},{"text":")"}]
