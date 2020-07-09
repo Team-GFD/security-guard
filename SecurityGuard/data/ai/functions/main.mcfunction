@@ -27,4 +27,4 @@ execute if score state game matches 1 if entity @e[tag=AI_target,tag=!AI_target_
 execute if score state game matches 1 as @e[tag=artifact,tag=!captured] at @s positioned ^ ^-46 ^ unless entity @e[tag=AI_target,distance=..1] unless entity @e[tag=AI,distance=..5] run summon minecraft:vex ~ ~ ~ {NoAI:1,Silent:1b,Tags:["AI_target"],PersistenceRequired:1b}
 
 # set target (door)
-execute if score state game matches 3 as @e[tag=AI_pathfind] at @s unless data entity @s AngryAt run data modify entity @s AngryAt set from entity @e[tag=AI_escape,sort=nearest,limit=1] UUID
+execute if score state game matches 3 as @e[tag=AI_pathfind] at @s unless data entity @s AngryAt run data modify entity @s AngryAt set from entity @e[tag=AI_escape,sort=random,limit=1] UUID

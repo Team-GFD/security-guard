@@ -16,7 +16,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{CanDestroy:[\"minecraft:acacia_fence\"],HideFlags:4,Unbreakable:1b}"
+                            "tag": "{CanDestroy:[\"minecraft:acacia_fence\"],HideFlags:12,Unbreakable:1b}"
                         },
                         {
                             "function": "set_name",
@@ -31,10 +31,11 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "These heavy duty cutters could ",
+                                    "text": "These heavy duty cutters could",
                                     "color": "gray",
                                     "italic": false
-                                }, {
+                                }, 
+                                {
                                     "text": "probably take out camera signal wires",
                                     "color": "gray",
                                     "italic": false
