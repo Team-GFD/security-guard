@@ -10,6 +10,7 @@ execute if score esc_time_left game matches 1.. run title @a title {"text":"The 
 execute if score esc_time_left game matches 1.. run title @a subtitle {"text":"All thieves were captured","color":"red"}
 
 kill @e[tag=shp_driver]
+tag @e remove shp_opening
 
 schedule clear game:ingame/escape_mode/timer
 
