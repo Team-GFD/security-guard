@@ -15,6 +15,8 @@ kill @e[type=minecraft:armor_stand,tag=player_holder]
 
 scoreboard players reset * game_id
 
+scoreboard players set initial_thieves game 0
+
 tag @a remove inGame
 tag @a remove lower
 tag @a remove upper

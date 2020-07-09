@@ -3,7 +3,7 @@
 
 scoreboard players set #inv_control game 0
 execute store success score #inv_control game run clear @s orange_dye 0
-execute if score #inv_control game matches 0 run function game:ingame/map/reset
+execute as @s[tag=!camera_mode] if score #inv_control game matches 0 run function game:ingame/map/reset
 
 scoreboard players set #inv_control game 0
 execute store success score #inv_control game run clear @s wooden_sword 0
