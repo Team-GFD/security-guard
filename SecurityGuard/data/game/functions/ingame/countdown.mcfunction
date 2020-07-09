@@ -5,7 +5,6 @@
 execute if score cooldown game matches 0..4 at @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=guard_door] run playsound minecraft:entity.iron_golem.repair master @a ~ ~ ~ 1 0.75
 
 execute if score cooldown game matches ..5 as @a at @s run playsound minecraft:block.comparator.click master @s ~ ~ ~ 100 1
-execute if score cooldown game matches 7 as @a at @s run playsound minecraft:entity.ghast.hurt master @s ~ ~ ~ 100 1
 
 title @a times 0 25 15
 execute if score cooldown game matches 7 run title @a title {"text":"The Alarm was Tripped!","color":"red"}

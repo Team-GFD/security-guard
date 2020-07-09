@@ -14,7 +14,7 @@ team add 3Dead
 team modify 3Dead displayName {"text":"Captured","color":"#f01818"}
 team modify 3Dead prefix {"text":"Captured ","color":"#f01818"}
 team modify 3Dead color red
-#team modify 3Dead nametagVisibility hideForOtherTeams
+team modify 3Dead nametagVisibility hideForOtherTeams
 team modify 3Dead seeFriendlyInvisibles false
 team modify 3Dead collisionRule never
 team modify 3Dead friendlyFire false
