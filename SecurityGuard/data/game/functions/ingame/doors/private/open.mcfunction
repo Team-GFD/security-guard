@@ -21,7 +21,7 @@ scoreboard players set @e[type=minecraft:armor_stand,sort=nearest,limit=2] door_
 
 tag @e[type=minecraft:armor_stand,sort=nearest,limit=2] remove shp_unset
 
-execute at @s as @a[distance=..15] at @s run playsound minecraft:item.bottle.fill_dragonbreath block @s ~ ~ ~ 3 0
+execute at @s as @a[distance=..20] at @s run playsound minecraft:item.bottle.fill_dragonbreath block @s ~ ~ ~ 4 0
 schedule function game:ingame/doors/private/open_schedule 1t replace
 
 kill @s

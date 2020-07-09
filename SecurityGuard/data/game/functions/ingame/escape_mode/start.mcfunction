@@ -13,17 +13,17 @@ bossbar set minecraft:stolen name {"text":"Time Left: 60s","color":"red"}
 
 tag @e[team=2Thief,sort=random,limit=1] add the_chosen_one
 
-execute at @a[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=!shp_open,sort=nearest,limit=1] run function game:ingame/doors/open_door
-execute at @a[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=!shp_open,sort=furthest,limit=1] run function game:ingame/doors/open_door
-execute at @a[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=!shp_open,sort=random,limit=1] run function game:ingame/doors/open_door
+execute at @a[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=!shp_opening,sort=nearest,limit=1] run function game:ingame/doors/open_door
+execute at @a[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=!shp_opening,sort=furthest,limit=1] run function game:ingame/doors/open_door
+execute at @a[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=!shp_opening,sort=random,limit=1] run function game:ingame/doors/open_door
 
-tag @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=shp_open,sort=random,tag=!shp_set,limit=1] add shp_a
+tag @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=shp_opening,sort=random,tag=!shp_set,limit=1] add shp_a
 tag @e[type=minecraft:area_effect_cloud,tag=shp_a] add shp_set
 
-tag @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=shp_open,sort=random,tag=!shp_set,limit=1] add shp_b
+tag @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=shp_opening,sort=random,tag=!shp_set,limit=1] add shp_b
 tag @e[type=minecraft:area_effect_cloud,tag=shp_b] add shp_set
 
-tag @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=shp_open,sort=random,tag=!shp_set,limit=1] add shp_c
+tag @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=shp_opening,sort=random,tag=!shp_set,limit=1] add shp_c
 tag @e[type=minecraft:area_effect_cloud,tag=shp_c] add shp_set
 
 execute as @a unless entity @a[team=!2Thief,team=!3Dead] at @s run playsound minecraft:entity.villager.ambient voice @s ~ ~ ~ 1 0.8
