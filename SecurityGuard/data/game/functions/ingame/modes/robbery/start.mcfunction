@@ -22,9 +22,10 @@ bossbar set minecraft:stolen value 0
 bossbar set minecraft:stolen name [{"text":"Artifacts Stolen (0/","color":"red"},{"score":{"name":"required","objective":"game"}},{"text":")"}]
 
 scoreboard players set thieves_left game 0
-execute as @e[team=2Thief] run scoreboard players add thieves_left game 1
+execute as @a[team=2Thief] run scoreboard players add thieves_left game 1
 
 scoreboard players operation initial_thieves game = thieves_left game
+scoreboard players operation initial_thieves game += total AI
 
 bossbar set minecraft:theives visible true
 bossbar set minecraft:thieves players @a[team=1Guard]
