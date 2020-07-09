@@ -30,7 +30,7 @@ scoreboard players operation initial_thieves game += total AI
 tag @a[team=1Guard] add bossbar_thieves
 tag @a[team=9Spectator] add bossbar_thieves
 
-bossbar set minecraft:theives visible true
+bossbar set minecraft:thieves visible true
 bossbar set minecraft:thieves players @a[tag=bossbar_thieves]
 execute store result bossbar minecraft:thieves max run scoreboard players get initial_thieves game
 execute store result bossbar minecraft:thieves value run scoreboard players get thieves_left game
