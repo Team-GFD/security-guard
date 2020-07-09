@@ -2,9 +2,6 @@
 # Version: 1.16.1
 # called from game:ingame/modes/robbery/start
 
-# reset previous AI scores
-execute at @e[tag=AI_nbt] run kill @e[tag=AI,distance=..5]
-
 # spawn cat under each guard
 execute as @a[team=1Guard] at @s positioned ~ ~-50 ~ run function ai:summon_cat 
 

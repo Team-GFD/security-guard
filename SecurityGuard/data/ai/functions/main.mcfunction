@@ -11,7 +11,7 @@ execute as @e[tag=AI,type=creeper] at @e[tag=AI_pathfind,tag=!near_guard] if sco
 execute as @e[tag=AI_pathfind,tag=near_guard] at @e[type=creeper,tag=AI] if score @s AI = @e[type=creeper,tag=AI,distance=..1,sort=nearest,limit=1] AI run tp @s ~ ~ ~ ~ ~
 
 # capturing
-execute if score state game matches 1 if score cooldown game matches -1 as @e[type=minecraft:villager,tag=AI] at @s run function ai:capture
+execute if score state game matches 1 if score cooldown game matches -1 as @e[type=minecraft:villager,tag=AI] at @s run function ai:capture_points/check
 execute as @e[type=minecraft:villager,tag=AI] at @s if score @s capture_time matches 1.. unless block ~ ~-1 ~ minecraft:gold_block run scoreboard players set @s capture_time 0
 
 # kill check
@@ -22,6 +22,9 @@ execute if score cooldown game matches -1 as @e[tag=AI_pathfind,tag=!has_village
 # near guard check
 execute as @e[tag=AI_pathfind,tag=!near_guard] at @s positioned ~ ~50 ~ if entity @p[team=1Guard,tag=!in_cam,distance=..6] run function ai:near_guard/run
 
-# set target
-execute if entity @e[tag=AI_target,tag=!AI_target_active] as @e[tag=AI_pathfind] at @s unless data entity @s AngryAt positioned ~ ~3 ~ at @e[tag=AI_target,sort=nearest,limit=1,tag=!AI_target_active] run function ai:set_target
-execute as @e[tag=artifact,tag=!captured] at @s positioned ^ ^-46 ^ unless entity @e[tag=AI_target,distance=..1] unless entity @e[tag=AI,distance=..5] run summon minecraft:vex ~ ~ ~ {NoAI:1,Silent:1b,Tags:["AI_target"],PersistenceRequired:1b}
+# set target (artifact)
+execute if score state game matches 1 if entity @e[tag=AI_target,tag=!AI_target_active] as @e[tag=AI_pathfind] at @s unless data entity @s AngryAt positioned ~ ~3 ~ at @e[tag=AI_target,sort=nearest,limit=1,tag=!AI_target_active] run function ai:set_target
+execute if score state game matches 1 as @e[tag=artifact,tag=!captured] at @s positioned ^ ^-46 ^ unless entity @e[tag=AI_target,distance=..1] unless entity @e[tag=AI,distance=..5] run summon minecraft:vex ~ ~ ~ {NoAI:1,Silent:1b,Tags:["AI_target"],PersistenceRequired:1b}
+
+# set target (door)
+execute if score state game matches 3 as @e[tag=AI_pathfind] at @s unless data entity @s AngryAt run data modify entity @s AngryAt set from entity @e[tag=AI_escape,sort=nearest,limit=1] UUID
