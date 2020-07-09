@@ -7,6 +7,8 @@ execute as @a[team=2Thief] at @s run function game:ingame/modes/robbery/setup_th
 execute as @a[team=1Guard] at @s run function game:ingame/modes/robbery/setup_guard
 tag @a[team=9Spectator] add camera_mode
 
+scoreboard players set thieves_escaped game 0
+
 execute if score total AI matches 1.. run function ai:start
 
 tag @e[type=area_effect_cloud,tag=thief_spawn,tag=spawned] remove spawned
