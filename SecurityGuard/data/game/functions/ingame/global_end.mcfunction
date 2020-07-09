@@ -45,6 +45,8 @@ team modify 9Spectator nametagVisibility always
 
 function game:ingame/end_message
 
+execute as @a unless entity @s[team=!1Guard,team=!4Escaped] run function game:ingame/camera/leave_camera
+
 execute if score state game matches 1 run function game:ingame/modes/robbery/end
 
 scoreboard players set state game 2
