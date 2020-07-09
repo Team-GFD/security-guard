@@ -25,5 +25,3 @@ team join 1Guard @a[tag=mvp_kills]
 
 tag @e[tag=mvp_stolen] remove mvp_stolen
 tag @a[tag=mvp_kills] remove mvp_kills
-
-execute at @e[tag=AI_nbt] run kill @e[tag=AI,distance=..5]
