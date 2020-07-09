@@ -26,6 +26,8 @@ bossbar set minecraft:stolen value 0
 execute as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=guard_door] at @s run tp @s ~ 104 ~
 execute as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=guard_door] at @s run fill ~1 ~ ~ ~-1 ~2 ~ minecraft:end_stone_brick_wall
 
+function game:ingame/doors/remove_doors
+
 scoreboard players set end_cooldown game 70
 
 scoreboard objectives setdisplay list stolen
