@@ -6,6 +6,8 @@
 scoreboard players set #max_stolen stolen 0
 scoreboard players operation #max_stolen stolen > @e[scores={stolen=0..}] stolen
 execute as @a[team=2Thief] if score @s stolen = #max_stolen stolen run tag @s add mvp_stolen
+execute as @a[team=3Dead] if score @s stolen = #max_stolen stolen run tag @s add mvp_stolen
+execute as @a[team=4Escaped] if score @s stolen = #max_stolen stolen run tag @s add mvp_stolen
 execute as @e[type=zombified_piglin,team=AI] if score @s stolen = #max_stolen stolen run tag @s add mvp_stolen
 
 scoreboard players set #max_kills kills 0
