@@ -8,7 +8,7 @@ effect give @s minecraft:resistance 1 10 true
 effect give @s minecraft:weakness 1 100 true
 effect give @s minecraft:levitation 1 255 true
 
-execute as @s at @s if entity @e[type=minecraft:armor_stand,tag=camera,tag=!disabled,sort=nearest,limit=1,distance=..3] run effect clear @s minecraft:blindness
+execute at @s if entity @e[type=minecraft:armor_stand,tag=camera,tag=!disabled,sort=nearest,limit=1,distance=..3] run effect clear @s minecraft:blindness
 execute as @s[team=!9Spectator] at @s if entity @e[type=minecraft:armor_stand,tag=camera,tag=disabled,sort=nearest,limit=1,distance=..3] run effect give @s minecraft:blindness 2 0 true
 execute as @s[team=!9Spectator] at @s if entity @e[type=minecraft:armor_stand,tag=camera,tag=disabled,sort=nearest,limit=1,distance=..3] run title @s[] times 0 3 0
 execute if score state game matches 1 as @s[team=!9Spectator] at @s if entity @e[type=minecraft:armor_stand,tag=camera,tag=disabled,sort=nearest,limit=1,distance=..3] run title @s title [{"text":"Error: #404","color":"dark_red","bold":false}]
@@ -28,4 +28,4 @@ tp @s[nbt={SelectedItemSlot:8}] @e[tag=camera,limit=1,scores={camera_id=8}]
 
 function game:ingame/camera/inventory_control
 
-execute if score @s[team=1Guard] sneak matches 1 run function game:ingame/camera/leave_camera
+execute if score @s sneak matches 1 unless entity @s[team=!1Guard,team=!4Escaped] run function game:ingame/camera/leave_camera
