@@ -1,6 +1,8 @@
 # Author: InternetAlien
 # Version: 1.15.2
 
+say this is the eend
+
 schedule clear game:ingame/global_end
 
 clear @a[team=!9Spectator]

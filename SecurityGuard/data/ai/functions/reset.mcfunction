@@ -13,6 +13,6 @@ execute as @e[type=minecraft:area_effect_cloud,tag=shortcut] at @s positioned ~ 
 execute at @e[tag=exit_door] run fill ^-1 ^-50 ^1 ^-2 ^-50 ^1 minecraft:activator_rail replace minecraft:tripwire
 
 # kill remaining AI entities
-kill @e[tag=AI,type=!minecraft:zombified_piglin]
+kill @e[tag=AI]
 tp @e[tag=AI_pathfind] @e[tag=AI_nbt,limit=1]
 tag @e[tag=AI_spawn] remove AI_spawn
