@@ -10,5 +10,6 @@ kill @e[tag=AI_target]
 execute as @e[type=minecraft:area_effect_cloud,tag=shortcut] at @s positioned ~ ~-50 ~ run fill ~-4 ~-2 ~-4 ~4 ~2 ~4 minecraft:rail replace minecraft:redstone_wire
 
 # kill remaining AI entities
-kill @e[tag=AI,tag=!AI_score]
+kill @e[tag=AI,type=!minecraft:zombified_piglin]
+tp @e[tag=AI_pathfind] @e[tag=AI_nbt,limit=1]
 tag @e[tag=AI_spawn] remove AI_spawn
