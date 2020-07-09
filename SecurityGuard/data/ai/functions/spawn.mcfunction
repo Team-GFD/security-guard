@@ -13,9 +13,9 @@ execute as @e[tag=AI_spawning] run scoreboard players operation @s AI = number A
 scoreboard players remove number AI 1
 
 # set villager AI name and biome
-loot replace block 65 76 -33 container.0 loot ai:get_thief_nbt
-execute as @e[type=villager,tag=AI_spawning] run data modify entity @s VillagerData.type set from block 65 76 -33 Items[1].tag.Biome
-execute as @e[type=villager,tag=AI_spawning] run data modify entity @s CustomName set from block 65 76 -33 Items[0].tag.ThiefName
+execute at @e[tag=AI_nbt,limit=1] run loot replace block ~ ~-1 ~ container.0 loot ai:get_thief_nbt
+execute at @e[tag=AI_nbt,limit=1] as @e[type=villager,tag=AI_spawning] run data modify entity @s VillagerData.type set from block ~ ~-1 ~ Items[1].tag.Biome
+execute at @e[tag=AI_nbt,limit=1] as @e[type=villager,tag=AI_spawning] run data modify entity @s CustomName set from block ~ ~-1 ~ Items[0].tag.ThiefName
 execute as @e[tag=AI_pathfind,tag=AI_spawning] run data modify entity @s CustomName set from entity @e[type=villager,tag=AI_spawning,limit=1] CustomName
 
 # difficulty (0=easy,1=normal,2=hard)
@@ -25,8 +25,6 @@ execute if score mode AI matches 0 as @e[type=!villager,tag=AI_spawning] run att
 execute if score mode AI matches 2 as @e[type=villager,tag=AI_spawning] run data modify entity @s VillagerData.level set value 5
 execute if score mode AI matches 2 as @e[type=!villager,tag=AI_spawning] run attribute @s minecraft:generic.movement_speed base set 0.4
 
-# assign random target
-schedule function ai:spawn/target 1t
-
 # repeat until selected number of AI's are spawned
-execute unless score number AI matches ..0 run schedule function ai:spawn/spawn 1t
+tag @e[tag=AI_spawning] remove AI_spawning
+execute unless score number AI matches ..0 run schedule function ai:spawn 4t
