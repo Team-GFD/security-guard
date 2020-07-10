@@ -1,8 +1,6 @@
 # Author: InternetAlien
 # Version: 1.15.2
 
-say left
-
 tag @s remove in_cam
 tag @s remove camera_mode
 

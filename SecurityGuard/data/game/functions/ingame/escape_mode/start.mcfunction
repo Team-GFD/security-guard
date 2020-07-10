@@ -23,11 +23,12 @@ data modify entity @e[type=minecraft:villager,tag=shp_driver,limit=1] CustomName
 
 tellraw @a ""
 
-execute as @a unless entity @s[team=!2Thief,team=!3Dead] at @s run playsound minecraft:entity.villager.ambient master @s ~ ~ ~ 6 0.8
+execute as @a unless entity @s[team=!2Thief,team=!3Dead] at @s run playsound minecraft:block.note_block.chime master @s ~ ~ ~ 6 1
+execute as @a unless entity @s[team=!2Thief,team=!3Dead] at @s run playsound minecraft:entity.villager.yes master @s ~ ~ ~ 6 1
 execute as @a unless entity @s[team=!2Thief,team=!3Dead] run tellraw @s [{"text":"-> ","color":"white"},{"text":"[","color":"red"},{"text":"Radio","color":"dark_red"},{"text":"] ","color":"red"},{"text":"<","color":"white"},{"text":"Thief ","color":"dark_red"},{"selector":"@e[type=armor_stand,tag=shp_driver]","color":"red"},{"text":"> I've hacked the Museum's systems and ","color":"white"},{"text":"opened some of the emergency doors","color":"yellow"},{"text":".","color":"white"}]
 
+execute as @a unless entity @s[team=!1Guard,team=!9Spectator] at @s run playsound minecraft:block.note_block.chime master @s ~ ~ ~ 6 1
 execute as @a unless entity @s[team=!1Guard,team=!9Spectator] at @s run playsound minecraft:entity.villager.yes master @s ~ ~ ~ 6 2
-execute as @a unless entity @s[team=!1Guard,team=!9Spectator] at @s run playsound minecraft:block.note_block.cow_bell master @s ~ ~ ~ 6 1
 execute as @a unless entity @s[team=!1Guard,team=!9Spectator] run tellraw @s [{"text":"-> ","color":"white"},{"text":"[","color":"aqua"},{"text":"Security","color":"dark_aqua"},{"text":"] ","color":"aqua"},{"text":"Emergency exit doors triggered. The Museum will enter emergency lockdown in ","color":"white"},{"text":"60 seconds","color":"yellow"},{"text":".","color":"white"}]
 execute as @a unless entity @s[team=!1Guard,team=!9Spectator] run tellraw @s ""
 
