@@ -11,4 +11,5 @@ execute as @s[tag=!camera_mode,team=1Guard] if score #inv_control game matches 0
 
 scoreboard players set #inv_control game 0
 execute store success score #inv_control game run clear @s carrot_on_a_stick 0
-execute as @s[tag=!camera_mode] unless entity @s[team=!1Guard,team=!4Escaped] if score #inv_control game matches 0 run replaceitem entity @s hotbar.8 minecraft:carrot_on_a_stick{display:{Name:'{"text":"Enter Camera","italic":false}',Lore:['{"text":"Click to enter camera mode.","color":"gray","italic":false}']},tag:["killme"],CustomModelData:1} 1
+execute as @s[tag=!camera_mode] unless entity @s[team=!1Guard] if score #inv_control game matches 0 run replaceitem entity @s hotbar.8 minecraft:carrot_on_a_stick{display:{Name:'{"text":"Enter Camera","italic":false}',Lore:['{"text":"Click to enter camera mode.","color":"gray","italic":false}']},tag:["killme"],CustomModelData:1} 1
+execute as @s[tag=!camera_mode] unless entity @s[team=!4Escaped] if score #inv_control game matches 0 run replaceitem entity @s hotbar.0 minecraft:carrot_on_a_stick{display:{Name:'{"text":"Enter Camera","italic":false}',Lore:['{"text":"Click to enter camera mode.","color":"gray","italic":false}']},tag:["killme"],CustomModelData:1} 1
