@@ -2,7 +2,7 @@
 # Version: 1.16+
 
 scoreboard players set state game 3
-schedule function game:ingame/global_end 60s replace
+# schedule function game:ingame/global_end 60s replace
 
 scoreboard players set esc_time_left game 60
 bossbar set minecraft:stolen value 60

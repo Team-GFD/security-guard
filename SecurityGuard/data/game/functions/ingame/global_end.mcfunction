@@ -1,8 +1,6 @@
 # Author: InternetAlien
 # Version: 1.15.2
 
-say this is the eend
-
 schedule clear game:ingame/global_end
 
 clear @a[team=!9Spectator]
@@ -38,8 +36,6 @@ execute as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=guard_door] at
 function game:ingame/doors/remove_doors
 
 scoreboard players set end_cooldown game 70
-
-scoreboard objectives setdisplay list stolen
 
 team modify 2Thief nametagVisibility always
 team modify 1Guard nametagVisibility always

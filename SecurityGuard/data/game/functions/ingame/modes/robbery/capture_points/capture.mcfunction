@@ -16,5 +16,7 @@ bossbar set minecraft:stolen name [{"text":"Artifacts Stolen (","color":"red"},{
 xp set @s 0 points
 xp set @s 0 levels
 
+kill @e[type=item,tag=,nbt={Item:{id:"minecraft:egg",Count:1b}}]
+
 execute if score stolen game >= required game if score #doors menu_id matches 0 run function game:ingame/global_end
 execute if score stolen game >= required game if score #doors menu_id matches 1 run function game:ingame/escape_mode/start
