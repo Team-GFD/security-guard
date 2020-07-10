@@ -32,4 +32,4 @@ execute if score state game matches 1 as @e[tag=artifact,tag=!captured] at @s po
 execute if score state game matches 3 as @e[tag=AI_pathfind] at @s unless data entity @s AngryAt run data modify entity @s AngryAt set from entity @e[tag=AI_escape,sort=nearest,limit=1] UUID
 
 # kill target when AI is near and door is not open
-execute if score state game matches 3 as @e[tag=AI_escape] at @s unless entity @e[tag=shp_open,distance=..5] if entity @e[tag=AI,distance=..5] run kill @s
+execute if score state game matches 3 as @e[tag=AI_escape] at @s positioned ~ ~50 ~ unless entity @e[tag=shp_open,distance=..5] if entity @e[tag=AI,distance=..5] run kill @s
