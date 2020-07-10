@@ -3,8 +3,7 @@
 
 effect give @s minecraft:saturation 2 1 true
 effect give @s minecraft:resistance 2 10 true
-effect give @s minecraft:weakness 2 10 true
-effect give @s minecraft:instant_health 2 10 true
+effect give @s minecraft:weakness 2 100 true
 
 # This makes sure that their inventory is not modified beyond what we accept
 
