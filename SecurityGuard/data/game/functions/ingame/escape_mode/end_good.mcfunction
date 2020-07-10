@@ -7,7 +7,7 @@ execute if score esc_time_left game matches 0 run title @a title {"text":"The Th
 execute if score esc_time_left game matches 0 run title @a subtitle {"text":"The Museum is in emergency lockdown","color":"yellow"}
 
 execute if score esc_time_left game matches 1.. run title @a title {"text":"The Thieves Escaped!","color":"red"}
-execute if score esc_time_left game matches 1.. run title @a subtitle ""
+execute if score esc_time_left game matches 1.. run title @a subtitle {"text":"All thieves escaped the museum","color":"yellow"}
 
 kill @e[type=armor_stand,tag=shp_driver]
 tag @e remove shp_opening
