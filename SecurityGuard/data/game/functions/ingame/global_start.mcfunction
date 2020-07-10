@@ -22,6 +22,8 @@ gamemode adventure @a
 xp set @a 0 levels
 xp set @a 0 points
 
+spawnpoint @a -34 120 -130
+
 scoreboard objectives setdisplay list
 tag @a add inGame
 

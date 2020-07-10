@@ -1,6 +1,8 @@
 # Author: SirSheepe
 # Version: 1.16+
 
+say good end
+
 title @a times 1 120 10
 
 execute if score esc_time_left game matches 0 run title @a title {"text":"The Thieves Escaped!","color":"red"}

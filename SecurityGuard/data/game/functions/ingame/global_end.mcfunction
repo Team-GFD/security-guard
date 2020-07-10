@@ -13,6 +13,8 @@ team join 2Thief @a[team=4Escaped]
 xp set @a 0 points
 xp set @a 0 levels
 
+spawnpoint @a -40 125 -35
+
 execute as @e[type=minecraft:armor_stand,tag=camera] at @s run function game:ingame/camera/enable
 kill @e[type=minecraft:armor_stand,tag=player_holder]
 
