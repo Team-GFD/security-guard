@@ -41,8 +41,6 @@ team modify 2Thief nametagVisibility always
 team modify 1Guard nametagVisibility always
 team modify 9Spectator nametagVisibility always
 
-function game:ingame/end_message
-
 execute as @a[tag=camera_mode] unless entity @s[team=!1Guard,team=!4Escaped] run function game:ingame/camera/leave_camera
 
 execute if score state game matches 1 run function game:ingame/modes/robbery/end
