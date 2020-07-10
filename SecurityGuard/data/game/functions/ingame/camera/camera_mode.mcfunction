@@ -14,7 +14,7 @@ execute as @s[team=!9Spectator] at @s if entity @e[type=minecraft:armor_stand,ta
 execute if score state game matches 1 as @s[team=!9Spectator] at @s if entity @e[type=minecraft:armor_stand,tag=camera,tag=disabled,sort=nearest,limit=1,distance=..3] run title @s title [{"text":"Error: #404","color":"dark_red","bold":false}]
 execute if score state game matches 1 as @s[team=!9Spectator] at @s if entity @e[type=minecraft:armor_stand,tag=camera,tag=disabled,sort=nearest,limit=1,distance=..3] run title @s subtitle [{"text":"No signal found.","color":"red","bold":true}]
 
-execute if score state game matches 1 at @s run title @s actionbar [{"text":"Now Viewing: ","color":"dark_gray","italic":false},{"selector":"@e[type=armor_stand,tag=camera,sort=nearest,limit=1]","bold":true}]
+execute at @s run title @s actionbar [{"text":"Now Viewing: ","color":"dark_gray","italic":false},{"selector":"@e[type=armor_stand,tag=camera,sort=nearest,limit=1]","bold":true}]
 
 tp @s[nbt={SelectedItemSlot:0}] @e[tag=camera,limit=1,scores={camera_id=0}]
 tp @s[nbt={SelectedItemSlot:1}] @e[tag=camera,limit=1,scores={camera_id=1}]
