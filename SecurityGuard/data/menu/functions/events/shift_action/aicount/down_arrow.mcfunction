@@ -6,6 +6,10 @@ execute if score #aicount menu_id = #max_aicount menu_id if score #aicount_offse
 execute if score #aicount menu_id = #max_aicount menu_id run scoreboard players operation #aicount menu_id -= #aicount_offset menu_id
 execute if score #aicount menu_id < #min_aicount menu_id run scoreboard players operation #aicount menu_id = #min_aicount menu_id
 
+tellraw @a[tag=viewer,scores={menu_rclick=1..},tag=!shp_menu_tip] [{"text":"[TIP] ","color":"yellow"},{"text":"You can sneak click the arrows to change by an alternate amount!","color":"green"}]
+execute as @a[tag=viewer,scores={menu_rclick=1..},tag=!shp_menu_tip] at @s run playsound minecraft:block.note_block.chime master @s ~ ~ ~ 1 1
+tag @a[tag=viewer,scores={menu_rclick=1..}] add shp_menu_tip
+
 execute if score #aicount menu_id = #min_aicount menu_id run data modify entity @s ArmorItems[3].tag.CustomModelData set value 0
 execute if score #aicount menu_id = #min_aicount menu_id run tag @s add shp_disabled
 data modify entity @e[type=minecraft:armor_stand,tag=shp_size_aicount_up_arrow,tag=!shp_hover,limit=1] ArmorItems[3].tag.CustomModelData set value 19
