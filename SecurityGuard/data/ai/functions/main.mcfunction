@@ -7,6 +7,10 @@ tag @e[tag=AI_pathfind] remove has_villager
 execute as @e[tag=AI_pathfind] at @e[type=villager] if score @e[type=villager,distance=..1,sort=nearest,limit=1] AI = @s AI run tag @s add has_villager
 execute if score cooldown game matches -1 as @e[tag=AI_pathfind,tag=!has_villager] at @s run function ai:kill
 
+# escape potion
+execute as @e[tag=AI,type=villager] store success score @s escape run effect clear @s minecraft:fire_resistance
+execute as @e[tag=AI,type=villager] if score @s escape matches 1 positioned ~ ~-50 ~ as @e[tag=AI_pathfind,distance=..1] at @s run function game:ingame/consumables/escape
+
 # teleport cat below guard
 execute at @a[team=1Guard] positioned ~ ~-50 ~ as @e[type=cat,tag=guard] if score @s player_id = @p[team=1Guard] player_id run tp @s ~ ~ ~ ~ ~
 
