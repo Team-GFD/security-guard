@@ -9,7 +9,7 @@ execute if score @s[tag=!camera_mode] reveal matches 1 run effect clear @s minec
 
 function game:ingame/inventory_control
 
-effect give @e[type=armor_stand,limit=1,sort=nearest,distance=..5,tag=camera,tag=!disabled] glowing 1 0 true
+execute as @e[type=armor_stand,limit=1,sort=nearest,distance=..10,tag=camera,tag=!disabled] at @s run particle end_rod ~ ~ ~ 0.25 0.25 0.25 0.05 1 normal @a[team=2Thief]
 
 execute if score state game matches 1 at @s[tag=!camera_mode] if score @s sneak matches 1.. if block ~ ~-1 ~ minecraft:gold_block run function game:ingame/capturing
 

@@ -20,8 +20,8 @@ team modify thief_show collisionRule always
 team modify thief_show friendlyFire false
 
 team add 3Dead
-team modify 3Dead displayName {"text":"Captured","color":"dark_gray"}
-team modify 3Dead prefix {"text":"Captured ","color":"gray"}
+team modify 3Dead displayName {"text":"Captured","color":"#612a00"}
+team modify 3Dead prefix {"text":"Captured ","color":"#c95802"}
 team modify 3Dead color red
 team modify 3Dead nametagVisibility hideForOtherTeams
 team modify 3Dead seeFriendlyInvisibles false
