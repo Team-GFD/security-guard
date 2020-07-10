@@ -1,6 +1,8 @@
 # Author: InternetAlien
 # Version: 1.16.1
 
+time set midnight
+
 title @a subtitle ""
 
 tag @e[type=area_effect_cloud,tag=thief_spawn,limit=1,sort=random] add spawned

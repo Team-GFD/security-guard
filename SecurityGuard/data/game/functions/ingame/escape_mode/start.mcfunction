@@ -1,8 +1,6 @@
 # Author: SirSheepe
 # Version: 1.16+
 
-time set midnight
-
 scoreboard players set state game 3
 schedule function game:ingame/global_end 60s replace
 
