@@ -9,7 +9,7 @@ execute if score cooldown game matches -1 as @e[tag=AI_pathfind,tag=!has_village
 
 # escape potion
 execute as @e[tag=AI,type=villager] store success score @s escape run effect clear @s minecraft:fire_resistance
-execute as @e[tag=AI,type=villager] if score @s escape matches 1 positioned ~ ~-50 ~ as @e[tag=AI_pathfind,distance=..1] at @s run function game:ingame/consumables/escape
+execute as @e[tag=AI,type=villager] if score @s escape matches 1 positioned ~ ~-50 ~ as @e[tag=AI_pathfind,distance=..1] at @e[distance=20..,sort=random,tag=room,type=area_effect_cloud,limit=1] run tp @s ~ ~-50 ~
 
 # teleport cat below guard
 execute at @a[team=1Guard] positioned ~ ~-50 ~ as @e[type=cat,tag=guard] if score @s player_id = @p[team=1Guard] player_id run tp @s ~ ~ ~ ~ ~
