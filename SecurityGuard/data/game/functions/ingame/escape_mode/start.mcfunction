@@ -38,6 +38,6 @@ schedule function game:ingame/escape_mode/private/message0 2s replace
 
 tag @a[tag=the_chosen_one] remove the_chosen_one
 
-function ai:doors/open
+schedule function ai:doors/open 1s
 
 schedule function game:ingame/escape_mode/timer 1s
