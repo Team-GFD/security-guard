@@ -18,6 +18,7 @@ scoreboard players set @a game_id 1
 effect clear @a
 clear @a
 gamemode adventure @a
+effect give @a instant_health 1 10 true
 
 xp set @a 0 levels
 xp set @a 0 points
