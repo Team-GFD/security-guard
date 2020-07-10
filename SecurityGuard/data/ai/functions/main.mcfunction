@@ -32,7 +32,7 @@ execute if score state game matches 1 if entity @e[tag=AI_target,tag=!AI_target_
 execute if score state game matches 1 as @e[tag=artifact,tag=!captured] at @s positioned ^ ^-46 ^ unless entity @e[tag=AI_target,distance=..1] unless entity @e[tag=AI,distance=..5] run summon minecraft:vex ~ ~ ~ {NoAI:1,Silent:1b,Tags:["AI_target"],PersistenceRequired:1b}
 
 # change target if not moving
-execute as entity @e[tag=AI_pathfind,nbt={Motion:[0.0d,0.0d,0.0d]}] at @s run function ai:target/not_moving
+execute as @e[tag=AI_pathfind,nbt={Motion:[0.0d,0.0d,0.0d]}] at @s run function ai:target/not_moving
 
 ## escape phase
 # set target (door)
