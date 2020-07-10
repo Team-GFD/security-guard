@@ -26,7 +26,7 @@ execute if score state game matches 1 if score cooldown game matches -1 if score
 execute if score cooldown game matches 0.. if score tick game matches 1.. run scoreboard players remove tick game 1
 
 execute if score cooldown game matches 0..4 run function game:ingame/guard_door
-execute if score cooldown game matches 5..7 as @a at @a run playsound minecraft:block.note_block.chime master @a ~ ~ ~ 1 0.75
+execute if score cooldown game matches 5..7 as @a at @a run playsound minecraft:block.note_block.chime master @a ~ ~ ~ 0.5 0.75
 
 execute if score tick game matches 0 run function game:ingame/countdown
 execute if score tick game matches 0 run scoreboard players set tick game 20
