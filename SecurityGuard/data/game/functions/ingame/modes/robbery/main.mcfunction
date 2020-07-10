@@ -13,7 +13,7 @@ execute if score cooldown game matches -1 as @a[team=2Thief] at @s run function 
 execute if score cooldown game matches -1 as @a[team=1Guard] at @s run function game:ingame/modes/robbery/guard
 
 execute as @a[team=!3Dead,team=!4Escaped] at @s at @s[tag=lower,y=113,dy=1000,team=!9Spectator] run function game:ingame/map/up
-execute as @a[team=!3Dead,team=!4Escaped] at @s at @s[tag=upper,y=112,dy=-1000,team=!9Spectator] run function game:ingame/map/down
+execute as @a[team=!3Dead,team=!4Escaped] at @s at @s[tag=upper,y=111,dy=-1000,team=!9Spectator] run function game:ingame/map/down
 
 execute as @a[tag=update_map,team=!9Spectator] at @s[team=!3Dead,team=!4Escaped] run function game:ingame/map/update
 
