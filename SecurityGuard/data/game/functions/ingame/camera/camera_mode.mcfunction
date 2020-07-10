@@ -28,4 +28,4 @@ tp @s[nbt={SelectedItemSlot:8}] @e[tag=camera,limit=1,scores={camera_id=8}]
 
 function game:ingame/camera/inventory_control
 
-execute if score @s sneak matches 1 unless entity @s[team=!1Guard,team=!4Escaped] run function game:ingame/camera/leave_camera
+execute if score @s sneak matches 1 unless entity @s[team=!1Guard,team=!4Escaped,team=!3Dead] run function game:ingame/camera/leave_camera
