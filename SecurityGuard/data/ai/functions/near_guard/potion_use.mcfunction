@@ -6,3 +6,4 @@
 tag @e[tag=AI,type=minecraft:villager,limit=1,sort=nearest,tag=!potion_used] add potion_used
 summon potion ~ ~ ~ {Item:{id:"minecraft:splash_potion",Count:1b,tag:{CustomPotionEffects:[{Duration:300,Id:1b,ShowParticles:0b},{Duration:300,Id:14b,ShowParticles:0b}]}}}
 effect give @s speed 15 0
+execute as @e[type=villager,tag=AI,tag=potion_used,distance=..2] at @s run replaceitem entity @s weapon air
