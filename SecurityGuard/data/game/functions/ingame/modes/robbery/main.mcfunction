@@ -19,9 +19,8 @@ execute as @a[tag=update_map,team=!9Spectator] at @s[team=!3Dead,team=!4Escaped]
 
 execute as @a[gamemode=adventure,tag=camera_mode] run function game:ingame/camera/camera_mode
 execute as @e[type=minecraft:armor_stand,tag=camera,tag=!disabled] at @s unless block ~ ~ ~ minecraft:acacia_fence run function game:ingame/camera/disable
-execute as @e[type=minecraft:armor_stand,tag=camera,tag=disabled] at @s run particle minecraft:lava ~ ~ ~ 0 0 0 0.01 1 normal @a[team=9Spectator]
+execute as @e[type=minecraft:armor_stand,tag=camera,tag=disabled] at @s run particle minecraft:lava ~ ~ ~ 0 0 0 0.01 1 normal @a[team=!9Spectator]
 
-execute if score state game matches 1 if score cooldown game matches -1 if score thieves_left game matches 0 unless score thieves_escaped game matches 1.. run say main rob end
 execute if score state game matches 1 if score cooldown game matches -1 if score thieves_left game matches 0 unless score thieves_escaped game matches 1.. run function game:ingame/global_end
 execute if score cooldown game matches 0.. if score tick game matches 1.. run scoreboard players remove tick game 1
 
