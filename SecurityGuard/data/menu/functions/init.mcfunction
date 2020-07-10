@@ -1,9 +1,9 @@
 # Author: SirSheepe
 # Version: 1.16+
 
-scoreboard players set #artifacts menu_id 35
+scoreboard players set #artifacts menu_id 50
 scoreboard players set #doors menu_id 1
-scoreboard players set #aicount menu_id 1
+scoreboard players set #aicount menu_id 2
 scoreboard players set #aimode menu_id 1
 
 function menu:clear_all
