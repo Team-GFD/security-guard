@@ -2,7 +2,6 @@
 # Version: 1.16+
 
 scoreboard players set state game 3
-# schedule function game:ingame/global_end 60s replace
 
 scoreboard players set esc_time_left game 60
 bossbar set minecraft:stolen value 60
@@ -15,7 +14,7 @@ tag @e[team=2Thief,sort=random,limit=1] add the_chosen_one
 execute at @e[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=!shp_opening,sort=nearest,limit=1] run function game:ingame/doors/open_door
 execute at @e[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=!shp_opening,sort=furthest,limit=1] run function game:ingame/doors/open_door
 execute at @e[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=!shp_opening,sort=random,limit=1] run function game:ingame/doors/open_door
-#execute at @e[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=!shp_opening,sort=random,limit=1] run function game:ingame/doors/open_door
+execute at @e[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=!shp_opening,sort=random,limit=1] run function game:ingame/doors/open_door
 
 summon minecraft:armor_stand 84 94 -46 {NoGravity:1b,Marker:1b,Invisible:1b,Tags:["shp_driver"]}
 loot replace block 101 109 -24 container.0 loot ai:get_thief_nbt
