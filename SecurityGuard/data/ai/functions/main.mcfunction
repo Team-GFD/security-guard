@@ -33,7 +33,7 @@ execute if score state game matches 1 as @e[tag=artifact,tag=!captured] at @s po
 
 # change target if not moving
 execute if score cooldown game matches -1 if entity @e[tag=AI_target,tag=!AI_target_active] as @e[tag=AI_pathfind,nbt={Motion:[0.0d,0.0d,0.0d]}] at @s unless block ~ ~-1 ~ minecraft:gold_block run function ai:target/idle_counter
-execute as @e[tag=AI_pathfind,scores={AI_idle=1..}] unless entity @e[nbt={Motion:[0.0d,0.0d,0.0d]}] run scoreboard players set @s AI_idle 0
+execute as @e[tag=AI_pathfind,scores={AI_idle=1..}] unless entity @s[nbt={Motion:[0.0d,0.0d,0.0d]}] run scoreboard players set @s AI_idle 0
 
 ## escape phase
 # set target (door)
