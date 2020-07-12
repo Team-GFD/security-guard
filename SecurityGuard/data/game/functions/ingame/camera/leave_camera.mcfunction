@@ -14,7 +14,8 @@ clear @s
 
 execute as @s[team=1Guard] run function game:ingame/map/reset
 
-tp @s[team=!1Guard] -26.0 121.0 -138.5 0 20
+tp @s[team=4Escaped] -26.0 121.0 -138.5 0 20
+tp @s[team=3Dead] -34 120 -130 -90 0
 
 execute as @s[team=1Guard] run execute at @e[type=minecraft:armor_stand,tag=player_holder] if score @s player_id = @e[type=minecraft:armor_stand,tag=player_holder,sort=nearest,limit=1] player_id as @e[type=minecraft:armor_stand,limit=1,sort=nearest] run tag @s add tp
 execute as @s[team=1Guard] run tp @s @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=tp]

@@ -11,3 +11,4 @@ tag @s add camera_mode
 team join 9Spectator @s
 
 scoreboard players set @s game_id 1
+tag @s add inGame
