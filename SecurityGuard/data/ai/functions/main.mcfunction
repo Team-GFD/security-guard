@@ -4,12 +4,12 @@
 
 # kill check
 tag @e[tag=AI_pathfind] remove has_villager
-execute as @e[tag=AI_pathfind] at @e[type=villager] if score @e[type=villager,distance=..1,sort=nearest,limit=1] AI = @s AI run tag @s add has_villager
+execute as @e[tag=AI_pathfind] at @e[type=villager,tag=AI] if score @e[type=villager,tag=AI,distance=..1,sort=nearest,limit=1] AI = @s AI run tag @s add has_villager
 execute if score cooldown game matches -1 as @e[tag=AI_pathfind,tag=!has_villager] at @s run function ai:kill
 
 # escape potion
 execute as @e[tag=AI,type=villager] store success score @s escape run effect clear @s minecraft:fire_resistance
-execute as @e[tag=AI,type=villager] if score @s escape matches 1 positioned ~ ~-50 ~ as @e[tag=AI_pathfind,distance=..1] at @e[distance=20..,sort=random,tag=room,type=area_effect_cloud,limit=1] run tp @s ~ ~-50 ~
+execute as @e[tag=AI,type=villager] at @s if score @s escape matches 1 positioned ~ ~-50 ~ as @e[tag=AI_pathfind,distance=..3] positioned ~ ~50 ~ run function game:ingame/consumables/escape
 
 # teleport cat below guard
 execute at @a[team=1Guard] positioned ~ ~-50 ~ as @e[type=cat,tag=guard] if score @s player_id = @p[team=1Guard] player_id run tp @s ~ ~ ~ ~ ~
@@ -28,11 +28,12 @@ execute as @e[type=minecraft:villager,tag=AI] at @s if score @s capture_time mat
 execute if score state game matches 1 as @e[tag=AI_pathfind,tag=!near_guard] at @s positioned ~ ~50 ~ if entity @p[team=1Guard,tag=!in_cam,distance=..6] run function ai:near_guard/run
 
 # set target (artifact)
-execute if score state game matches 1 if entity @e[tag=AI_target,tag=!AI_target_active] as @e[tag=AI_pathfind] at @s unless data entity @s AngryAt positioned ~ ~3 ~ at @e[tag=AI_target,sort=nearest,limit=1,tag=!AI_target_active] run function ai:target/set
+execute if score state game matches 1 if entity @e[tag=AI_target,tag=!AI_target_active] as @e[tag=AI_pathfind] at @s unless block ~ ~49 ~ minecraft:gold_block unless data entity @s AngryAt positioned ~ ~3 ~ at @e[tag=AI_target,sort=nearest,limit=1,tag=!AI_target_active] run function ai:target/set
 execute if score state game matches 1 as @e[tag=artifact,tag=!captured] at @s positioned ^ ^-46 ^ unless entity @e[tag=AI_target,distance=..1] unless entity @e[tag=AI,distance=..5] run summon minecraft:vex ~ ~ ~ {NoAI:1,Silent:1b,Tags:["AI_target"],PersistenceRequired:1b}
 
 # change target if not moving
-#execute as @e[tag=AI_pathfind,nbt={Motion:[0.0d,0.0d,0.0d]}] at @s unless block ~ ~-1 ~ minecraft:gold_block run function ai:target/not_moving
+execute if score cooldown game matches -1 if entity @e[tag=AI_target,tag=!AI_target_active] as @e[tag=AI_pathfind,nbt={Motion:[0.0d,0.0d,0.0d]}] at @s unless block ~ ~-1 ~ minecraft:gold_block run function ai:target/idle_counter
+execute as @e[tag=AI_pathfind,scores={AI_idle=1..}] unless entity @e[nbt={Motion:[0.0d,0.0d,0.0d]}] run scoreboard players set @s AI_idle 0
 
 ## escape phase
 # set target (door)

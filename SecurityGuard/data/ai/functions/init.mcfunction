@@ -3,6 +3,7 @@
 
 scoreboard objectives add AI dummy
 scoreboard objectives add AI_killed minecraft.killed:minecraft.villager
+scoreboard objectives add AI_idle dummy
 
 team add AI
 team modify AI color red
