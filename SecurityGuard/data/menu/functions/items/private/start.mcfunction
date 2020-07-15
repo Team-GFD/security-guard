@@ -7,4 +7,6 @@ scoreboard players operation required game = #artifacts menu_id
 scoreboard players operation total AI = #aicount menu_id
 scoreboard players operation mode AI = #aimode menu_id
 
+scoreboard players set #starting game 1
+
 function game:ingame/global_start

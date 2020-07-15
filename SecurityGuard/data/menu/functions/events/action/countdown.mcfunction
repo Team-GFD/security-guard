@@ -11,6 +11,8 @@ data modify entity @s[tag=shp_hover] ArmorItems[3].tag.CustomModelData set value
 
 execute as @a at @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~ 1 0.5
 
+scoreboard players set #starting game 0
+
 schedule clear menu:items/private/countdown
 
 tag @s add shp_handled
