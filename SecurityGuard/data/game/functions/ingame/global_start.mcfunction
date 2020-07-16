@@ -8,6 +8,7 @@ scoreboard players set tick game 0
 
 scoreboard players reset * stolen
 scoreboard players reset * stopped
+scoreboard players reset * kills
 
 scoreboard players set @a stopped 0
 scoreboard players set @a stolen 0
