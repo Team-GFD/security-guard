@@ -28,4 +28,4 @@ execute if score mode AI matches 2 as @e[tag=AI_villager,tag=AI_spawning] run da
 
 # repeat until selected number of AI's are spawned
 tag @e[tag=AI_spawning] remove AI_spawning
-execute unless score AI_id AI matches ..0 run schedule function ai:spawn 4t
+execute unless score AI_id AI matches ..0 run function ai:spawn
