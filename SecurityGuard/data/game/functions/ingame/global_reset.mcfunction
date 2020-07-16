@@ -10,6 +10,7 @@ execute if score end_cooldown game matches 0 as @e[type=minecraft:area_effect_cl
 execute if score end_cooldown game matches 0 run time set noon
 execute if score end_cooldown game matches 0 run tag @a remove camera_mode
 execute if score end_cooldown game matches 0 run tag @a remove in_cam
+execute if score end_cooldown game matches 0 run scoreboard players reset * game_id
 execute if score end_cooldown game matches 0 run clear @a
 execute if score end_cooldown game matches 0 run effect clear @a
 

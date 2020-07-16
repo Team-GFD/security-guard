@@ -1,6 +1,8 @@
 # Author: InternetAlien
 # Version: 1.15.2
 
+say reset
+
 clear @s
 effect clear @s
 
