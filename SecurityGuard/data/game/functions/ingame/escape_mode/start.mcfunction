@@ -16,11 +16,6 @@ execute at @e[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exi
 execute at @e[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=!shp_opening,sort=random,limit=1] run function game:ingame/doors/open_door
 execute at @e[tag=the_chosen_one] as @e[type=minecraft:area_effect_cloud,tag=exit_door,tag=!shp_opening,sort=random,limit=1] run function game:ingame/doors/open_door
 
-summon minecraft:armor_stand 84 94 -46 {NoGravity:1b,Marker:1b,Invisible:1b,Tags:["shp_driver"]}
-loot replace block 101 109 -24 container.0 loot ai:get_thief_nbt
-data modify entity @e[type=minecraft:armor_stand,tag=shp_driver,limit=1] CustomName set from block 101 109 -24 Items[0].tag.ThiefName
-data modify entity @e[type=minecraft:villager,tag=shp_driver,limit=1] CustomName set from block 101 109 -24 Items[0].tag.ThiefName
-
 tellraw @a ""
 
 execute as @a unless entity @s[team=!2Thief,team=!3Dead] at @s run playsound minecraft:block.note_block.chime master @s ~ ~ ~ 6 1

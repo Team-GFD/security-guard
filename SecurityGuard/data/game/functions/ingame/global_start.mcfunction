@@ -35,6 +35,11 @@ team modify 9Spectator nametagVisibility never
 
 execute as @e[type=minecraft:armor_stand] run data merge entity @s {DisabledSlots:4144959}
 
+summon minecraft:armor_stand 84 94 -46 {NoGravity:1b,Marker:1b,Invisible:1b,Tags:["shp_driver"]}
+loot replace block 101 109 -24 container.0 loot ai:get_thief_nbt
+data modify entity @e[type=minecraft:armor_stand,tag=shp_driver,limit=1] CustomName set from block 101 109 -24 Items[0].tag.ThiefName
+data modify entity @e[type=minecraft:villager,tag=shp_driver,limit=1] CustomName set from block 101 109 -24 Items[0].tag.ThiefName
+
 schedule function game:ingame/global_end 8000t replace
 
 function game:ingame/modes/robbery/start
