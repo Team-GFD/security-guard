@@ -6,6 +6,8 @@ scoreboard players set #current_time menu_id 5
 
 tag @s add shp_prv_countdown
 
+scoreboard players set #starting game 1
+
 function menu:items/private/set_correct_data
 schedule function menu:items/private/countdown 20t
 
