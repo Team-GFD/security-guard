@@ -18,4 +18,7 @@ execute if score cooldown game matches 0 run title @a subtitle [{"text":""}]
 
 execute if score cooldown game matches 0 as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=guard_door] at @s run fill ~1 ~ ~ ~-1 ~-3 ~ air replace minecraft:end_stone_brick_wall
 
+execute if score cooldown game matches 7 run tellraw @a[team=2Thief] ""
+execute if score cooldown game matches 7 run tellraw @a[team=2Thief] [{"text":"-> ","color":"white"},{"text":"[","color":"red"},{"text":"Radio","color":"dark_red"},{"text":"] ","color":"red"},{"text":"<","color":"white"},{"text":"Thief ","color":"dark_red"},{"selector":"@e[type=armor_stand,tag=shp_driver]","color":"red"},{"text":"> Shoot you tripped the alarm! You only have around ","color":"white"},{"text":"6.5 minutes","color":"yellow"},{"text":" until the police arrive.","color":"white"}]
+
 scoreboard players remove cooldown game 1
