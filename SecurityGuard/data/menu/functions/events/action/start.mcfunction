@@ -16,6 +16,13 @@ execute as @e[type=armor_stand,tag=shp_size_aicount_down_arrow] run function men
 execute as @e[type=armor_stand,tag=shp_size_aimode_up_arrow] run function menu:events/unhover/aimode/up_arrow
 execute as @e[type=armor_stand,tag=shp_size_aimode_down_arrow] run function menu:events/unhover/aimode/down_arrow
 
+execute as @e[type=armor_stand,tag=shp_size_artifact_up_arrow] run tag @s remove shp_hover
+execute as @e[type=armor_stand,tag=shp_size_artifact_down_arrow] run tag @s remove shp_hover
+execute as @e[type=armor_stand,tag=shp_size_aicount_up_arrow] run tag @s remove shp_hover
+execute as @e[type=armor_stand,tag=shp_size_aicount_down_arrow] run tag @s remove shp_hover
+execute as @e[type=armor_stand,tag=shp_size_aimode_up_arrow] run tag @s remove shp_hover
+execute as @e[type=armor_stand,tag=shp_size_aimode_down_arrow] run tag @s remove shp_hover
+
 function menu:items/private/set_correct_data
 schedule function menu:items/private/countdown 20t
 
