@@ -6,5 +6,5 @@
 execute as @a[team=1Guard] at @s positioned ~ ~-50 ~ run function ai:summon_cat 
 
 # spawn AI entities
-scoreboard players operation number AI = total AI
+scoreboard players operation AI_id AI = total AI
 function ai:spawn
