@@ -30,10 +30,11 @@ execute if score state game matches 1 as @e[tag=AI_pathfind,tag=!near_guard] at 
 # set target (artifact)
 execute as @e[tag=AI_pathfind] unless data entity @s AngryAt run tag @s add AI_not_angry
 execute if score state game matches 1 if entity @e[tag=AI_target,tag=!AI_target_active] as @e[tag=AI_pathfind,tag=AI_not_angry,limit=1] at @s unless block ~ ~49 ~ minecraft:gold_block positioned ~ ~3 ~ at @e[tag=AI_target,tag=!AI_target_active,sort=nearest,limit=1] run function ai:target/set
+execute if score state game matches 1 if entity @e[tag=AI_target] unless entity @e[tag=AI_target,tag=!AI_target_active] as @e[tag=AI_pathfind,tag=AI_not_angry,limit=1] at @s unless block ~ ~49 ~ minecraft:gold_block positioned ~ ~3 ~ at @e[tag=AI_target,sort=nearest,limit=1] run function ai:target/set
 execute if score state game matches 1 as @e[tag=artifact,tag=!captured] at @s positioned ^ ^-46 ^ unless entity @e[tag=AI_target,distance=..1] unless entity @e[tag=AI,distance=..4] run summon minecraft:vex ~ ~ ~ {NoAI:1,Silent:1b,Tags:["AI_target"],PersistenceRequired:1b}
 
 # change target if not moving
-execute if score cooldown game matches -1 if entity @e[tag=AI_target,tag=!AI_target_active] as @e[tag=AI_pathfind,nbt={Motion:[0.0d,0.0d,0.0d]}] at @s unless block ~ ~-1 ~ minecraft:gold_block run function ai:target/idle_counter
+execute if score cooldown game matches -1 if score state game matches 1 if entity @e[tag=AI_target,tag=!AI_target_active] as @e[tag=AI_pathfind,nbt={Motion:[0.0d,0.0d,0.0d]}] at @s unless block ~ ~-1 ~ minecraft:gold_block run function ai:target/idle_counter
 execute as @e[tag=AI_pathfind,scores={AI_idle=1..}] unless entity @s[nbt={Motion:[0.0d,0.0d,0.0d]}] run scoreboard players set @s AI_idle 0
 
 ## escape phase
