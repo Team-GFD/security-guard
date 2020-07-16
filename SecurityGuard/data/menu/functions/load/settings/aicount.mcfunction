@@ -5,7 +5,7 @@ function menu:clear/settings/aicount
 schedule function menu:fire 10t replace
 
 execute unless score #aicount menu_id matches 0.. run scoreboard players set #aicount menu_id 1
-scoreboard players set #max_aicount menu_id 99
+scoreboard players set #max_aicount menu_id 50
 scoreboard players set #min_aicount menu_id 0
 
 scoreboard players set #temp menu_id 5
