@@ -5,6 +5,7 @@ execute at @e[tag=AI_pathfind] if score @e[tag=AI_pathfind,distance=..1,sort=nea
 
 tellraw @a [{"text":"[!] ","color":"yellow"},{"selector":"@e[tag=shp_escaped]"},{"text":" has escaped!","color":"white"}]
 
+tag @e[tag=shp_escaped] add piglin_escapee
 tag @e[tag=shp_escaped] remove shp_escaped
 
 team join 4Escaped @s

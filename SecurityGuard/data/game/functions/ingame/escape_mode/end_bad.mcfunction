@@ -9,6 +9,8 @@ execute if score esc_time_left game matches 0 run title @a subtitle {"text":"The
 execute if score esc_time_left game matches 1.. run title @a title {"text":"The Guards Win!","color":"dark_aqua"}
 execute if score esc_time_left game matches 1.. run title @a subtitle {"text":"All thieves were captured","color":"yellow"}
 
+scoreboard players set #winners game 0
+
 kill @e[type=armor_stand,tag=shp_driver]
 tag @e remove shp_opening
 
