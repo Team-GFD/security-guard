@@ -11,7 +11,6 @@ execute if score esc_time_left game matches 1.. run title @a subtitle {"text":"A
 
 scoreboard players set #winners game 1
 
-kill @e[type=armor_stand,tag=shp_driver]
 tag @e remove shp_opening
 
 schedule clear game:ingame/escape_mode/timer

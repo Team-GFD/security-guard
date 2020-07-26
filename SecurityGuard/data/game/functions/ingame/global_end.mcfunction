@@ -3,6 +3,8 @@
 
 schedule clear game:ingame/global_end
 
+kill @e[type=armor_stand,tag=shp_driver]
+
 clear @a[team=!9Spectator]
 effect clear @a[team=!9Spectator]
 team join 2Thief @a[team=3Dead]
