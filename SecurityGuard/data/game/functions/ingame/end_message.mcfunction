@@ -84,7 +84,7 @@ execute if score #most_stolen stolen matches 1.. unless entity @e[tag=mvp_stolen
 
 execute if score #most_stolen stolen matches 0 unless entity @e[tag=mvp_stolen] run tellraw @a [{"text":"                     Top Thief: ","color":"#d63c3c","bold":true},{"text":"None\n","color":"#afafaf","bold":false}]
 
-execute if score #max_stolen stolen matches 1.. if entity @e[tag=mvp_stolen] run tellraw @a [{"text":"               Most Stolen: ","color":"#dfdfdf","bold":true},{"selector":"@a[tag=most_stolen,limit=1]","color":"red","bold":false},{"text":" (","color":"#afafaf","bold":false},{"score":{"name":"#most_stolen","objective":"stolen"},"color":"#afafaf","bold":false},{"text":" )","color":"#afafaf","bold":false}]
+execute if score #max_stolen stolen matches 1.. if entity @e[tag=mvp_stolen] run tellraw @a [{"text":"           Most Stolen: ","color":"#dfdfdf","bold":true},{"selector":"@a[tag=most_stolen,limit=1]","color":"red","bold":false},{"text":" (","color":"#afafaf","bold":false},{"score":{"name":"#most_stolen","objective":"stolen"},"color":"#afafaf","bold":false},{"text":")","color":"#afafaf","bold":false}]
 
 execute if score #winners game matches 0 run tellraw @a {"text":"                                                         ","strikethrough":true,"bold":true,"color":"#3cb0b0"}
 execute if score #winners game matches 1 run tellraw @a {"text":"                                                         ","strikethrough":true,"bold":true,"color":"#993434"}
