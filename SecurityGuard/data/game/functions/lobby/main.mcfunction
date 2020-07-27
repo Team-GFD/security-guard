@@ -11,5 +11,5 @@ fill -40 144 -28 -40 132 -28 spruce_trapdoor[facing=north,half=top,open=false] r
 fill -49 143 -30 -49 138 -32 oak_trapdoor[facing=east,half=top,open=true] replace oak_trapdoor
 setblock -50 143 -31 spruce_fence_gate[facing=west,open=true]
 setblock -50 138 -31 spruce_fence_gate[facing=west,open=true]
-setblock -50 133 -31 oak_fence_gate[facing=west,open=true]
+setblock -50 133 -31 spruce_fence_gate[facing=west,open=true]
 setblock -49 133 -32 oak_trapdoor[facing=east,open=true]

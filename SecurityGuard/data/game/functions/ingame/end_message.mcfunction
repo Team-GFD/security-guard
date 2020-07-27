@@ -61,6 +61,7 @@ tag @e[type=zombified_piglin,team=AI] add candidate
 
 execute as @e[tag=candidate] if score @s stolen = #most_stolen stolen run tag @s add mvp_candidate
 tag @e[tag=mvp_candidate,tag=!mvp_stolen,sort=random,limit=1] add most_stolen
+execute unless entity @e[tag=most_stolen] run tag @e[tag=mvp_candidate,sort=random,limit=1] add most_stolen
 tag @e remove mvp_candidate
 tag @e remove candidate
 
