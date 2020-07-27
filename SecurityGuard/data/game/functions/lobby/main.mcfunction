@@ -21,3 +21,9 @@ fill 1 134 104 1 134 124 lever[facing=west,face=ceiling,powered=true] replace le
 fill 0 138 130 0 134 130 spruce_trapdoor[facing=east,half=top,open=true] replace spruce_trapdoor
 fill 6 129 108 6 127 108 oak_trapdoor[facing=west,half=bottom,open=true]
 fill 9 129 108 9 127 108 oak_trapdoor[facing=east,half=bottom,open=true]
+
+clear @a[gamemode=adventure] cactus
+
+setblock 6 130 111 potted_cactus
+setblock -95 130 22 potted_cactus
+setblock -36 127 -41 potted_cactus
