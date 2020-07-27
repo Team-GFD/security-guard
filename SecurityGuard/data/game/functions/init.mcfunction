@@ -23,7 +23,7 @@ team add 3Dead
 team modify 3Dead displayName {"text":"Captured","color":"dark_gray"}
 team modify 3Dead prefix {"text":"Captured ","color":"dark_gray"}
 team modify 3Dead color gray
-team modify 3Dead nametagVisibility hideForOtherTeams
+team modify 3Dead nametagVisibility always
 team modify 3Dead seeFriendlyInvisibles false
 team modify 3Dead collisionRule never
 team modify 3Dead friendlyFire false
@@ -32,7 +32,7 @@ team add 4Escaped
 team modify 4Escaped displayName {"text":"Escaped","color":"#fabe43"}
 team modify 4Escaped prefix {"text":"Escaped ","color":"#fabe43"}
 team modify 4Escaped color yellow
-team modify 4Escaped nametagVisibility hideForOtherTeams
+team modify 4Escaped nametagVisibility always
 team modify 4Escaped seeFriendlyInvisibles false
 team modify 4Escaped collisionRule never
 team modify 4Escaped friendlyFire false
@@ -92,3 +92,5 @@ defaultgamemode adventure
 execute at @e[type=minecraft:area_effect_cloud,tag=lobby,limit=1,sort=nearest] run spawnpoint @a ~ ~ ~
 
 function ai:init
+
+scoreboard players set op_menu game 0

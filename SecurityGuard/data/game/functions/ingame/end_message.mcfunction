@@ -31,10 +31,13 @@ scoreboard players set #max_stolen stolen 0
 scoreboard players operation #max_stolen stolen > @a[team=4Escaped,scores={stolen=0..}] stolen
 scoreboard players operation #max_stolen stolen > @e[type=zombified_piglin,tag=piglin_escapee,team=AI,scores={stolen=0..}] stolen
 
-execute as @a[team=4Escaped] if score @s stolen = #max_stolen stolen run tag @s add mvp_candidate
-execute as @e[type=zombified_piglin,tag=piglin_escapee,team=AI] if score @s stolen = #max_stolen stolen run tag @s add mvp_candidate
+tag @a[team=4Escaped] add candidate
+tag @e[type=zombified_piglin,tag=piglin_escapee,team=AI] add candidate
+
+execute as @e[tag=candidate] if score @s stolen = #max_stolen stolen run tag @s add mvp_candidate
 tag @e[tag=mvp_candidate,sort=random,limit=1] add mvp_stolen
 tag @e remove mvp_candidate
+tag @e remove candidate
 
 
 scoreboard players set #max_kills kills 0
@@ -51,12 +54,15 @@ scoreboard players operation #most_stolen stolen > @a[team=3Dead,scores={stolen=
 scoreboard players operation #most_stolen stolen > @a[team=4Escaped,scores={stolen=0..}] stolen
 scoreboard players operation #most_stolen stolen > @e[scores={stolen=0..},type=zombified_piglin,team=AI] stolen
 
-execute as @a[team=2Thief] if score @s stolen = #most_stolen stolen run tag @s add mvp_candidate
-execute as @a[team=3Dead] if score @s stolen = #most_stolen stolen run tag @s add mvp_candidate
-execute as @a[team=4Escaped] if score @s stolen = #most_stolen stolen run tag @s add mvp_candidate
-execute as @e[type=zombified_piglin,team=AI] if score @s stolen = #most_stolen stolen run tag @s add mvp_candidate
-tag @e[tag=mvp_candidate,sort=random,limit=1] add most_stolen
+tag @a[team=2Thief] add candidate
+tag @a[team=3Dead] add candidate
+tag @a[team=4Escaped] add candidate
+tag @e[type=zombified_piglin,team=AI] add candidate
+
+execute as @e[tag=candidate] if score @s stolen = #most_stolen stolen run tag @s add mvp_candidate
+tag @e[tag=mvp_candidate,tag=!mvp_stolen,sort=random,limit=1] add most_stolen
 tag @e remove mvp_candidate
+tag @e remove candidate
 
 team modify 2Thief prefix ""
 team modify 4Escaped prefix ""
