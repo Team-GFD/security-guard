@@ -13,6 +13,8 @@ execute if score end_cooldown game matches 0 run tag @a remove in_cam
 execute if score end_cooldown game matches 0 run scoreboard players reset * game_id
 execute if score end_cooldown game matches 0 run clear @a
 execute if score end_cooldown game matches 0 run effect clear @a
+execute if score end_cooldown game matches 0 run team join 2Thief @a[team=3Dead]
+execute if score end_cooldown game matches 0 run team join 2Thief @a[team=4Escaped]
 
 execute if score end_cooldown game matches 1 as @e[type=area_effect_cloud,tag=artifact,tag=captured] at @s run function game:ingame/artifacts/load_artifact
 execute if score end_cooldown game matches 1 run tag @e[type=area_effect_cloud,tag=artifact,tag=captured] remove captured

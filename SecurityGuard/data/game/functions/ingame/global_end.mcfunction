@@ -7,8 +7,7 @@ kill @e[type=armor_stand,tag=shp_driver]
 
 clear @a[team=!9Spectator]
 effect clear @a[team=!9Spectator]
-team join 2Thief @a[team=3Dead]
-team join 2Thief @a[team=4Escaped]
+
 effect give @a instant_health 1 10 true
 
 xp set @a 0 points
