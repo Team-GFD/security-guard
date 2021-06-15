@@ -21,10 +21,10 @@ execute as @s[team=1Guard] run execute at @e[type=minecraft:armor_stand,tag=play
 execute as @s[team=1Guard] run tp @s @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=tp]
 execute as @s[team=1Guard] run kill @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=tp]
 
-replaceitem entity @s[team=1Guard] hotbar.8 minecraft:carrot_on_a_stick{display:{Name:'{"text":"Enter Camera","italic":false}',Lore:['{"text":"Click to enter camera mode","color":"gray","italic":false}']},tag:["killme"],CustomModelData:1} 1
-replaceitem entity @s[team=!1Guard] hotbar.0 minecraft:carrot_on_a_stick{display:{Name:'{"text":"Enter Camera","italic":false}',Lore:['{"text":"Click to enter camera mode","color":"gray","italic":false}']},tag:["killme"],CustomModelData:1} 1
+item replace entity @s[team=1Guard] hotbar.8 minecraft:carrot_on_a_stick{display:{Name:'{"text":"Enter Camera","italic":false}',Lore:['{"text":"Click to enter camera with mode","color":"gray","italic":false}']},tag:["killme"],CustomModelData:1} 1
+item replace entity @s[team=!1Guard] hotbar.0 minecraft:carrot_on_a_stick{display:{Name:'{"text":"Enter Camera","italic":false}',Lore:['{"text":"Click to enter camera with mode","color":"gray","italic":false}']},tag:["killme"],CustomModelData:1} 1
 
-replaceitem entity @s[team=1Guard] armor.head minecraft:leather_helmet{display:{Name:'{"text":"Guard Armor","italic":false}',color:2081988},HideFlags:1,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
-replaceitem entity @s[team=1Guard] armor.chest minecraft:leather_chestplate{display:{Name:'{"text":"Guard Armor","italic":false}',color:2081988},HideFlags:1,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
-replaceitem entity @s[team=1Guard] armor.legs minecraft:leather_leggings{display:{Name:'{"text":"Guard Armor","italic":false}',color:2081988},HideFlags:1,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
-replaceitem entity @s[team=1Guard] armor.feet minecraft:leather_boots{display:{Name:'{"text":"Guard Armor","italic":false}',color:2081988},HideFlags:1,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
+item replace entity @s[team=1Guard] armor.head with minecraft:leather_helmet{display:{Name:'{"text":"Guard Armor","italic":false}',color:2081988},HideFlags:1,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
+item replace entity @s[team=1Guard] armor.chest with minecraft:leather_chestplate{display:{Name:'{"text":"Guard Armor","italic":false}',color:2081988},HideFlags:1,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
+item replace entity @s[team=1Guard] armor.legs with minecraft:leather_leggings{display:{Name:'{"text":"Guard Armor","italic":false}',color:2081988},HideFlags:1,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
+item replace entity @s[team=1Guard] armor.feet with minecraft:leather_boots{display:{Name:'{"text":"Guard Armor","italic":false}',color:2081988},HideFlags:1,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1

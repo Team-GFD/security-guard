@@ -17,7 +17,7 @@ execute at @e[tag=AI_nbt,limit=1] run loot replace block ~ ~-1 ~ container.0 loo
 execute at @e[tag=AI_nbt,limit=1] as @e[tag=AI_villager,tag=AI_spawning] run data modify entity @s VillagerData.type set from block ~ ~-1 ~ Items[1].tag.Biome
 execute at @e[tag=AI_nbt,limit=1] as @e[tag=AI_villager,tag=AI_spawning] run data modify entity @s CustomName set from block ~ ~-1 ~ Items[0].tag.ThiefName
 execute as @e[tag=AI_pathfind,tag=AI_spawning] run data modify entity @s CustomName set from entity @e[tag=AI_villager,tag=AI_spawning,limit=1] CustomName
-execute unless score mode AI matches 0 as @e[tag=AI_villager,tag=AI_spawning] at @s run replaceitem entity @s weapon minecraft:splash_potion{CustomPotionColor:4101334}
+execute unless score mode AI matches 0 as @e[tag=AI_villager,tag=AI_spawning] at @s run item replace entity @s weapon with minecraft:splash_potion{CustomPotionColor:4101334}
 
 # difficulty (0=easy,1=normal,2=hard)
 execute if score mode AI matches 0 run tag @e[tag=AI_villager,tag=AI_spawning] add potion_used
