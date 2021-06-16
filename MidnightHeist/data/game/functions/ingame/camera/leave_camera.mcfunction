@@ -11,6 +11,7 @@ effect clear @s minecraft:levitation
 effect clear @s minecraft:blindness
 
 clear @s
+title @s clear
 
 execute as @s[team=1Guard] run function game:ingame/map/reset
 
@@ -21,8 +22,8 @@ execute as @s[team=1Guard] run execute at @e[type=minecraft:armor_stand,tag=play
 execute as @s[team=1Guard] run tp @s @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=tp]
 execute as @s[team=1Guard] run kill @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=tp]
 
-item replace entity @s[team=1Guard] hotbar.8 minecraft:carrot_on_a_stick{display:{Name:'{"text":"Enter Camera","italic":false}',Lore:['{"text":"Click to enter camera with mode","color":"gray","italic":false}']},tag:["killme"],CustomModelData:1} 1
-item replace entity @s[team=!1Guard] hotbar.0 minecraft:carrot_on_a_stick{display:{Name:'{"text":"Enter Camera","italic":false}',Lore:['{"text":"Click to enter camera with mode","color":"gray","italic":false}']},tag:["killme"],CustomModelData:1} 1
+item replace entity @s[team=1Guard] hotbar.8 with minecraft:carrot_on_a_stick{display:{Name:'{"text":"Enter Camera","italic":false}',Lore:['{"text":"Click to enter camera with mode","color":"gray","italic":false}']},tag:["killme"],CustomModelData:1} 1
+item replace entity @s[team=!1Guard] hotbar.0 with minecraft:carrot_on_a_stick{display:{Name:'{"text":"Enter Camera","italic":false}',Lore:['{"text":"Click to enter camera with mode","color":"gray","italic":false}']},tag:["killme"],CustomModelData:1} 1
 
 item replace entity @s[team=1Guard] armor.head with minecraft:leather_helmet{display:{Name:'{"text":"Guard Armor","italic":false}',color:2081988},HideFlags:1,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
 item replace entity @s[team=1Guard] armor.chest with minecraft:leather_chestplate{display:{Name:'{"text":"Guard Armor","italic":false}',color:2081988},HideFlags:1,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
