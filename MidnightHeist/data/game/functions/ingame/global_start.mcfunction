@@ -44,3 +44,5 @@ data modify entity @e[type=minecraft:villager,tag=shp_driver,limit=1] CustomName
 schedule function game:ingame/global_end 8000t replace
 
 function game:ingame/modes/robbery/start
+
+recipe take @a minecraft:orange_candle
