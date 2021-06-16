@@ -5,6 +5,7 @@ tellraw @a [{"text":"[!] ","color":"yellow"},{"selector":"@s"},{"text":" has esc
 
 team join 4Escaped @s
 scoreboard players add thieves_escaped game 1
+scoreboard players operation artifacts_escaped game += @s stolen
 tp @s -16 120.0 -123.0 90.0 0.0
 clear @s
 item replace entity @s hotbar.0 with minecraft:carrot_on_a_stick{display:{Name:'{"text":"Enter Camera","italic":false}',Lore:['{"text":"Click to enter camera mode","color":"gray","italic":false}']},tag:["killme"],CustomModelData:1} 1

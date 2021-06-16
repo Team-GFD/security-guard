@@ -3,7 +3,7 @@
 
 fill ^-1 ^ ^1 ^-2 ^2 ^1 minecraft:end_stone_brick_wall
 fill ^-1 ^-1 ^1 ^-2 ^-1 ^1 minecraft:light_gray_concrete
-fill ^-1 ^ ^2 ^-2 ^2 ^2 minecraft:black_concrete
+fill ^-1 ^ ^2 ^-2 ^2 ^2 minecraft:light[level=0]
 
 execute store result score #door_rotation game run data get entity @s Rotation[0]
 

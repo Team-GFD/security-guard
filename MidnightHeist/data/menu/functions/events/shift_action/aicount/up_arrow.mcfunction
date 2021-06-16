@@ -4,7 +4,7 @@
 scoreboard players add #aicount menu_id 5
 execute if score #aicount menu_id > #max_aicount menu_id run scoreboard players operation #aicount menu_id = #max_aicount menu_id
 
-execute if score #aicount menu_id matches 16..20 run tellraw @a[tag=viewer,scores={menu_rclick=1..}] [{"text":"[!] ","color":"red"},{"text":"Warning: ","color":"gold"},{"text":"Having more than x15 Thief AI may cause performance issues. Enjoy the chaos at your own risk :)","color":"yellow"}]
+execute if score #aicount menu_id matches 16..20 run tellraw @a[tag=viewer,scores={menu_rclick=1..}] [{"text":"[!] ","color":"red"},{"text":"Warning: ","color":"gold"},{"text":"Having more than 15 Thief AI may cause performance issues. Enjoy the chaos at your own risk :)","color":"yellow"}]
 
 tellraw @a[tag=viewer,scores={menu_rclick=1..},tag=!shp_menu_tip] [{"text":"[TIP] ","color":"yellow"},{"text":"You can sneak click the arrows to change by an alternate amount!","color":"green"}]
 execute as @a[tag=viewer,scores={menu_rclick=1..},tag=!shp_menu_tip] at @s run playsound minecraft:block.note_block.chime master @s ~ ~ ~ 1 1

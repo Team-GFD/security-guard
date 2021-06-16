@@ -34,8 +34,10 @@ execute if score state game matches 1 if entity @e[tag=AI_target] unless entity 
 execute if score state game matches 1 as @e[tag=artifact,tag=!captured] at @s positioned ^ ^-46 ^ unless entity @e[tag=AI_target,distance=..1] unless entity @e[tag=AI,distance=..4] run summon minecraft:vex ~ ~ ~ {NoAI:1,Silent:1b,Tags:["AI_target"],PersistenceRequired:1b}
 
 # change target if not moving
-execute if score cooldown game matches -1 if score state game matches 1 if entity @e[tag=AI_target,tag=!AI_target_active] as @e[tag=AI_pathfind,nbt={Motion:[0.0d,0.0d,0.0d]}] at @s unless block ~ ~-1 ~ minecraft:gold_block run function ai:target/idle_counter
-execute as @e[tag=AI_pathfind,scores={AI_idle=1..}] unless entity @s[nbt={Motion:[0.0d,0.0d,0.0d]}] run scoreboard players set @s AI_idle 0
+execute if score cooldown game matches -1 if score state game matches 1 if entity @e[tag=AI_target,tag=!AI_target_active] as @e[tag=AI_pathfind,nbt={Motion:[0.0d,0.0d,0.0d]}] at @s unless block ~ ~-1 ~ minecraft:gold_block run function ai:idle/counter
+execute if score state game matches 3 as @e[tag=AI_pathfind,nbt={Motion:[0.0d,0.0d,0.0d]}] at @s run function ai:idle/counter
+scoreboard players remove @e[tag=!AI_idle,scores={AI_idle=1..}] AI_idle 2
+tag @e[tag=AI_pathfind] remove AI_idle
 
 ## escape phase
 # set target (door)

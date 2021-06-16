@@ -5,6 +5,7 @@ scoreboard players set state game 1
 scoreboard players set stolen game 0
 scoreboard players set cooldown game 10
 scoreboard players set tick game 0
+scoreboard players set artifacts_escaped game 0
 
 scoreboard players reset * stolen
 scoreboard players reset * stopped

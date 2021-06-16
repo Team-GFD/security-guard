@@ -20,7 +20,7 @@ tellraw @a ""
 
 execute as @a unless entity @s[team=!2Thief,team=!3Dead] at @s run playsound minecraft:block.note_block.chime master @s ~ ~ ~ 6 1
 execute as @a unless entity @s[team=!2Thief,team=!3Dead] at @s run playsound minecraft:entity.villager.yes master @s ~ ~ ~ 6 1
-execute as @a unless entity @s[team=!2Thief,team=!3Dead] run tellraw @s [{"text":"-> ","color":"white"},{"text":"[","color":"red"},{"text":"Radio","color":"dark_red"},{"text":"] ","color":"red"},{"text":"<","color":"white"},{"text":"Thief ","color":"dark_red"},{"selector":"@e[type=armor_stand,tag=shp_driver]","color":"red"},{"text":"> I've hacked the Museum's systems and ","color":"white"},{"text":"opened some of the emergency doors","color":"yellow"},{"text":".","color":"white"}]
+execute as @a unless entity @s[team=!2Thief,team=!3Dead] run tellraw @s [{"text":"-> ","color":"white"},{"text":"[","color":"red"},{"text":"Radio","color":"dark_red"},{"text":"] ","color":"red"},{"text":"<","color":"white"},{"text":"Thief ","color":"dark_red"},{"selector":"@e[type=armor_stand,tag=shp_driver,limit=1]","color":"red"},{"text":"> I've hacked the Museum's systems and ","color":"white"},{"text":"opened some of the emergency doors","color":"yellow"},{"text":".","color":"white"}]
 
 execute as @a unless entity @s[team=!1Guard,team=!9Spectator] at @s run playsound minecraft:block.note_block.chime master @s ~ ~ ~ 6 1
 execute as @a unless entity @s[team=!1Guard,team=!9Spectator] at @s run playsound minecraft:entity.villager.yes master @s ~ ~ ~ 6 2
