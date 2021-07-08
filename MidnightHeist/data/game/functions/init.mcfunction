@@ -94,3 +94,4 @@ execute at @e[type=minecraft:area_effect_cloud,tag=lobby,limit=1,sort=nearest] r
 function ai:init
 
 scoreboard players set op_menu game 0
+execute unless score #starting game matches 0.. run scoreboard players set #starting game 0

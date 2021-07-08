@@ -7,7 +7,7 @@ scoreboard players set #aicount menu_id 2
 scoreboard players set #aimode menu_id 1
 
 function menu:clear_all
-function menu:load/lobby
+schedule function menu:load/lobby 10t
 
 scoreboard objectives add menu_id dummy
 scoreboard objectives add menu_viewers dummy
